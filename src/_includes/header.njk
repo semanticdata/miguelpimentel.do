@@ -1,13 +1,5 @@
-<header
-  class="site-header"
-  role="banner"
->
+<header class="site-header" role="banner">
   <div class="site-header__container">
-    {#
-    <div class="site-header__left">
-      <p>Eleventy with Vite</p>
-    </div>
-    <div class="site-header__right">{% include "navigation.njk" %}</div>
-    #} {% include "navigation.njk" %}
+    {% include "navigation.njk" %}
   </div>
 </header>

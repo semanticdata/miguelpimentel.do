@@ -1,6 +1,6 @@
 {
   "name": "miguelpimentel.do_package",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "My personal website built using Eleventy with some Vite.",
   "browserslist": [
     "> 0.5%",
@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/semanticdata/miguelpimentel.do/issues"
   },
-  "homepage": "https://github.com/semanticdata/miguelpimentel.do",
+  "homepage": "https://miguelpimentel-do.vercel.app/",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^3.1.8",
