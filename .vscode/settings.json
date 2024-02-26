@@ -1,0 +1,43 @@
+{
+  "editor.wrappingIndent": "indent",
+  "editor.overviewRulerBorder": false,
+  // "editor.lineHeight": 24,
+  "workbench.colorTheme": "Ariake Dark",
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "git.postCommitCommand": "sync",
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules": true
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#8e3a08",
+    "activityBar.background": "#8e3a08",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#021e0c",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#8e3a08",
+    "statusBar.background": "#5e2605",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#8e3a08",
+    "statusBarItem.remoteBackground": "#5e2605",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#5e2605",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#5e260599",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#5e2605",
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/pimentma/GitHub/miguelpimentel.do/.github/workflows/deploy.yml"
+  }
+}
