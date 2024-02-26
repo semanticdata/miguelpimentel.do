@@ -10,7 +10,6 @@
       "other": "on"
     }
   },
-  "git.postCommitCommand": "sync",
   "files.exclude": {
     "**/node_modules": true
   },

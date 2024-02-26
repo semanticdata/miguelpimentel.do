@@ -10,7 +10,7 @@
 .backlinks-default {
   margin-top: 1rem;
   margin-left: 16px;
-  color: var(--text-color);
+  color: var(--textColor);
 }
 
 .backlink__preview {
@@ -19,7 +19,7 @@
   position: absolute;
   bottom: 8px;
   left: 100%;
-  background-color: var(--background);
+  background-color: var(--backgroundColor);
   border-radius: 0.2rem;
   padding: 1rem;
   box-shadow: 0.1rem 0.5rem 0.7rem rgba(0, 0, 0, 0.5);
@@ -32,7 +32,7 @@
   content: '';
   position: absolute;
   bottom: 0;
-  background: linear-gradient(transparent, var(--background));
+  background: linear-gradient(transparent, var(--backgroundColor));
   width: 100%;
   height: 24px;
 }
