@@ -1,4 +1,4 @@
-# 📚 MiguelPimentel.do
+# 📚 MiguelPimentel.do 🦝
 
 My personal website built using [Eleventy](https://www.11ty.dev/) with some [Vite](https://vitejs.dev/).
 
