@@ -7,7 +7,7 @@
     "not IE 11"
   ],
   "scripts": {
-    "start": "npx @11ty/eleventy --watch --serve",
+    "start": "npx @11ty/eleventy --serve",
     "clean-build": "del-cli _site && npx @11ty/eleventy --watch --serve",
     "watch": "npx @11ty/eleventy --watch",
     "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",

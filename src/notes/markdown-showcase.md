@@ -167,23 +167,23 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 
 ### Description
 
-`<abbr title="Graphics Interchange Format">`GIF`</abbr>` is a bitmap image format.
+<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
 
 ### Subscript
 
-H`<sub>`2`</sub>`O
+H<sub>2</sub>O
 
 ### Superscript
 
-X`<sup>`n`</sup>` + Y`<sup>`n`</sup>` = Z`<sup>`n`</sup>`
+X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
 ### Keys Representation
 
-Press `<kbd><kbd>`CTRL`</kbd>`+`<kbd>`ALT`</kbd>`+`<kbd>`Delete`</kbd></kbd>` to end the session.
+Press <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd> to end the session.
 
 ### Highlighting
 
-Most `<mark>`salamanders`</mark>` are nocturnal, and hunt for insects, worms, and other small creatures.
+Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
 
 ## Links
 

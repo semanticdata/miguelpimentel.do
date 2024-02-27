@@ -26,3 +26,45 @@ h1.page-title {
 section.list {
   margin-top: 1.5rem;
 }
+
+pre,
+code {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+code {
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.2rem;
+  font-weight: 600;
+}
+
+pre {
+  box-shadow: 0.1rem 0.5rem 0.7rem rgba(0, 0, 0, 1) inset;
+  border-radius: 0.2em;
+  padding: 1em;
+  overflow: auto;
+  margin: 2em auto;
+}
+
+pre code {
+  background-color: transparent;
+  // font-size: var(--step--1);
+}
+
+table {
+  /* width: 100%; */
+  margin: 3rem auto;
+  border-collapse: collapse;
+  box-shadow: 0.1rem 0.5rem 0.7rem rgba(0, 0, 0, 0.5);
+}
+
+th,
+td {
+  border: 0.1rem solid #464646;
+  padding: 1px 10px;
+}
+
+table thead th,
+table tfoot th {
+  background: rgba(0, 0, 0, 0.1);
+}
