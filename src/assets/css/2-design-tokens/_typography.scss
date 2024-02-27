@@ -7,11 +7,11 @@
   */
 :root {
   --fluid-min-width: 320;
-  --fluid-max-width: 1500;
-  --fluid-min-size: 18;
-  --fluid-max-size: 22;
+  --fluid-max-width: 1240;
+  --fluid-min-size: 16;
+  --fluid-max-size: 20;
   --fluid-min-ratio: 1.2;
-  --fluid-max-ratio: 1.5;
+  --fluid-max-ratio: 1.25;
 }
 
 :root {
@@ -58,39 +58,21 @@
   --fluid-max-size-5: (var(--fluid-max-size) * var(--fluid-max-scale-4)) / 16;
 
   --fluid-0: calc(
-    (
-      (var(--fluid-min-size-0) * 1rem) +
-        (var(--fluid-max-size-0) - var(--fluid-min-size-0)) * var(--fluid-bp)
-    )
+    ((var(--fluid-min-size-0) * 1rem) + (var(--fluid-max-size-0) - var(--fluid-min-size-0)) * var(--fluid-bp))
   );
   --fluid-1: calc(
-    (
-      (var(--fluid-min-size-1) * 1rem) +
-        (var(--fluid-max-size-1) - var(--fluid-min-size-1)) * var(--fluid-bp)
-    )
+    ((var(--fluid-min-size-1) * 1rem) + (var(--fluid-max-size-1) - var(--fluid-min-size-1)) * var(--fluid-bp))
   );
   --fluid-2: calc(
-    (
-      (var(--fluid-min-size-2) * 1rem) +
-        (var(--fluid-max-size-2) - var(--fluid-min-size-2)) * var(--fluid-bp)
-    )
+    ((var(--fluid-min-size-2) * 1rem) + (var(--fluid-max-size-2) - var(--fluid-min-size-2)) * var(--fluid-bp))
   );
   --fluid-3: calc(
-    (
-      (var(--fluid-min-size-3) * 1rem) +
-        (var(--fluid-max-size-3) - var(--fluid-min-size-3)) * var(--fluid-bp)
-    )
+    ((var(--fluid-min-size-3) * 1rem) + (var(--fluid-max-size-3) - var(--fluid-min-size-3)) * var(--fluid-bp))
   );
   --fluid-4: calc(
-    (
-      (var(--fluid-min-size-4) * 1rem) +
-        (var(--fluid-max-size-4) - var(--fluid-min-size-4)) * var(--fluid-bp)
-    )
+    ((var(--fluid-min-size-4) * 1rem) + (var(--fluid-max-size-4) - var(--fluid-min-size-4)) * var(--fluid-bp))
   );
   --fluid-5: calc(
-    (
-      (var(--fluid-min-size-5) * 1rem) +
-        (var(--fluid-max-size-5) - var(--fluid-min-size-5)) * var(--fluid-bp)
-    )
+    ((var(--fluid-min-size-5) * 1rem) + (var(--fluid-max-size-5) - var(--fluid-min-size-5)) * var(--fluid-bp))
   );
 }
