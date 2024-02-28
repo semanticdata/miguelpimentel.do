@@ -1,12 +1,12 @@
 # 📚 MiguelPimentel.do 🦝
 
-My personal website built using [Eleventy](https://www.11ty.dev/) with some [Vite](https://vitejs.dev/).
-
 ![code size](https://img.shields.io/github/languages/code-size/semanticdata/miguelpimentel.do)
 ![repository size](https://img.shields.io/github/repo-size/semanticdata/miguelpimentel.do)
 ![commits](https://img.shields.io/github/commit-activity/t/semanticdata/miguelpimentel.do)
 ![last commit](https://img.shields.io/github/last-commit/semanticdata/miguelpimentel.do)
 ![is website up?](https://img.shields.io/website/https/miguelpimentel.do.svg)
+
+My personal website built using [Eleventy](https://www.11ty.dev/) with some [Vite](https://vitejs.dev/).
 
 ## Features
 
