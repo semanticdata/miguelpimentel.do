@@ -21,3 +21,11 @@ li > {
 section.list {
   margin: var(--spacing-xx-large) 0;
 }
+
+section.list {
+  margin-top: 1.5rem;
+}
+ul.nav__menu {
+  display: flex;
+  gap: 1rem;
+}

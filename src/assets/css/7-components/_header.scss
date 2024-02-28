@@ -22,3 +22,13 @@
     }
   }
 }
+
+div.site-header__left p {
+  font-size: var(--fluid-1);
+}
+
+@media screen and (max-width: 48rem) {
+  div.site-header__container {
+    flex-direction: column;
+  }
+}

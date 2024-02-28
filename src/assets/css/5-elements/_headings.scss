@@ -13,3 +13,8 @@ h3 {
   font-size: var(--fluid-2);
   margin-bottom: 1rem;
 }
+
+h1.home-title,
+h1.page-title {
+  margin-top: 0;
+}
