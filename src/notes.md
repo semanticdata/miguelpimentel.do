@@ -2,6 +2,6 @@
 layout: notes
 eleventyNavigation:
     key: Notes
-    order: 7
+    order: 8
 title: Notes
 ---

@@ -3,7 +3,7 @@ title: Projects
 layout: page
 # eleventyNavigation:
 #   key: Projects
-#   order: 6
+#   order: 7
 ---
 
 A non-inclusive, non-exhaustive compilation of my projects.

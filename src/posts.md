@@ -3,5 +3,5 @@ layout: posts
 permalink: /posts/
 eleventyNavigation:
     key: Posts
-    order: 2
+    order: 3
 ---
