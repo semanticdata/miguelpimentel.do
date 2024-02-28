@@ -2,7 +2,7 @@
 title: About
 layout: page
 eleventyNavigation:
-  key: Journal
+  key: About
   order: 2
 ---
 
