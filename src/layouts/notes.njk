@@ -6,26 +6,19 @@ layout: base
     <h1>{{ title }}</h1>
     <div class="posts-list">
         {% set noteslist = collections.notes %}
-        <ol
-            reversed
-            class="noteslist"
-        >
+        <ol reversed class="noteslist">
             {% for post in noteslist %}
-            <li
-                class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}"
-            >
-                <a
-                    href="{{ post.url | url }}"
-                    class="postlist-link"
-                >
-                    <h2>
-                        {% if post.data.title %} {{ post.data.title }} {% else
-                        %}
-                        <code>{{ post.url }}</code>
-                        {% endif %}
-                    </h2>
-                </a>
-            </li>
+                <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+                    <a href="{{ post.url | url }}" class="postlist-link">
+                        <h2>
+                            {% if post.data.title %}
+                                {{ post.data.title }}
+                            {% else %}
+                                <code>{{ post.url }}</code>
+                            {% endif %}
+                        </h2>
+                    </a>
+                </li>
             {% endfor %}
         </ol>
     </div>
