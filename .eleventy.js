@@ -18,7 +18,6 @@ const {resolve} = require('path');
 module.exports = function (eleventyConfig) {
     // Configuration
     eleventyConfig.setServerPassthroughCopyBehavior('copy');
-    eleventyConfig.addPassthroughCopy('public');
     eleventyConfig.setQuietMode(true);
 
     // Watch targets
@@ -109,13 +108,15 @@ module.exports = function (eleventyConfig) {
 
     // Layouts
     eleventyConfig.addLayoutAlias('base', 'base.njk');
-    eleventyConfig.addLayoutAlias('post', 'post.njk');
     eleventyConfig.addLayoutAlias('page', 'page.njk');
+    eleventyConfig.addLayoutAlias('post', 'post.njk');
+    eleventyConfig.addLayoutAlias('note', 'note.njk');
     eleventyConfig.addLayoutAlias('notes', 'notes.njk');
 
     // Copy/pass-through files
     eleventyConfig.addPassthroughCopy('src/assets/css');
     eleventyConfig.addPassthroughCopy('src/assets/js');
+    eleventyConfig.addPassthroughCopy('public');
 
     // Markdown Transform
     const md = markdownIt({
