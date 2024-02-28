@@ -11,10 +11,6 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,7 +21,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@master
       - name: Update diagram
-        uses: githubocto/repo-visualizer@0.9.1
+        uses: githubocto/repo-visualizer@main
         with:
           output_file: "diagram.svg"
-          excluded_paths: "dist,node_modules"
+          excluded_paths: "_site,dist,node_modules"
