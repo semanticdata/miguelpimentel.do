@@ -14,17 +14,17 @@ const modeStatusElement = document.querySelector('.js-mode-status');
  * A reduced version of this: https://andy-bell.design/wrote/get-css-custom-property-value-with-javascript/
  */
 const getCSSCustomProp = (propKey) => {
-  let response = getComputedStyle(document.documentElement).getPropertyValue(
-    propKey,
-  );
+    let response = getComputedStyle(document.documentElement).getPropertyValue(
+        propKey,
+    );
 
-  // Tidy up the string if there’s something to work with
-  if (response.length) {
-    response = response.replace(/\'|"/g, '').trim();
-  }
+    // Tidy up the string if there’s something to work with
+    if (response.length) {
+        response = response.replace(/\'|"/g, '').trim();
+    }
 
-  // Return the string response by default
-  return response;
+    // Return the string response by default
+    return response;
 };
 
 /**
@@ -33,41 +33,41 @@ const getCSSCustomProp = (propKey) => {
  * controlled by the media query
  */
 const applySetting = (passedSetting) => {
-  let currentSetting = passedSetting || localStorage.getItem(STORAGE_KEY);
+    let currentSetting = passedSetting || localStorage.getItem(STORAGE_KEY);
 
-  if (currentSetting) {
-    document.documentElement.setAttribute(
-      'data-user-color-scheme',
-      currentSetting,
-    );
-    // setButtonLabelAndStatus(currentSetting);
-  } else {
-    setButtonLabelAndStatus(getCSSCustomProp(COLOR_MODE_KEY));
-  }
+    if (currentSetting) {
+        document.documentElement.setAttribute(
+            'data-user-color-scheme',
+            currentSetting,
+        );
+        // setButtonLabelAndStatus(currentSetting);
+    } else {
+        setButtonLabelAndStatus(getCSSCustomProp(COLOR_MODE_KEY));
+    }
 };
 
 /**
  * Get’s the current setting > reverses it > stores it
  */
 const toggleSetting = () => {
-  let currentSetting = localStorage.getItem(STORAGE_KEY);
+    let currentSetting = localStorage.getItem(STORAGE_KEY);
 
-  switch (currentSetting) {
-    case null:
-      currentSetting =
-        getCSSCustomProp(COLOR_MODE_KEY) === 'dark' ? 'light' : 'dark';
-      break;
-    case 'light':
-      currentSetting = 'dark';
-      break;
-    case 'dark':
-      currentSetting = 'light';
-      break;
-  }
+    switch (currentSetting) {
+        case null:
+            currentSetting =
+                getCSSCustomProp(COLOR_MODE_KEY) === 'dark' ? 'light' : 'dark';
+            break;
+        case 'light':
+            currentSetting = 'dark';
+            break;
+        case 'dark':
+            currentSetting = 'light';
+            break;
+    }
 
-  localStorage.setItem(STORAGE_KEY, currentSetting);
+    localStorage.setItem(STORAGE_KEY, currentSetting);
 
-  return currentSetting;
+    return currentSetting;
 };
 
 /**

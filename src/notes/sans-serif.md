@@ -1,7 +1,7 @@
 ---
 title: Sans-serif
 tags:
-  - typography
+    - typography
 compartir: true
 ---
 
@@ -11,6 +11,6 @@ In typography and lettering, a "sans-serif", "sans serif", "gothic", or simply "
 
 ```css
 font-family: -apple-system, BlinkMacSystemFont, 'Avenir Next', Avenir,
-  'Nimbus Sans L', Roboto, Noto, 'Segoe UI', Arial, Helvetica, 'Helvetica Neue',
-  sans-serif;
+    'Nimbus Sans L', Roboto, Noto, 'Segoe UI', Arial, Helvetica,
+    'Helvetica Neue', sans-serif;
 ```

@@ -6,10 +6,10 @@ const nunjucks = require('nunjucks');
 nunjucks.configure({autoescape: true});
 
 module.exports = function translate(lookup, lang, data = {}) {
-  if (!lang) lang = this.page.lang || this.ctx.lang;
-  const translation = nunjucks.renderString(
-    get(this.ctx.translations[lang], `[${lookup}]`),
-    data,
-  );
-  return translation;
+    if (!lang) lang = this.page.lang || this.ctx.lang;
+    const translation = nunjucks.renderString(
+        get(this.ctx.translations[lang], `[${lookup}]`),
+        data,
+    );
+    return translation;
 };

@@ -1,73 +1,104 @@
 ---
 layout: base
 eleventyNavigation:
-  key: Home
-  order: 1
+    key: Home
+    order: 1
 ---
 
 <div class="container">
-  <h1 class="home-title">Homepage</h1>
-  <p>
-    My personal website built using
-    <a href="https://www.11ty.dev/">Eleventy</a>
-    with some
-    <a href="https://vitejs.dev/">Vite</a>.</p>
-  <section class="list">
-    <h2>Features</h2>
-    <ul dir="auto">
-      <li>
-        Vite 3.0 as Middleware in Eleventy Dev Server (uses
-        <a href="https://github.com/11ty/eleventy-plugin-vite/">eleventy-plugin-vite</a>)
-      </li>
-      <li>
-        Eleventy build output is post-processed by
-        <a href="https://vitejs.dev" rel="nofollow">Vite</a>
-        (with Rollup)
-      </li>
-      <li>
-        CSS/Sass post-processing with PostCSS incl.
-        <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a>
-        and cssnano
-      </li>
-      <li>
-        Uses
-        <a href="https://matthiasott.com/notes/how-i-structure-my-css" rel="nofollow">my own opinionated CSS/Sass structure</a>
-      </li>
-      <li>
-        Critical CSS, generated and inlined via
-        <a href="https://github.com/nystudio107/rollup-plugin-critical">rollup-plugin-critical</a>. The main CSS file is then loaded asynchronously with
-        <a href="https://www.filamentgroup.com/lab/load-css-simpler/" rel="nofollow">Scott Jehl’s
-          <code>media</code>
-          loading strategy</a>
-        (adds
-        <code>media="print"</code>
-        and swaps to
-        <code>media="all"</code>
-        once loaded)
-      </li>
-      <li>
-        Example implementation of a web font loading strategy (<a href="https://www.zachleat.com/web/comprehensive-webfonts/#critical-foft-preload" rel="nofollow">
-          critical FOFT with preload</a>)
-      </li>
-      <li>
-        Basic fluid typography based on
-        <a href="https://utopia.fyi" rel="nofollow">Utopia</a>
-      </li>
-      <li>
-        Basic dark mode support (using
-        <code>prefers-color-scheme</code>
-        and CSS Custom Properties)
-      </li>
-      <li>
-        Polyfill for
-        <a href="https://matthiasott.com/notes/focus-visible-is-here" rel="nofollow">focus-visible</a>
-      </li>
-      <li>
-        <a href="/uses/">Uses</a>
-        <a href="/now/">Now</a>
-        <a href="/journal/">Journal</a>
-        <a href="/projects/">Projects</a>
-      </li>
-    </ul>
-  </section>
+    <h1 class="home-title">Homepage</h1>
+    <p>
+        My personal website built using
+        <a href="https://www.11ty.dev/">Eleventy</a>
+        with some
+        <a href="https://vitejs.dev/">Vite</a>.
+    </p>
+    <section class="list">
+        <h2>Features</h2>
+        <ul dir="auto">
+            <li>
+                Vite 3.0 as Middleware in Eleventy Dev Server (uses
+                <a href="https://github.com/11ty/eleventy-plugin-vite/"
+                    >eleventy-plugin-vite</a
+                >)
+            </li>
+            <li>
+                Eleventy build output is post-processed by
+                <a
+                    href="https://vitejs.dev"
+                    rel="nofollow"
+                    >Vite</a
+                >
+                (with Rollup)
+            </li>
+            <li>
+                CSS/Sass post-processing with PostCSS incl.
+                <a href="https://github.com/postcss/autoprefixer"
+                    >Autoprefixer</a
+                >
+                and cssnano
+            </li>
+            <li>
+                Uses
+                <a
+                    href="https://matthiasott.com/notes/how-i-structure-my-css"
+                    rel="nofollow"
+                    >my own opinionated CSS/Sass structure</a
+                >
+            </li>
+            <li>
+                Critical CSS, generated and inlined via
+                <a href="https://github.com/nystudio107/rollup-plugin-critical"
+                    >rollup-plugin-critical</a
+                >. The main CSS file is then loaded asynchronously with
+                <a
+                    href="https://www.filamentgroup.com/lab/load-css-simpler/"
+                    rel="nofollow"
+                    >Scott Jehl’s
+                    <code>media</code>
+                    loading strategy</a
+                >
+                (adds
+                <code>media="print"</code>
+                and swaps to
+                <code>media="all"</code>
+                once loaded)
+            </li>
+            <li>
+                Example implementation of a web font loading strategy (<a
+                    href="https://www.zachleat.com/web/comprehensive-webfonts/#critical-foft-preload"
+                    rel="nofollow"
+                >
+                    critical FOFT with preload</a
+                >)
+            </li>
+            <li>
+                Basic fluid typography based on
+                <a
+                    href="https://utopia.fyi"
+                    rel="nofollow"
+                    >Utopia</a
+                >
+            </li>
+            <li>
+                Basic dark mode support (using
+                <code>prefers-color-scheme</code>
+                and CSS Custom Properties)
+            </li>
+            <li>
+                Polyfill for
+                <a
+                    href="https://matthiasott.com/notes/focus-visible-is-here"
+                    rel="nofollow"
+                    >focus-visible</a
+                >
+            </li>
+            <li>
+                <a href="/uses/">Uses</a>
+                <a href="/now/">Now</a>
+                <a href="/journal/">Journal</a>
+                <a href="/projects/">Projects</a>
+            </li>
+        </ul>
+    </section>
 </div>
