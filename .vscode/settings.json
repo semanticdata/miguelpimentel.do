@@ -38,5 +38,8 @@
   "peacock.color": "#322549",
   "yaml.schemas": {
     "https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/pimentma/GitHub/miguelpimentel.do/.github/workflows/deploy.yml"
+  },
+  "emmet.includeLanguages": {
+    "nunjucks": "html"
   }
 }
