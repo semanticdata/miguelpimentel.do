@@ -2,12 +2,11 @@
 
 My personal website built using [Eleventy](https://www.11ty.dev/) with some [Vite](https://vitejs.dev/).
 
-Reference links:
-
-- [Eleventy Plus Vite](https://github.com/matthiasott/eleventy-plus-vite)
-- [Eleventy Garden](https://github.com/binyamin/eleventy-garden)
-- [elva](https://github.com/scottsweb/elva)
-- [Quartz](https://github.com/jackyzha0/quartz)
+![code size](https://img.shields.io/github/languages/code-size/semanticdata/miguelpimentel.do)
+![repository size](https://img.shields.io/github/repo-size/semanticdata/miguelpimentel.do)
+![commits](https://img.shields.io/github/commit-activity/t/semanticdata/miguelpimentel.do)
+![last commit](https://img.shields.io/github/last-commit/semanticdata/miguelpimentel.do)
+![is website up?](https://img.shields.io/website/https/miguelpimentel.do.svg)
 
 ## Features
 
@@ -28,7 +27,8 @@ This project is made possible by these amazing people and projects.
 - Andy Bell – [any-bell.co.uk](https://andy-bell.co.uk/)
 - Binyamin Aron Green – [Eleventy Garden](https://github.com/binyamin/eleventy-garden)
 - Lene Saile – [lenesaile.com](https://www.lenesaile.com/en/)
-- Matthias Ott – [matthiasott.com](https://matthiasott.com)
+- Jacky Zhao – [Quartz](https://github.com/jackyzha0/quartz)
+- Matthias Ott – [matthiasott.com](https://matthiasott.com) – [Eleventy Plus Vite](https://github.com/matthiasott/eleventy-plus-vite)
 - Max Böck — [Eleventastic](https://github.com/maxboeck/eleventastic)
 - Miriam Suzanne – [miriamsuzanne.com](https://www.miriamsuzanne.com)
 - Scott Evans – [elva](https://github.com/scottsweb/elva)
