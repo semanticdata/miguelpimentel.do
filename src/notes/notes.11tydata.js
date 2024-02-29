@@ -10,14 +10,6 @@ function caselessCompare(a, b) {
 module.exports = {
     layout: 'note',
     tags: 'notes',
-    // permalink: function (data) {
-    //   // slug override for localized URL slugs
-    //   if (data.seo?.slug) {
-    //     return `/${data.lang}/notes/${this.slugify(data.seo.slug)}/`;
-    //   } else {
-    //     return `/${data.lang}/notes/${this.slugify(data.page.fileSlug)}/`;
-    //   }
-    // },
     eleventyComputed: {
         title: (data) => titleCase(data.title || data.page.fileSlug),
         backlinks: (data) => {
@@ -64,5 +56,20 @@ module.exports = {
 
             return backlinks;
         },
+        popup: (data) => {
+            const notes = data.collections.notes;
+            let popup = [];
+            for (const otherNote of notes) {
+                const noteContent = otherNote.template.frontMatter.content;
+                let preview = noteContent.slice(0, 240);
+
+                popup.push({
+                    url: otherNote.url,
+                    title: otherNote.data.title,
+                    preview,
+                });
+            }
+            return popup;
+        },
     },
-};
+}

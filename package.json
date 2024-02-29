@@ -1,14 +1,13 @@
 {
     "name": "miguelpimentel.do_package",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "My personal website built using Eleventy with some Vite.",
     "browserslist": [
         "> 0.5%",
         "not IE 11"
     ],
     "scripts": {
-        "start": "npx @11ty/eleventy --serve",
-        "watch": "npx @11ty/eleventy --watch",
+        "start": "npx @11ty/eleventy --serve --incremental",
         "build": "npx @11ty/eleventy",
         "clean-build": "del-cli _site && npx @11ty/eleventy",
         "clean": "del-cli _site",
