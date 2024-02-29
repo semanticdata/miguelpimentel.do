@@ -1,4 +1,4 @@
-const {titleCase} = require('title-case');
+const { titleCase } = require('title-case');
 
 // This regex finds all wikilinks in a string
 const wikilinkRegExp = /\[\[\s?([^\[\]\|\n\r]+)(\|[^\[\]\|\n\r]+)?\s?\]\]/g;
@@ -70,6 +70,6 @@ module.exports = {
                 });
             }
             return popup;
-        },
-    },
+        }
+    }
 }
