@@ -2,7 +2,12 @@
 .backlinks-title {
     margin: 1rem auto;
     font-size: var(--fluid-1);
-    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+    // border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+    text-decoration: underline 0.15rem rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        text-decoration: underline 0.15rem rgba(0, 0, 0, 1);
+    }
 }
 
 .backlink__link {
@@ -10,9 +15,9 @@
     background: rgba(0, 0, 0, 0.05);
     padding: 0.2rem 1rem;
     border-radius: 0.2rem;
-    transition: background 0.3s;
+    transition: all 0.3s ease-in-out;
     &:hover {
-        background: rgba(0, 0, 0, 0.10);
+        background: rgba(0, 0, 0, 0.1);
     }
 }
 

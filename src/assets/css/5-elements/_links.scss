@@ -1,9 +1,9 @@
 a {
     color: var(--primaryColor);
     text-decoration: underline;
-
+    transition: all 0.3s ease-in-out;
     &:hover {
-        //
+        text-decoration: none;
     }
     svg {
         display: inline-block;

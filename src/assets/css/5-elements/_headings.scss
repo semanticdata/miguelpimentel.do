@@ -14,7 +14,13 @@ h3 {
     margin-bottom: 1rem;
 }
 
+h1.note-title,
 h1.home-title,
 h1.page-title {
     margin-top: 0;
+    text-decoration: underline 0.15rem rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        text-decoration: underline 0.15rem rgba(0, 0, 0, 1);
+    }
 }
