@@ -36,7 +36,7 @@
             })();
         </script>
         <link rel="stylesheet" href="/assets/css/main.scss"/>
-        {# <script src="{{ '/assets/js/backlinks.js' | url }}"></script> #}
+        <link rel="stylesheet" href="/assets/css/prism.css"/>
     </head>
     <body>
         <a href="#main" class="skiplink">Skip to main content</a>
@@ -44,12 +44,13 @@
             {% include "header.njk" %}
             <main id="main" class="main">
                 {{ content | safe }}
-            {% if backlinks.length > 0 %}
-                {% include 'backlinks.njk' %}
-            {% endif %}
+                {% if backlinks.length > 0 %}
+                    {% include 'backlinks.njk' %}
+                {% endif %}
             </main>
             {% include "footer.njk" %}
         </div>
         <script type="module" src="{{ '/assets/js/main.js' | url }}"></script>
+        <script type="module" src="{{ '/assets/js/prism.js' | url }}"></script>
     </body>
 </html>

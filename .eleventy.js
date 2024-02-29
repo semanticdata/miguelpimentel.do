@@ -14,10 +14,13 @@ const shortcodes = require('./utils/shortcodes.js');
 
 const {resolve} = require('path');
 
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+
 module.exports = function (eleventyConfig) {
     eleventyConfig.setServerPassthroughCopyBehavior('copy');
     eleventyConfig.addPassthroughCopy('/public');
     eleventyConfig.setQuietMode(true);
+    eleventyConfig.addPlugin(syntaxHighlight);
 
     // Watch targets
     eleventyConfig.addWatchTarget('./src/assets/css/');
