@@ -1,12 +1,10 @@
 ---
 layout: home
+title: Homepage
 eleventyNavigation:
     key: Home
     order: 1
 ---
-
-  <!-- <h1 class="site-title">Hi, I'm Miguel!</h1> -->
-  <!-- Problem solver, hobby developer, music enjoyer, and public infrastructure enthusiast based in Minnesota, US. -->
 
 Hi, I'm Miguel—problem solver, hobby developer, music enjoyer, and public infrastructure enthusiast based in Minnesota, US.
 
