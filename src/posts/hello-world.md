@@ -1,5 +1,5 @@
 ---
-title: "Hello World"
+title: 'Hello World'
 date: 2023-03-18
 description: "This must be the fourth time I have started a blog. I haven't been very successful at being a consistent content producer. That changes today."
 ---
@@ -16,11 +16,11 @@ Since June 2022, I have been pushing myself to journal more often. Note-taking h
 
 I can't go on without mentioning some inspiring people I have had the pleasure of coming across. When it comes to blogging and just being great overall, I highly recommend following the likes of:
 
-- [Andy Bell](https://andy-bell.co.uk/)
-- [Derek Sivers](https://sive.rs/)
-- [Drew DeVault](https://drewdevault.com/)
-- [Eric Bower](https://erock.prose.sh/)
-- [Herman Martinus](https://herman.bearblog.dev/)
+-   [Andy Bell](https://andy-bell.co.uk/)
+-   [Derek Sivers](https://sive.rs/)
+-   [Drew DeVault](https://drewdevault.com/)
+-   [Eric Bower](https://erock.prose.sh/)
+-   [Herman Martinus](https://herman.bearblog.dev/)
 
 Hope you found reading this worthwhile. If you take anything from this post, let it be:
 
