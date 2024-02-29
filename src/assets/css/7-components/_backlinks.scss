@@ -1,11 +1,25 @@
 /* backlinks */
 .backlinks-title {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin: 1rem auto;
+    font-size: var(--fluid-1);
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
 }
 
-/* .backlinks-container {
-} */
+.backlink__link {
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 0.2rem 1rem;
+    border-radius: 0.2rem;
+    transition: background 0.3s;
+    &:hover {
+        background: rgba(0, 0, 0, 0.10);
+    }
+}
+
+ul.backlinks-container {
+    display: flex;
+    flex-direction: column;
+}
 
 .backlinks-default {
     margin-top: 1rem;
@@ -15,17 +29,16 @@
 
 .backlink__preview {
     display: none;
-
     position: absolute;
-    bottom: 8px;
-    left: 100%;
+    bottom: -1rem;
+    left: calc(100% + 0.1rem);
     background-color: var(--backgroundColor);
     border-radius: 0.2rem;
-    padding: 1rem;
+    padding: 0rem 1rem;
     box-shadow: 0.1rem 0.5rem 0.7rem rgba(0, 0, 0, 0.5);
-    width: clamp(348px, 750px, 1100px); /* 348 */
+    width: clamp(348px, 650px, 80rem); /* 348 */
     overflow: hidden;
-    /* max-height: 348px; */
+    // max-height: 348px;
     outline: 0.2rem solid black;
 }
 .backlink__preview::after {
@@ -48,15 +61,18 @@
 .backlink__preview h3 {
     font-size: var(--fluid-0);
 }
+.backlink__preview p {
+    font-size: var(--fluid-0);
+}
 
 .backlink {
-    font-size: var(--fluid-1);
+    font-size: var(--fluid-0);
     width: fit-content;
     position: relative;
 }
 
 .backlink:hover {
-    padding-right: 4px; /* Allow mouse to travel between link and modal */
+    padding-right: 0.5rem; /* Allow mouse to travel between link and modal / 4px */
 }
 
 .backlink:hover .backlink__preview {

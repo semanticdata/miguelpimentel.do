@@ -44,10 +44,10 @@
             {% include "header.njk" %}
             <main id="main" class="main">
                 {{ content | safe }}
-            </main>
             {% if backlinks.length > 0 %}
                 {% include 'backlinks.njk' %}
             {% endif %}
+            </main>
             {% include "footer.njk" %}
         </div>
         <script type="module" src="{{ '/assets/js/main.js' | url }}"></script>

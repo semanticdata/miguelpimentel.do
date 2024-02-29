@@ -8,3 +8,12 @@
 .postlist-item:has(a + time) h2 {
     margin-bottom: 1rem;
 }
+
+.postlist-link {
+    display: block;
+    font-size: var(--fluid-2);
+}
+
+.postlist-item {
+    padding: 1rem 0;
+}
