@@ -29,5 +29,13 @@ h6 {
   background: paleturquoise;
 }
 .notes-list {
-  line-height: 1.75;
+  line-height: 2;
+}
+
+blockquote {
+  outline: 0.15rem solid black;
+  border-radius: 0.2rem;
+  box-shadow: 0.1rem 0.5rem 0.7rem rgba(0, 0, 0, 0.5);
+  padding: 0.1rem 1rem;
+  font-weight: bold;
 }

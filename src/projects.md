@@ -4,6 +4,7 @@ layout: page
 # eleventyNavigation:
 #   key: Projects
 #   order: 7
+draft: true
 ---
 
 A non-inclusive, non-exhaustive compilation of my projects.

@@ -13,6 +13,15 @@ h3 {
     font-size: var(--fluid-2);
     margin-bottom: 1rem;
 }
+h4 {
+    font-size: var(--fluid-1);
+    margin-bottom: 1rem;
+}
+h5,
+h6 {
+    font-size: var(--fluid-0);
+    margin-bottom: 1rem;
+}
 
 h1.note-title,
 h1.home-title,

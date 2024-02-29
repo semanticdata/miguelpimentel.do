@@ -10,3 +10,31 @@ a {
         fill: currentColor;
     }
 }
+
+// :not(.nav__link),
+// :not([href^="http://"]),
+// :not([href^="https://"]),
+a[href^='/'],
+a[href^='..'] {
+    &:not(.nav__link) {
+        &:not(.postlist-link) {
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+            // background: rgba(0,0,0,0.03);
+            &:hover {
+                background: rgba(0, 0, 0, 0.15);
+                border-radius: 0.2rem;
+            }
+            &::before {
+                content: '[[';
+                filter: opacity(0.25);
+                padding-left: 0.1rem;
+            }
+            &::after {
+                content: ']]';
+                filter: opacity(0.25);
+                padding-right: 0.1rem;
+            }
+        }
+    }
+}
