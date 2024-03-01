@@ -22,14 +22,14 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(syntaxHighlight);
 
     // Watch targets
-    // eleventyConfig.addWatchTarget('./src/assets/css/');
-    // eleventyConfig.addWatchTarget('./src/assets/js/');
-    // eleventyConfig.addWatchTarget('./src/layouts/');
-    // eleventyConfig.addWatchTarget('./src/notes/');
-    // eleventyConfig.addWatchTarget('./src/posts/');
+    eleventyConfig.addWatchTarget('./src/assets/css/');
+    eleventyConfig.addWatchTarget('./src/assets/js/');
+    eleventyConfig.addWatchTarget('./src/layouts/');
+    eleventyConfig.addWatchTarget('./src/notes/');
+    eleventyConfig.addWatchTarget('./src/posts/');
     // eleventyConfig.addWatchTarget('./src/');
     // eleventyConfig.addWatchTarget('.eleventy.js');
-    eleventyConfig.addWatchTarget('**/*.(css|scss|js|njk|md)');
+    // eleventyConfig.addWatchTarget('**/*.(css|scss|js|njk|md)');
 
     // Plugins
     eleventyConfig.addPlugin(EleventyPluginNavigation);
@@ -47,7 +47,7 @@ module.exports = function (eleventyConfig) {
                 middlewareMode: true,
             },
             appType: 'custom',
-            assetsInclude: ['**/*.xml', '**/*.txt'],
+            assetsInclude: ['**/*.xml', '**/*.txt', '**/*.xsl'],
             build: {
                 mode: 'production',
                 sourcemap: 'true',
@@ -136,6 +136,7 @@ module.exports = function (eleventyConfig) {
     // Copy/pass-through files
     eleventyConfig.addPassthroughCopy('src/assets/css');
     eleventyConfig.addPassthroughCopy('src/assets/js');
+    eleventyConfig.addPassthroughCopy('public');
 
     // Others
     const markdownItOptions = {
@@ -145,8 +146,6 @@ module.exports = function (eleventyConfig) {
     };
 
     const md = markdownIt(markdownItOptions)
-        // .use(require('markdown-it-attrs'))
-        // .use(require('markdown-it-footnote'))
         .use(function (md) {
             // Recognize Mediawiki links ([[text]])
             md.linkify.add('[[', {
@@ -154,7 +153,6 @@ module.exports = function (eleventyConfig) {
                 normalize: (match) => {
                     const parts = match.raw.slice(2, -2).split('|');
                     parts[0] = parts[0].replace(/.(md|markdown)\s?$/i, '');
-                    // parts[0] = parts[0].replace(/\b\s+\b/, '-');
                     match.text = (parts[1] || parts[0]).trim();
                     match.url = `/notes/${parts[0].trim()}/`;
                 },
@@ -177,7 +175,6 @@ module.exports = function (eleventyConfig) {
         passthroughFileCopy: true,
         dir: {
             input: 'src',
-            // better not use "public" as the name of the output folder (see above...)
             output: '_site',
             includes: '_includes',
             layouts: 'layouts',
