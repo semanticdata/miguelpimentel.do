@@ -1,7 +1,8 @@
 ---
 layout: posts
 permalink: /posts/
+title: Blog
 eleventyNavigation:
-    key: Posts
+    key: Blog
     order: 3
 ---
