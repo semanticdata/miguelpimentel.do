@@ -8,10 +8,10 @@
 :root {
     --fluid-min-width: 320;
     --fluid-max-width: 1240;
-    --fluid-min-size: 16;
-    --fluid-max-size: 20;
-    --fluid-min-ratio: 1.2;
-    --fluid-max-ratio: 1.25;
+    --fluid-min-size: 14;
+    --fluid-max-size: 18;
+    --fluid-min-ratio: 1.15;
+    --fluid-max-ratio: 1.2;
 }
 
 :root {
@@ -96,4 +96,62 @@
     --fluid-8: calc(
         ((var(--fluid-min-size-8) * 1rem) + (var(--fluid-max-size-8) - var(--fluid-min-size-8)) * var(--fluid-bp))
     );
+}
+
+// Fluid size assignments
+h1 {
+    font-size: var(--fluid-6);
+}
+h2 {
+    font-size: var(--fluid-4);
+}
+h3 {
+    font-size: var(--fluid-3);
+}
+h4,
+h5,
+h6 {
+    font-size: var(--fluid-2);
+}
+body {
+    font-size: var(--fluid-1);
+}
+.postlist-link {
+    // font-size: var(--fluid-1);
+}
+.nav--primary ul {
+    // font-size: var(--fluid-1);
+}
+.notelist-link {
+    // font-size: var(--fluid-1);
+}
+table {
+    font-size: var(--fluid-0);
+}
+ul,
+ol {
+    // font-size: var(--fluid-1);
+}
+blockquote {
+    // font-size: var(--fluid-1);
+}
+pre[class*='language-'] code {
+    font-size: var(--fluid-0);
+}
+
+// Backlinks
+.backlink__preview h1 {
+    font-size: var(--fluid-2);
+}
+.backlink__preview h2 {
+    font-size: var(--fluid-1);
+}
+.backlink__preview p {
+    font-size: var(--fluid-0);
+}
+.backlink {
+    font-size: var(--fluid-0);
+}
+.backlinks-title {
+    font-size: var(--fluid-2);
 }

@@ -1,8 +1,6 @@
 /* backlinks */
 .backlinks-title {
     margin: 1rem auto;
-    font-size: var(--fluid-1);
-    // border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
     text-decoration: underline 0.15rem rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease-in-out;
     &:hover {
@@ -24,6 +22,7 @@
 ul.backlinks-container {
     display: flex;
     flex-direction: column;
+    line-height: 1.75;
 }
 
 .backlinks-default {
@@ -57,21 +56,12 @@ ul.backlinks-container {
 
 .backlink__preview h1 {
     margin: 0 0 1rem 0;
-    font-size: var(--fluid-2);
 }
 .backlink__preview h2 {
     margin-top: 1rem;
-    font-size: var(--fluid-1);
-}
-.backlink__preview h3 {
-    font-size: var(--fluid-0);
-}
-.backlink__preview p {
-    font-size: var(--fluid-0);
 }
 
 .backlink {
-    font-size: var(--fluid-0);
     width: fit-content;
     position: relative;
 }

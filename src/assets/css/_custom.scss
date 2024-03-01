@@ -2,31 +2,23 @@
 This is the place for custom CSS.
 */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    padding-left: 0.2rem;
-    // &::before {
-    //   content: '# ';
-    //   color: rgba(0, 0, 0, 0.25);
-    //   font-size: 0.75em;
-    // }
-}
+// h1 {
+//     &::before {
+//         content: '#';
+//         color: rgba(0, 0, 0, 0.25);
+//         font-size: 0.75em;
+//         position: relative;
+//         left: -1em;
+//     }
+// }
 
 .notelist-link {
     text-decoration: none;
-    font-size: var(--fluid-0);
 }
 .notelist-item {
     width: 45%;
     display: inline-flex;
     flex-direction: row;
-}
-.notelist-item-active {
-    background: paleturquoise;
 }
 
 blockquote {
@@ -39,5 +31,4 @@ blockquote {
     font-style: italic;
     font-family: Georgia, 'Times New Roman', serif;
     line-height: 1.25;
-    font-size: var(--fluid-0);
 }

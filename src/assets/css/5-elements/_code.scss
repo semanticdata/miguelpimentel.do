@@ -1,26 +1,22 @@
-pre,
-code {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
 code {
     padding: 0.1rem 0.3rem;
     margin: auto 0.1rem;
     border-radius: 0.2rem;
-    font-weight: 600;
     outline: 0.1rem solid black;
-    line-height: 2;
+    line-height: 1.75;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 pre {
     box-shadow: 0.1rem 0.5rem 0.7rem rgba(0, 0, 0, 0.75) inset;
     border-radius: 0.4rem;
     overflow: auto;
-    outline: 0.15rem solid gray;
+    outline: 0.15rem solid rgba(0, 0, 0, 0.75);
+    line-height: 1 !important;
 }
 
 pre[class*='language-'] {
-    margin: 2rem 0 !important;
+    margin: 1.5rem 0 !important;
 }
 
 pre code {
