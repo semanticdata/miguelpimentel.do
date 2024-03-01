@@ -29,6 +29,7 @@
 @use '5-elements/paragraphs';
 @use '5-elements/tables';
 @use '5-elements/code';
+@use '5-elements/blockquote';
 
 // 6. Skeleton
 @use '6-skeleton/grid';
@@ -40,6 +41,7 @@
 @use '7-components/footer';
 @use '7-components/postlist';
 @use '7-components/backlinks';
+@use '7-components/notelist';
 
 // 8. Utilities
 @use '8-utilities/modifiers';
