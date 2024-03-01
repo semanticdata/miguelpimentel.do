@@ -7,7 +7,10 @@ import 'focus-visible';
 import './modules/nav';
 
 // document.addEventListener('mouseover', (event) => {
+//   let urlHover;
 //   if (event.target.tagName === 'A') {
-//     const url = event.target.href;
-//     console.log(url);
-// }});
+//       urlHover = event.target.href;
+//       console.log(urlHover);
+//   }
+//   return urlHover;
+// });
