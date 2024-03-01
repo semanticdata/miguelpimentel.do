@@ -1,9 +1,8 @@
 a {
     color: var(--primaryColor);
-    text-decoration: underline;
-    transition: all 0.3s ease-in-out;
+    text-decoration: none;
     &:hover {
-        text-decoration: none;
+        text-decoration: underline;
     }
     svg {
         display: inline-block;
@@ -11,19 +10,16 @@ a {
     }
 }
 
-// :not(.nav__link),
-// :not([href^="http://"]),
-// :not([href^="https://"]),
 a[href^='/'],
 a[href^='..'] {
     &:not(.nav__link) {
         &:not(.postlist-link) {
             border-radius: 0.2rem;
-            text-decoration: none;
+            color: var(--textColor);
             transition: all 0.3s ease-in-out;
             &:hover {
                 background: rgba(0, 0, 0, 0.05);
-                text-decoration: underline;
+                // text-decoration: underline;
                 transition: all 0.3s ease-in-out;
             }
             &::before {
