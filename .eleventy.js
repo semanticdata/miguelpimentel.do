@@ -22,14 +22,14 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(syntaxHighlight);
 
     // Watch targets
-    eleventyConfig.addWatchTarget('./src/assets/css/');
-    eleventyConfig.addWatchTarget('./src/assets/js/');
-    eleventyConfig.addWatchTarget('./src/layouts/');
-    eleventyConfig.addWatchTarget('./src/notes/');
-    eleventyConfig.addWatchTarget('./src/posts/');
+    // eleventyConfig.addWatchTarget('./src/assets/css/');
+    // eleventyConfig.addWatchTarget('./src/assets/js/');
+    // eleventyConfig.addWatchTarget('./src/layouts/');
+    // eleventyConfig.addWatchTarget('./src/notes/');
+    // eleventyConfig.addWatchTarget('./src/posts/');
     // eleventyConfig.addWatchTarget('./src/');
     // eleventyConfig.addWatchTarget('.eleventy.js');
-    // eleventyConfig.addWatchTarget('**/*.(css|scss|js|njk|md)');
+    eleventyConfig.addWatchTarget('**/*.(css|scss|js|njk|md)');
 
     // Plugins
     eleventyConfig.addPlugin(EleventyPluginNavigation);
