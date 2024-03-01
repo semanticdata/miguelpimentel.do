@@ -16,11 +16,11 @@ a[href^='..'] {
         &:not(.postlist-link) {
             border-radius: 0.2rem;
             color: var(--textColor);
-            transition: all 0.3s ease-in-out;
+            background: rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease-in;
             &:hover {
-                background: rgba(0, 0, 0, 0.05);
-                // text-decoration: underline;
-                transition: all 0.3s ease-in-out;
+                background: rgba(0, 0, 0, 0.15);
+                text-decoration: none;
             }
             &::before {
                 content: '[[';
