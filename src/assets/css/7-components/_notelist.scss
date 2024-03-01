@@ -1,18 +1,18 @@
 .notelist-link {
-  text-decoration: none;
+    text-decoration: none;
 }
 .notelist-item {
-  margin-top: 0.5rem;
-  display: inline-flex;
-  width: 45%;
+    margin-top: 0.5rem;
+    display: inline-flex;
+    width: 45%;
 }
 // .notelist {
 //   background: palegoldenrod;
 // }
 
 @media screen and (max-width: 550px) {
-  .notelist-item {
-    width: 100%;
-    margin-top: 1rem;
-  }
+    .notelist-item {
+        width: 100%;
+        margin-top: 1rem;
+    }
 }
