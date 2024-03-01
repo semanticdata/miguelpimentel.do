@@ -1,6 +1,6 @@
 {
     "name": "miguelpimentel.do_package",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "description": "My personal website built using Eleventy with some Vite.",
     "browserslist": [
         "> 0.5%",
@@ -49,10 +49,9 @@
         "postcss-nesting": "^12.0.4",
         "rollup-plugin-critical": "^1.0.13",
         "sass": "^1.71.1",
-        "vite": "^4.5.2"
-    },
-    "dependencies": {
+        "vite": "^4.5.2",
         "prettier": "^3.2.5",
         "title-case": "^3.0.3"
-    }
+    },
+    "dependencies": {}
 }
