@@ -18,22 +18,21 @@ a[href^='/'],
 a[href^='..'] {
     &:not(.nav__link) {
         &:not(.postlist-link) {
+            border-radius: 0.2rem;
             text-decoration: none;
             transition: all 0.3s ease-in-out;
-            // background: rgba(0,0,0,0.03);
             &:hover {
-                background: rgba(0, 0, 0, 0.15);
-                border-radius: 0.2rem;
+                background: rgba(0, 0, 0, 0.05);
+                text-decoration: underline;
+                transition: all 0.3s ease-in-out;
             }
             &::before {
                 content: '[[';
-                filter: opacity(0.25);
-                padding-left: 0.1rem;
+                filter: opacity(0.4);
             }
             &::after {
                 content: ']]';
-                filter: opacity(0.25);
-                padding-right: 0.1rem;
+                filter: opacity(0.4);
             }
         }
     }

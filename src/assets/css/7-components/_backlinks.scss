@@ -10,13 +10,9 @@
 
 .backlink__link {
     text-decoration: none;
-    background: rgba(0, 0, 0, 0.05);
-    padding: 0.2rem 1rem;
+    padding: 0.1rem 0.2rem;
     border-radius: 0.2rem;
     transition: all 0.3s ease-in-out;
-    &:hover {
-        background: rgba(0, 0, 0, 0.1);
-    }
 }
 
 ul.backlinks-container {
