@@ -1,18 +1,8 @@
 .postlist {
-    ol[class] {
-        list-style-type: none;
-        padding: 0;
-    }
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
 }
-
-.postlist-item:has(a + time) h2 {
-    margin-bottom: 1rem;
-}
-
 .postlist-link {
     display: block;
-}
-
-.postlist-item {
-    padding: 1rem 0;
 }
