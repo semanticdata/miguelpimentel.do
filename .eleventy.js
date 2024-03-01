@@ -1,10 +1,11 @@
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 
+const EleventyVitePlugin = require('@11ty/eleventy-plugin-vite');
 const EleventyPluginNavigation = require('@11ty/eleventy-navigation');
 const EleventyPluginRss = require('@11ty/eleventy-plugin-rss');
 const EleventyPluginSyntaxhighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-const EleventyVitePlugin = require('@11ty/eleventy-plugin-vite');
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
 const rollupPluginCritical = require('rollup-plugin-critical').default;
 
@@ -14,7 +15,6 @@ const shortcodes = require('./utils/shortcodes.js');
 
 const {resolve} = require('path');
 
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.setServerPassthroughCopyBehavior('copy');
@@ -125,12 +125,6 @@ module.exports = function (eleventyConfig) {
         breaks: true,
         linkify: true,
     }).use(markdownItAnchor, {
-        // permalink: markdownItAnchor.permalink.ariaHidden({
-        //   placement: 'before',
-        //   class: 'direct-link',
-        //   symbol: '#',
-        //   level: [1, 2, 3, 4],
-        // }),
         slugify: eleventyConfig.getFilter('slug'),
     });
 
@@ -152,10 +146,8 @@ module.exports = function (eleventyConfig) {
     };
 
     const md = markdownIt(markdownItOptions)
-        // .use(require('markdown-it-anchor'))
         // .use(require('markdown-it-attrs'))
         // .use(require('markdown-it-footnote'))
-        // .use(require('markdown-it-table-of-contents'))
         .use(function (md) {
             // Recognize Mediawiki links ([[text]])
             md.linkify.add('[[', {

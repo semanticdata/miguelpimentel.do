@@ -56,20 +56,5 @@ module.exports = {
 
             return backlinks;
         },
-        popup: (data) => {
-            const notes = data.collections.notes;
-            let popup = [];
-            for (const otherNote of notes) {
-                const noteContent = otherNote.template.frontMatter.content;
-                let preview = noteContent.slice(0, 240);
-
-                popup.push({
-                    url: otherNote.url,
-                    title: otherNote.data.title,
-                    preview,
-                });
-            }
-            return popup;
-        }
     }
 }
