@@ -1,6 +1,6 @@
 {
     "name": "miguelpimentel.do_package",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "description": "My personal website built using Eleventy with some Vite.",
     "browserslist": [
         "> 0.5%",
