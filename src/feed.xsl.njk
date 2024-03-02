@@ -13,6 +13,48 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title><xsl:value-of select="/atom:feed/atom:title"/></title>
         <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}"/>
+        
+        <style>
+        body.rss-xslt {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main#content {
+  margin: 0 auto;
+  max-width: 50rem;
+}
+div.entry-content {
+  outline: 0.1rem solid black;
+  box-shadow: 0.1rem 0.5rem 0.7rem rgba(0, 0, 0, 0.5);
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  background-color: #afc26c;
+}
+
+p.notice {
+  padding: 1rem;
+  border-radius: 0.4rem;
+  background-color: #6cc2a1;
+  outline: 0.1rem solid black;
+  box-shadow: 0.1rem 0.5rem 0.7rem rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: initial;
+  font-size: var(--fluid-0);
+}
+
+// p.notice a {
+//   color: var(--primaryColor);
+//   text-decoration: underline;
+// }
+
+p.notice a:hover {
+  color: rgb(168, 12, 12);
+}
+
+.rss-item {
+  margin-bottom: 1rem;
+}
+        </style>
+
       </head>
       <body class="rss-xslt">
         <main id="content">
