@@ -1,5 +1,6 @@
 ---
 title: Uses
+permalink: /uses/
 # eleventyNavigation:
 #   key: Uses
 #   order: 6
@@ -27,7 +28,7 @@ A non-comprehensive, non-exhaustive list of the hardware and software I use on a
 -   [Markmap](https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode) – Preview markdown files as Markmap.
 -   [GistPad](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gistfs) – Edit GitHub Gists and Repositories remotely.
 -   [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) – Easily change current Project/Folder.
--   [shift shift](https://marketplace.visualstudio.com/items?itemName=ahgood.shift-shift) – Provides shortcuts for `shift + shift` and `ctrl + ctrl`.
+-   [shift shift](https://marketplace.visualstudio.com/items?itemName=ahgood.shift-shift) – Provides shortcuts for <kbd>shift</kbd> + <kbd>shift</kbd> and <kbd>ctrl</kbd> + <kbd>ctrl</kbd>.
 -   [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) – Introduces `Go To Definition` and `Go To Symbol in Workspace` support.
 
 ### Notable Obsidian Extensions
@@ -38,7 +39,7 @@ A non-comprehensive, non-exhaustive list of the hardware and software I use on a
 -   [Linter](https://github.com/platers/obsidian-linter) – Customizable Markdown Linter similar to Prettier.
 -   [Editor Shortcuts](https://github.com/timhor/obsidian-editor-shortcuts) – Adds shortcuts usually found in Code Editors.
 -   [GitHub Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) – Publish your notes to a preconfigured repository.
--   [DoubleShift](https://github.com/Qwyntex/doubleshift) – Provides shortcuts for `shift + shift` and `ctrl + ctrl`.
+-   [DoubleShift](https://github.com/Qwyntex/doubleshift) – Provides shortcuts for <kbd>shift</kbd> + <kbd>shift</kbd> and <kbd>ctrl</kbd> + <kbd>ctrl</kbd>.
 -   [Contextual Typography](https://github.com/mgmeyers/obsidian-contextual-typography) – Allows for custom insertion of code at the block level.
 
 ### Notable Windows Programs

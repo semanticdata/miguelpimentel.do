@@ -1,10 +1,10 @@
 code {
-    padding: 0.1rem 0.3rem;
-    margin: auto 0.1rem;
+    padding: 0 0.2rem;
+    line-height: 1.2;
     border-radius: 0.2rem;
     outline: 0.1rem solid black;
-    line-height: 1.75;
     background-color: rgba(0, 0, 0, 0.1);
+    display: inline-block;
 }
 
 pre {
@@ -22,4 +22,25 @@ pre[class*='language-'] {
 pre code {
     background-color: transparent;
     outline: none;
+}
+
+kbd {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow:
+        0 1px 1px rgba(0, 0, 0, 0.2),
+        0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+    color: #333;
+    display: inline-block;
+    font-size: 0.85em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+}
+
+.copy-to-clipboard-button {
+    padding: 0.5rem !important;
+    height: 2rem;
 }

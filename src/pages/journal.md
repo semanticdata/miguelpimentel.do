@@ -1,6 +1,7 @@
 ---
 title: Journal
 description: This section explores the concept of maintaining a Public Journal.
+permalink: /journal/
 # eleventyNavigation:
 #   key: Journal
 #   order: 4

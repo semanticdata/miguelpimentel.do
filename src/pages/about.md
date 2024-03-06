@@ -1,5 +1,6 @@
 ---
 title: About
+permalink: about.html
 eleventyNavigation:
     key: About
     order: 2

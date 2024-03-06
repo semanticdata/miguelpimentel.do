@@ -1,5 +1,6 @@
 ---
 title: Projects
+permalink: /projects/
 # eleventyNavigation:
 #   key: Projects
 #   order: 7
