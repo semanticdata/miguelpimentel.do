@@ -44,7 +44,8 @@ module.exports = {
                     )
                 ) {
                     // Construct preview for hovercards
-                    let preview = noteContent.slice(0, 240);
+                    // let preview = noteContent.slice(0, 240);
+                    let preview = noteContent;
 
                     backlinks.push({
                         url: otherNote.url,

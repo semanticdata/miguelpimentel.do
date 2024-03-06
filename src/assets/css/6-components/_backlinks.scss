@@ -37,10 +37,11 @@ ul.backlinks-container {
     border-radius: 0.2rem;
     padding: 0rem 1rem;
     box-shadow: 0.1rem 0.5rem 0.7rem rgba(0, 0, 0, 0.5);
-    width: clamp(348px, 650px, 80rem); /* 348 */
-    overflow: hidden;
-    // max-height: 348px;
+    width: clamp(30rem, 40rem, 50rem); /* 348 */
     outline: 0.2rem solid black;
+    max-height: 25rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 .backlink__preview::after {
     content: '';
@@ -51,12 +52,12 @@ ul.backlinks-container {
     height: 24px;
 }
 
-.backlink__preview h1 {
-    margin: 0 0 1rem 0;
-}
-.backlink__preview h2 {
-    margin-top: 1rem;
-}
+// .backlink__preview h1 {
+//     margin: 0 0 1rem 0;
+// }
+// .backlink__preview h2 {
+//     margin-top: 1rem;
+// }
 
 .backlink {
     width: fit-content;
