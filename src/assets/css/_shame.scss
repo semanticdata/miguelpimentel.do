@@ -13,23 +13,23 @@
   ----------------------------------------------------------------------------- 
 */
 
+// @import url(https://fonts.googleapis.com/css?family=Inter&display=swap);
 // @import url(https://fonts.googleapis.com/css?family=Bitter&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Oswald&display=swap);
 
 // body {
-    // font-family: Bitter !important;
+//   font-family: Inter !important;
 // }
 
-// h1,
-// h2,
-// h3,
-// h4,
-// h5,
-// h6 {
-//     font-family: Bitter;
-//     font-weight: bold;
+// h1 {
+//   font-family: Oswald;
 // }
 
-// h1,
-// h2 {
-//   font-family: Bitter;
-// }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Oswald;
+}
