@@ -8,7 +8,7 @@
 
 My personal website built using [Eleventy](https://www.11ty.dev/) with some [Vite](https://vitejs.dev/).
 
-## Features
+## ✨ Features
 
 -   Vite as Middleware in Eleventy Dev Server (uses [eleventy-plugin-vite](https://github.com/11ty/eleventy-plugin-vite/))
 -   Eleventy build output is post-processed by [Vite](https://vitejs.dev) (with Rollup)
@@ -20,38 +20,50 @@ My personal website built using [Eleventy](https://www.11ty.dev/) with some [Vit
 -   Basic dark mode support (using `prefers-color-scheme` and CSS Custom Properties)
 -   Polyfill for [focus-visible](https://matthiasott.com/notes/focus-visible-is-here)
 
-## Useful Commands
+## 🛠 Enhancements and Additions
+
+- Blog section (w/ new blog and post layouts)
+  - RSS Feed (w/ style via XSL)
+- Notes section (w/ new notes layout)
+  - Wikilinks ([Obsidian](https://obsidian.md/) compatible)
+  - Backlinks
+  - Hover previews (backlinks)
+- Added new Journal, About, Uses, and Now pages.
+- Partial CSS/SCSS refactor.
+- Added [Prettier](https://prettier.io/) and new scripts to format entire codebase.
+
+## ⛑ Useful Commands
 
 ```sh
 # Install dependencies
-pnpm i
+pnpm install
 
 # Update dependencies
 pnpm update
 
-# Start web server
+# Start local dev server
 pnpm start
 
-# Check formmating
+# Check formatting w/ Prettier
 pnpm run check
 
-# Fix formatting
+# Fix formatting w/ Prettier
 pnpm run format
 ```
 
-## Customization
+## 🎨 Customization
 
 ### Stylesheets
 
-Add your custom CSS code wihtin `/src/assets/css/_custom.scss`.
+Add your custom CSS code within `/src/assets/css/_custom.scss`.
 
-## Quirks
+## 🧬 Quirks
 
-Only compatible with `"title-case": "^3.0.3",` as v4+ breaks the site. Will look into it at some point.
+Only compatible with `"title-case": "^3.0.3",` as `^4.0.0` breaks the site. Will look into it at some point.
 
-## Acknowledgements and Inspirations
+## ❤ Acknowledgements and Inspirations
 
-This project is made possible by these amazing people and projects.
+This project is made possible by these amazing people and projects:
 
 -   Andy Bell – [any-bell.co.uk](https://andy-bell.co.uk/)
 -   Binyamin Aron Green – [Eleventy Garden](https://github.com/binyamin/eleventy-garden)
@@ -64,6 +76,6 @@ This project is made possible by these amazing people and projects.
 -   Stephanie Eckles – [11ty Netlify Jumpstart](https://github.com/5t3ph/11ty-netlify-jumpstart)
 -   Zach Leatherman – [zachleat.com](https://github.com/zachleat/zachleat.com)
 
-## License
+## © License
 
 © 2024 Miguel Pimentel • [MIT License](LICENSE)
