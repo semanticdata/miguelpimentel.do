@@ -4,11 +4,7 @@ date: 2023-07-06
 description: 'My life took a sharp turn early last year. I am a very private person. You will not find me sharing my personal life on social media. That said, these last 18 months have changed me profoundly, and I feel like I need to write these feelings down.'
 ---
 
-See the [Canonical Publication](https://miguelpimentel.do/en/writing/burning-out/) for this Blog post.
-
 My life took a sharp turn early last year. I am a very private person. You will not find me sharing my personal life on social media. That said, these last 18 months have changed me profoundly, and I feel like I need to write these feelings down. This post's threshold of success is helping one other person navigate difficult times.
-
-<!-- more -->
 
 Burning out is something I had little experience with. A mental image of what it looks like when you burn out was all I had. My only context coming from watching online influencers post articles/videos about how bad it can be. I never really learned what it looks like before you burn out, how you get to there, what the signs are. After three and a half years of being a volunteer firefighter, I burned out. It did not catch me by surprise; I had been struggling mentally for some time. Every day, telling myself that it would be different, that it would change. That feeling went away eventually, leaving me with too much to handle.
 
@@ -18,11 +14,11 @@ Depends on where the question is being asked. Volunteer, or sometimes paid-on-ca
 
 Here are some quick facts on being a volunteer/paid-on-call firefighter for the fourth-largest city (by population) in Minnesota a few of years before:
 
--   Bloomington has 6 fire stations spread somewhat evenly over the city.
--   To be eligible, you need to live within 4 minutes of your nearest fire station.
--   You carry a pager around, when specific tones play, you are being asked to respond. This meant stopping anything you were doing, driving to the station, and responding to the incident in a fire vehicle.
--   Depending on incident time, one, two, three, or all six stations can be paged together to respond. For example, medicals calls involve 1 station responding with 1 truck, while residential fire calls start a 3 station response immediately.
--   You need to respond to at least 30% of the calls that were assigned to your station. These meant emergency calls during your work hours, weekends, holidays count against you.
+- Bloomington has 6 fire stations spread somewhat evenly over the city.
+- To be eligible, you need to live within 4 minutes of your nearest fire station.
+- You carry a pager around, when specific tones play, you are being asked to respond. This meant stopping anything you were doing, driving to the station, and responding to the incident in a fire vehicle.
+- Depending on incident time, one, two, three, or all six stations can be paged together to respond. For example, medicals calls involve 1 station responding with 1 truck, while residential fire calls start a 3 station response immediately.
+- You need to respond to at least 30% of the calls that were assigned to your station. These meant emergency calls during your work hours, weekends, holidays count against you.
 
 ## Learning What Being Homesick Was All About
 

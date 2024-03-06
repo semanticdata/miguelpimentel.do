@@ -4,11 +4,7 @@ date: 2023-03-18
 description: "This must be the fourth time I have started a blog. I haven't been very successful at being a consistent content producer. That changes today."
 ---
 
-See the [Canonical Publication](https://miguelpimentel.do/en/writing/hello-world/) for this Blog post.
-
 This must be the fourth time I have started a blog. I haven't been very successful at being a consistent content producer. That changes today. I made a promise I can't break. I have made a real commitment to someone in my life, who I rather not disappoint.
-
-<!-- more -->
 
 The past few years have been difficult for me. I am privileged enough to have access to the resources I do. It is a scary thought; wondering where I would be without therapy and all the other resources I'm able to use.
 
@@ -16,11 +12,11 @@ Since June 2022, I have been pushing myself to journal more often. Note-taking h
 
 I can't go on without mentioning some inspiring people I have had the pleasure of coming across. When it comes to blogging and just being great overall, I highly recommend following the likes of:
 
--   [Andy Bell](https://andy-bell.co.uk/)
--   [Derek Sivers](https://sive.rs/)
--   [Drew DeVault](https://drewdevault.com/)
--   [Eric Bower](https://erock.prose.sh/)
--   [Herman Martinus](https://herman.bearblog.dev/)
+- [Andy Bell](https://andy-bell.co.uk/)
+- [Derek Sivers](https://sive.rs/)
+- [Drew DeVault](https://drewdevault.com/)
+- [Eric Bower](https://erock.prose.sh/)
+- [Herman Martinus](https://herman.bearblog.dev/)
 
 Hope you found reading this worthwhile. If you take anything from this post, let it be:
 

@@ -4,11 +4,7 @@ date: 2023-04-12
 description: 'The term monkey mind is a Buddhist term meaning: restless, unsettled, incontrollable. The original analogy comes from describing the human mind as being full of drunken monkeys, constantly screeching, fighting, distracting, and creating general mental chaos. I’ll go over what helps me keep the monkeys at bay. I hope some of this resonates with you and your monkeys as well.'
 ---
 
-See the [Canonical Publication](https://miguelpimentel.do/en/writing/monkey-brain/) for this Blog post.
-
 The term monkey mind is a Buddhist term meaning: restless, unsettled, incontrollable. The original analogy comes from describing the human mind as being full of drunken monkeys, constantly screeching, fighting, distracting, and creating general mental chaos. I’ll go over what helps _me_ keep the monkeys at bay. I hope some of this resonates with you and your monkeys as well.
-
-<!-- more -->
 
 ## Clear My Mind
 
@@ -38,10 +34,10 @@ Avoid getting stuck on details. You can change your hosting provider later. The 
 
 Here are a few places to start:
 
--   [WordPress](https://wordpress.com/)
--   [Blogger](https://www.blogger.com/)
--   [Medium](https://medium.com/)
--   [Bear](https://bearblog.dev/)
--   [Mataroa](https://mataroa.blog/)
--   [Prose.sh](https://prose.sh/)
--   [DEV Community](https://dev.to/)
+- [WordPress](https://wordpress.com/)
+- [Blogger](https://www.blogger.com/)
+- [Medium](https://medium.com/)
+- [Bear](https://bearblog.dev/)
+- [Mataroa](https://mataroa.blog/)
+- [Prose.sh](https://prose.sh/)
+- [DEV Community](https://dev.to/)
