@@ -25,7 +25,7 @@
     "bugs": {
         "url": "https://github.com/semanticdata/miguelpimentel.do/issues"
     },
-    "homepage": "https://miguelpimentel-do.vercel.app/",
+    "homepage": "https://miguelpimentel.do",
     "devDependencies": {
         "@11ty/eleventy": "^2.0.1",
         "@11ty/eleventy-img": "^3.1.8",
