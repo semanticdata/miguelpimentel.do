@@ -61,6 +61,5 @@ Below are maps showing the most southern extent of where aurora might be observa
 ## Additional Resources
 
 - [Aurora Forecast](https://www.gi.alaska.edu/monitors/aurora-forecast)
-- [Aurora Dashboard](https://www.swpc.noaa.gov/content/aurora-dashboard-experimental)
 - [Space Weather Phenomena](https://www.swpc.noaa.gov/phenomena)
 - [Dive Deeper Into the Science of the Aurora](https://www.swpc.noaa.gov/content/aurora-tutorial)
