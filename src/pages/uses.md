@@ -1,6 +1,5 @@
 ---
 title: Uses
-layout: page
 # eleventyNavigation:
 #   key: Uses
 #   order: 6

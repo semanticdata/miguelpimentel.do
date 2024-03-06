@@ -1,6 +1,5 @@
 ---
 title: About
-layout: page
 eleventyNavigation:
     key: About
     order: 2
@@ -31,16 +30,8 @@ Nevertheless, today I thrive having experience in not only public infrastructure
 
 Here are some places you can find me on the web. You'll probably be able to find me in other places too, provided you look hard enough.
 
-    [GitHub](https://github.com/semanticdata/)
-    •
-    [Instagram](https://instagram.com/miguelapv)
-    •
-    [LinkedIn](https://www.linkedin.com/in/miguelpimentel29/)
-
-  <!-- <p class="">
-    <a href="https://github.com/semanticdata/">GitHub</a>
-    •
-    <a href="https://instagram.com/miguelapv">Instagram</a>
-    •
-    <a href="https://www.linkedin.com/in/miguelpimentel29/">LinkedIn</a>
-  </p> -->
+[GitHub](https://github.com/semanticdata/)
+•
+[Instagram](https://instagram.com/miguelapv)
+•
+[LinkedIn](https://www.linkedin.com/in/miguelpimentel29/)

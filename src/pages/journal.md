@@ -1,10 +1,9 @@
 ---
-layout: page
+title: Journal
+description: This section explores the concept of maintaining a Public Journal.
 # eleventyNavigation:
 #   key: Journal
 #   order: 4
-title: Journal
-description: This section explores the concept of maintaining a Public Journal.
 ---
 
 This page takes inspiration from the [Journal of an Enigmatic Mind](https://speyllsite.pages.dev/journal/). It explores the concept of keeping a public journal, something I haven't done before.

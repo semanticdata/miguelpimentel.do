@@ -1,6 +1,5 @@
 ---
 title: Projects
-layout: page
 # eleventyNavigation:
 #   key: Projects
 #   order: 7
