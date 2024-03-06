@@ -7,12 +7,13 @@ compartir: true
 
 enableToc: true
 ---
+# Learning Guitar
 
 When you are looking at a tab, you will see six horizontal lines. These lines represent the strings of the guitar. The bottom line is the 6th string (the thickest string on your guitar, low e) and the top line is the thinnest string (the first string, high e).
 
 ## Arpeggio
 
-An [[arpeggio|arpeggio]] is a type of [[chords|broken chord]] in which the notes that compose a chord are individually sounded in a progressive rising or descending order. Arpeggios on keyboard instruments may be called _rolled chords_.
+An [[arpeggio]] is a type of [[chords|broken chord]] in which the notes that compose a chord are individually sounded in a progressive rising or descending order. Arpeggios on keyboard instruments may be called _rolled chords_.
 
 ```md
 e|--------2-----------------|
@@ -42,5 +43,5 @@ You can then finish out the riff by grabbing the 6th fret on the 6th string with
 
 ## Sources
 
--   [ultimate-guitar.com](https://tabs.ultimate-guitar.com/tab/metallica/enter-sandman-tabs-8595)
--   [guitarlessons.org](https://www.guitarlessons.org/lessons/read-guitar-tabs/)
+- [ultimate-guitar.com](https://tabs.ultimate-guitar.com/tab/metallica/enter-sandman-tabs-8595)
+- [guitarlessons.org](https://www.guitarlessons.org/lessons/read-guitar-tabs/)

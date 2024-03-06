@@ -9,7 +9,7 @@ aliases:
     - Vim
 description: 'NeoVim is a fork of Vim focused on extensibility and usability.'
 ---
-
+# NeoVim
 NeoVim is a fork of Vim focused on extensibility and usability. This is my short reference guide as I learn to use it.
 
 ## Links

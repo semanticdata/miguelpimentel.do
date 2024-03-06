@@ -4,7 +4,7 @@ compartir: true
 
 description: 'Modern JavaScript Framework for building web applications.'
 ---
-
+# Svelte
 [Svelte](https://svelte.dev/) is a modern [[javascript#JavaScript Frameworks|JavaScript Framework]] for building web applications. It compiles components into efficient, framework-free [[javaScript|JavaScript]] code, resulting in fast and lightweight applications. With its reactive approach and declarative syntax, Svelte simplifies development and delivers impressive performance.
 
 ## Example
