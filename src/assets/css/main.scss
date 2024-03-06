@@ -1,54 +1,53 @@
-/* 1. Settings */
+/* Global Settings */
 @use '../../../node_modules/cssremedy/css/remedy';
-@use '1-settings/global';
+@use 'global';
+@use 'prism';
 
-/* 2. Design Tokens */
-@use '2-design-tokens/colors';
-@use '2-design-tokens/fonts';
-@use '2-design-tokens/media-queries';
-@use '2-design-tokens/spacing';
-@use '2-design-tokens/typography';
+/* 1. Design Tokens */
+@use '1-design-tokens/colors';
+@use '1-design-tokens/fonts';
+@use '1-design-tokens/media-queries';
+@use '1-design-tokens/spacing';
+@use '1-design-tokens/typography';
+
+/* 2. Generic */
+@use '2-generic/normalize';
+@use '2-generic/print';
 
 /* 3. Tools */
 @use '3-tools/aspect-ratio';
 @use '3-tools/accessibility';
 @use '3-tools/clearfix';
 
-/* 4. Generic */
-@use '4-generic/normalize';
-@use '4-generic/print';
+// 4. Utilities
+@use '4-utilities/modifiers';
+@use '4-utilities/states';
 
-/* 5. Elements */
-@use '5-elements/body';
-@use '5-elements/buttons';
-@use '5-elements/forms';
-@use '5-elements/headings';
-@use '5-elements/images';
-@use '5-elements/links';
-@use '5-elements/lists';
-@use '5-elements/paragraphs';
-@use '5-elements/tables';
-@use '5-elements/code';
-@use '5-elements/blockquote';
-@use '5-elements/hr';
+// 5. Skeleton
+@use '5-skeleton/grid';
+@use '5-skeleton/layouts';
+@use '5-skeleton/objects';
 
-// 6. Skeleton
-@use '6-skeleton/grid';
-@use '6-skeleton/layouts';
-@use '6-skeleton/objects';
+// 6. Components
+@use '6-components/header';
+@use '6-components/footer';
+@use '6-components/postlist';
+@use '6-components/backlinks';
+@use '6-components/notelist';
 
-// 7. Components
-@use '7-components/header';
-@use '7-components/footer';
-@use '7-components/postlist';
-@use '7-components/backlinks';
-@use '7-components/notelist';
-
-// 8. Utilities
-@use '8-utilities/modifiers';
-@use '8-utilities/states';
+/* 7. Elements */
+@use '7-elements/body';
+@use '7-elements/buttons';
+@use '7-elements/forms';
+@use '7-elements/headings';
+@use '7-elements/images';
+@use '7-elements/links';
+@use '7-elements/lists';
+@use '7-elements/paragraphs';
+@use '7-elements/tables';
+@use '7-elements/code';
+@use '7-elements/blockquote';
+@use '7-elements/hr';
 
 /* Shame on you! */
-@use 'prism';
 @use 'shame';
-@use 'custom';
