@@ -28,9 +28,9 @@ My personal website built using [Eleventy](https://www.11ty.dev/) with some [Vit
   - Wikilinks ([Obsidian](https://obsidian.md/) compatible)
   - Backlinks
   - Hover previews (backlinks)
-- Added new Journal, About, Uses, and Now pages.
+- New Journal, About, Uses, and Now pages.
 - Partial CSS/SCSS refactor.
-- Added [Prettier](https://prettier.io/) and new scripts to format entire codebase.
+- [Prettier](https://prettier.io/) and new scripts to format entire codebase.
 
 ## ⛑ Useful Commands
 
