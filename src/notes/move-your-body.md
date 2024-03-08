@@ -6,7 +6,9 @@ tags:
     - stub
 description: 'Move your body every day.'
 ---
+
 # Move Your Body
+
 Move your body every day. Benefits include:
 
 -   Improved sleep quality.

@@ -6,6 +6,7 @@ compartir: true
 
 description: 'Single, self-contained notes that capture a single idea or piece of information.'
 ---
+
 # Atomic Notes
 
 Atomic notes are single, self-contained notes that capture a single idea or piece of information. They are meant to be read and understood without needing to refer to anything more.

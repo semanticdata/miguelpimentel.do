@@ -6,7 +6,9 @@ compartir: true
 
 description: 'Collection of words I like.'
 ---
+
 # Words I Like
+
 [Good Source](https://wordwarriors.wayne.edu/list)
 
 ### Anodyne (adjective)

@@ -4,7 +4,9 @@ tags:
     - typography
 compartir: true
 ---
+
 # Serif
+
 In typography, a serif (/ˈsɛrɪf/) is a small line or stroke regularly attached to the end of a larger stroke in a letter or symbol within a particular font or family of fonts.
 
 ## Font Family in CSS

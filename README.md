@@ -22,15 +22,15 @@ My personal website built using [Eleventy](https://www.11ty.dev/) with some [Vit
 
 ## 🛠 Enhancements and Additions
 
-- Blog section (w/ new blog and post layouts)
-  - RSS Feed (w/ style via XSL)
-- Notes section (w/ new notes layout)
-  - Wikilinks ([Obsidian](https://obsidian.md/) compatible)
-  - Backlinks
-  - Hover previews (backlinks)
-- New Journal, About, Uses, and Now pages.
-- Partial CSS/SCSS refactor.
-- [Prettier](https://prettier.io/) and new scripts to format entire codebase.
+-   Blog section (w/ new blog and post layouts)
+    -   RSS Feed (w/ style via XSL)
+-   Notes section (w/ new notes layout)
+    -   Wikilinks ([Obsidian](https://obsidian.md/) compatible)
+    -   Backlinks
+    -   Hover previews (backlinks)
+-   New Journal, About, Uses, and Now pages.
+-   Partial CSS/SCSS refactor.
+-   [Prettier](https://prettier.io/) and new scripts to format entire codebase.
 
 ## ⛑ Useful Commands
 

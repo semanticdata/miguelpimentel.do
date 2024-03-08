@@ -6,7 +6,9 @@ compartir: true
 
 description: 'Collection of quotes I like.'
 ---
+
 # Quotes Collection
+
 ## Random
 
 > "Always demand a deadline. A deadline weeds out the extraneous and the ordinary. It prevents you from trying to make it perfect, so you have to make it different. Different is better."

@@ -8,7 +8,9 @@ compartir: true
 enableToc: true
 description: 'Learning how to write with brevity (short-form), how to write long-form, how to use gesticulation.'
 ---
+
 # Writing with Outlines
+
 Learning how to write with brevity (short-form), how to write long-form, how to use gesticulation. Looking for ways to streamline producing written content.
 
 ## Questions to Be Answered by Post

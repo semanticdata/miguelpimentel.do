@@ -4,7 +4,9 @@ compartir: true
 
 description: "Non-inclusive list of books I've read."
 ---
+
 # Books Collection
+
 Non-inclusive list of books I've read.
 
 ## John Green
