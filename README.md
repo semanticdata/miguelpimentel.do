@@ -6,7 +6,7 @@
 ![last commit](https://img.shields.io/github/last-commit/semanticdata/miguelpimentel.do)
 ![is website up?](https://img.shields.io/website/https/miguelpimentel.do.svg)
 
-My personal website built using [Eleventy](https://www.11ty.dev/) with some [Vite](https://vitejs.dev/).
+My personal website built using [Eleventy](https://www.11ty.dev/) with some [Vite](https://vitejs.dev/) and a few other things under the hood.
 
 ## ✨ Features
 
