@@ -22,12 +22,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight)
 
   // Watch targets
-  // eleventyConfig.addWatchTarget("./src/assets/css/")
-  // eleventyConfig.addWatchTarget("./src/assets/js/")
-  // eleventyConfig.addWatchTarget("./src/notes/")
-  // eleventyConfig.addWatchTarget("./src/posts/")
-  // eleventyConfig.addWatchTarget('./src/');
-  // eleventyConfig.addWatchTarget('.eleventy.js');
+  eleventyConfig.addWatchTarget("./src/")
   eleventyConfig.addWatchTarget("**/*.(css|scss|js|njk|md)")
 
   // Plugins
@@ -136,8 +131,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("posts", "posts.njk")
 
   // Copy/pass-through files
-  eleventyConfig.addPassthroughCopy("src/assets/css")
-  eleventyConfig.addPassthroughCopy("src/assets/js")
+  eleventyConfig.addPassthroughCopy("src/assets")
   eleventyConfig.addPassthroughCopy("public")
 
   // Others
