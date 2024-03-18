@@ -17,19 +17,18 @@ const {resolve} = require("path")
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setServerPassthroughCopyBehavior("copy")
-  eleventyConfig.addPassthroughCopy("/public")
+  eleventyConfig.addPassthroughCopy("public")
   eleventyConfig.setQuietMode(true)
   eleventyConfig.addPlugin(syntaxHighlight)
 
   // Watch targets
-  eleventyConfig.addWatchTarget("./src/assets/css/")
-  eleventyConfig.addWatchTarget("./src/assets/js/")
-  eleventyConfig.addWatchTarget("./src/layouts/")
-  eleventyConfig.addWatchTarget("./src/notes/")
-  eleventyConfig.addWatchTarget("./src/posts/")
+  // eleventyConfig.addWatchTarget("./src/assets/css/")
+  // eleventyConfig.addWatchTarget("./src/assets/js/")
+  // eleventyConfig.addWatchTarget("./src/notes/")
+  // eleventyConfig.addWatchTarget("./src/posts/")
   // eleventyConfig.addWatchTarget('./src/');
   // eleventyConfig.addWatchTarget('.eleventy.js');
-  // eleventyConfig.addWatchTarget('**/*.(css|scss|js|njk|md)');
+  eleventyConfig.addWatchTarget("**/*.(css|scss|js|njk|md)")
 
   // Plugins
   eleventyConfig.addPlugin(EleventyPluginNavigation)
@@ -176,7 +175,7 @@ module.exports = function (eleventyConfig) {
       input: "src",
       output: "_site",
       includes: "_includes",
-      layouts: "layouts",
+      layouts: "_layouts",
       data: "_data",
     },
   }
