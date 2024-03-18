@@ -1,4 +1,5 @@
 _site/
+.11ty-vite
 .DS_Store
 .env
 .netlify
