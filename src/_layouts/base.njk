@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ metadata.title }}</title>
     <link
-      nonce="rAnd0m123"
+      
       rel="preload"
       href="/assets/fonts/dm-sans/dm-sans-v11-latin-regular-subset.woff2"
       as="font"
@@ -13,7 +13,7 @@
       crossorigin=""
     />
     {% include "meta.njk" %}
-    <script nonce="rAnd0m123">
+    <script >
       /* Font loading: Critical FOFT with preload, see:
    https://www.zachleat.com/web/comprehensive-webfonts/#critical-foft-with-preload */
       ;(function () {
@@ -40,7 +40,7 @@
       })()
     </script>
     <link
-      nonce="rAnd0m123"
+      
       rel="stylesheet"
       href="{{ '/assets/css/main.scss' | url }}"
     />
@@ -56,7 +56,7 @@
       {% include "footer.njk" %}
     </div>
     <script
-      nonce="rAnd0m123"
+      
       type="module"
       src="{{ '/assets/js/main.js' | url }}"
     ></script>

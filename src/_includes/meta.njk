@@ -1,7 +1,7 @@
 {%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(metadata.url) }}{%-
 endset -%} {# General #}
 <meta name="description" content="{{ description or metadata.description }}" />
-<link nonce="rAnd0m123" rel="canonical" href="{{ absolutePageUrl }}" />
+<link  rel="canonical" href="{{ absolutePageUrl }}" />
 <meta name="author" content="{{ metadata.author }}" />
 <meta name="generator" content="{{ eleventy.generator }}" />
 {# Open Graph #}
@@ -24,35 +24,35 @@ endset -%} {# General #}
 />
 {%- endif -%} {# Favicon #}
 <link
-  nonce="rAnd0m123"
+  
   rel="apple-touch-icon"
   sizes="180x180"
   href="{{ '/assets/images/favicon/apple-touch-icon.png' | url }}"
 />
 <link
-  nonce="rAnd0m123"
+  
   rel="icon"
   type="image/png"
   href="{{ '/assets/images/favicon/favicon-32x32.png' | url }}"
   sizes="32x32"
 />
 <link
-  nonce="rAnd0m123"
+  
   rel="icon"
   type="image/png"
   href="{{ '/assets/images/favicon/favicon-16x16.png' | url }}"
   sizes="16x16"
 />
 <link
-  nonce="rAnd0m123"
+  
   rel="shortcut icon"
   href="{{ '/assets/images/favicon/favicon.ico' | url }}"
 />
-<link nonce="rAnd0m123" rel="manifest" href="{{ '/site.webmanifest' | url }}" />
+<link  rel="manifest" href="{{ '/site.webmanifest' | url }}" />
 <meta name="theme-color" content="#7134ff" />
 {# RSS Feed #}
 <link
-  nonce="rAnd0m123"
+  
   type="application/atom+xml"
   rel="alternate"
   href="{{ metadata.url }}/feed.xml"

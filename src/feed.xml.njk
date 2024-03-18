@@ -21,11 +21,11 @@
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.subtitle }}</subtitle>
   <link
-    nonce="rAnd0m123"
+    
     href="{{ permalink | absoluteUrl(metadata.url) }}"
     rel="self"
   />
-  <link nonce="rAnd0m123" href="{{ metadata.url }}" />
+  <link  href="{{ metadata.url }}" />
   <updated
     >{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339
     }}</updated
@@ -39,7 +39,7 @@
   post.url | absoluteUrl(metadata.url) %}
   <entry>
     <title>{{ post.data.title }}</title>
-    <link nonce="rAnd0m123" href="{{ absolutePostUrl }}" />
+    <link  href="{{ absolutePostUrl }}" />
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
     <content xml:lang="{{ metadata.language }}" type="html"
