@@ -128,9 +128,12 @@ module.exports = function (eleventyConfig) {
 
   // Layouts
   eleventyConfig.addLayoutAlias("base", "base.njk")
-  eleventyConfig.addLayoutAlias("post", "post.njk")
-  eleventyConfig.addLayoutAlias("page", "page.njk")
+  eleventyConfig.addLayoutAlias("home", "home.njk")
+  eleventyConfig.addLayoutAlias("note", "note.njk")
   eleventyConfig.addLayoutAlias("notes", "notes.njk")
+  eleventyConfig.addLayoutAlias("page", "page.njk")
+  eleventyConfig.addLayoutAlias("post", "post.njk")
+  eleventyConfig.addLayoutAlias("posts", "posts.njk")
 
   // Copy/pass-through files
   eleventyConfig.addPassthroughCopy("src/assets/css")
