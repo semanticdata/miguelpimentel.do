@@ -1,7 +1,7 @@
 ---
 title: Sweep Your Mind
 tags:
-  - digital-gardening
+    - digital-gardening
 description: These notes make it possible to offload a massive amount of information while demonstrating perfect recall when needed. The goal of a mind sweep is to identify everything that requires your attention or has the possibility of seeping into and affecting other parts of your life.
 compartir: true
 updated: 2023-12-04

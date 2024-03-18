@@ -1,8 +1,8 @@
 ---
 title: Guitar
 tags:
-  - learning
-  - music
+    - learning
+    - music
 compartir: true
 updated: 2023-12-04
 enableToc: true
@@ -46,5 +46,5 @@ You can then finish out the riff by grabbing the 6th fret on the 6th string with
 
 ## Sources
 
-- [ultimate-guitar.com](https://tabs.ultimate-guitar.com/tab/metallica/enter-sandman-tabs-8595  )
-- [guitarlessons.org](https://www.guitarlessons.org/lessons/read-guitar-tabs/)
+-   [ultimate-guitar.com](https://tabs.ultimate-guitar.com/tab/metallica/enter-sandman-tabs-8595)
+-   [guitarlessons.org](https://www.guitarlessons.org/lessons/read-guitar-tabs/)

@@ -3,7 +3,7 @@ title: Micropolitan Statistical Area
 compartir: true
 updated: 2023-12-15
 tags:
-  - statistics
+    - statistics
 ---
 
 # Micropolitan Statistical Area

@@ -1,35 +1,35 @@
 {
-  "name": "11ty-starter",
-  "description": "A starter site for building a digital garden in eleventy.",
-  "scripts": {
-    "start": "npm-run-all -p dev:*",
-    "build": "npx @11ty/eleventy && tailwindcss -i src/assets/css/styles.scss -o _site/assets/css/styles.css",
-    "dev:11ty": "npx @11ty/eleventy --serve --quiet",
-    "dev:css": "tailwindcss -i src/assets/css/styles.scss -o _site/assets/css/styles.css --watch --postcss"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/semanticdata/11ty-starter.git"
-  },
-  "author": "Miguel Pimentel",
-  "license": "MIT",
-  "homepage": "https://github.com/semanticdata/11ty-starter",
-  "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "autoprefixer": "^10.4.17",
-    "dayjs": "^1.11.10",
-    "npm-run-all": "^4.1.5",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1",
-    "title-case": "^3.0.3"
-  },
-  "dependencies": {
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "elasticlunr": "^0.9.5",
-    "eleventy-sass": "^2.2.4",
-    "markdown-it-anchor": "^8.6.7",
-    "markdown-it-attrs": "^4.1.6",
-    "markdown-it-footnote": "^4.0.0",
-    "markdown-it-table-of-contents": "^0.6.0"
-  }
+    "name": "11ty-starter",
+    "description": "A starter site for building a digital garden in eleventy.",
+    "scripts": {
+        "start": "npm-run-all -p dev:*",
+        "build": "npx @11ty/eleventy && tailwindcss -i src/assets/css/styles.scss -o _site/assets/css/styles.css",
+        "dev:11ty": "npx @11ty/eleventy --serve --quiet",
+        "dev:css": "tailwindcss -i src/assets/css/styles.scss -o _site/assets/css/styles.css --watch --postcss"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/semanticdata/11ty-starter.git"
+    },
+    "author": "Miguel Pimentel",
+    "license": "MIT",
+    "homepage": "https://github.com/semanticdata/11ty-starter",
+    "devDependencies": {
+        "@11ty/eleventy": "^2.0.1",
+        "autoprefixer": "^10.4.17",
+        "dayjs": "^1.11.10",
+        "npm-run-all": "^4.1.5",
+        "postcss": "^8.4.35",
+        "tailwindcss": "^3.4.1",
+        "title-case": "^3.0.3"
+    },
+    "dependencies": {
+        "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+        "elasticlunr": "^0.9.5",
+        "eleventy-sass": "^2.2.4",
+        "markdown-it-anchor": "^8.6.7",
+        "markdown-it-attrs": "^4.1.6",
+        "markdown-it-footnote": "^4.0.0",
+        "markdown-it-table-of-contents": "^0.6.0"
+    }
 }

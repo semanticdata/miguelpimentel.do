@@ -1,7 +1,7 @@
 ---
 title: Arpeggio
 tags:
-  - music
+    - music
 compartir: true
 updated: 2023-12-04
 ---

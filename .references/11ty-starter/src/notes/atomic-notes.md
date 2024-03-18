@@ -1,7 +1,7 @@
 ---
 title: Atomic Notes
 tags:
-  - digital-gardening
+    - digital-gardening
 compartir: true
 updated: 2023-12-15
 ---
@@ -19,10 +19,10 @@ Tags: #exercise #health #wellness
 
 Regular exercise confers numerous health benefits, including:
 
-- Improved cardiovascular health
-- Increased strength and flexibility
-- Weight management
-- Reduced risk of chronic diseases
+-   Improved cardiovascular health
+-   Increased strength and flexibility
+-   Weight management
+-   Reduced risk of chronic diseases
 
 It is recommended to engage in at least 150 minutes of moderate-intensity exercise or 75 minutes of vigorous exercise per week. Exercise should be a combination of aerobic activity, strength training, and flexibility exercises.
 

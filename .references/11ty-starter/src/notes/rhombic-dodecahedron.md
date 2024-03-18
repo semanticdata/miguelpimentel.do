@@ -3,7 +3,7 @@ title: Rhombic Dodecahedron
 compartir: true
 updated: 2023-12-15
 tags:
-  - stub
+    - stub
 ---
 
 # Rhombic Dodecahedron

@@ -1,40 +1,40 @@
 {
-  "name": "evergreen-notes-markdown-website",
-  "version": "1.0.0",
-  "main": "index.js",
-  "homepage": "https://unstaticlabs.github.io/evergreen-notes-markdown-website",
-  "repository": "git@github.com:unstaticlabs/evergreen-notes-markdown-website.git",
-  "author": "unstatic labs <noreply@unstaticlabs.com>",
-  "contributors": [
-    "Valentin Viennot <valentinviennot@users.noreply.github.com>",
-    "Roger Miret Giné <rogerxaic@users.noreply.github.com>"
-  ],
-  "type": "module",
-  "scripts": {
-    "start": "rm notes/index.json && index-wikilinks notes notes/index.json && vite",
-    "dev": "vite",
-    "build": "vite build",
-    "build:index": "index-wikilinks notes notes/index.json",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "obsidian-index-wikilinks": "github:ValentinViennot/np-obsidian-index-wikilinks",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-markdown": "^8.0.7",
-    "react-router-dom": "^6.22.3",
-    "sass": "^1.72.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.2.67",
-    "@types/react-dom": "^18.2.22",
-    "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.34.1",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.6",
-    "vite": "^4.5.2"
-  }
+    "name": "evergreen-notes-markdown-website",
+    "version": "1.0.0",
+    "main": "index.js",
+    "homepage": "https://unstaticlabs.github.io/evergreen-notes-markdown-website",
+    "repository": "git@github.com:unstaticlabs/evergreen-notes-markdown-website.git",
+    "author": "unstatic labs <noreply@unstaticlabs.com>",
+    "contributors": [
+        "Valentin Viennot <valentinviennot@users.noreply.github.com>",
+        "Roger Miret Giné <rogerxaic@users.noreply.github.com>"
+    ],
+    "type": "module",
+    "scripts": {
+        "start": "rm notes/index.json && index-wikilinks notes notes/index.json && vite",
+        "dev": "vite",
+        "build": "vite build",
+        "build:index": "index-wikilinks notes notes/index.json",
+        "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+        "preview": "vite preview"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "obsidian-index-wikilinks": "github:ValentinViennot/np-obsidian-index-wikilinks",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-markdown": "^8.0.7",
+        "react-router-dom": "^6.22.3",
+        "sass": "^1.72.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.67",
+        "@types/react-dom": "^18.2.22",
+        "@vitejs/plugin-react": "^4.2.1",
+        "eslint": "^8.57.0",
+        "eslint-plugin-react": "^7.34.1",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-react-refresh": "^0.4.6",
+        "vite": "^4.5.2"
+    }
 }

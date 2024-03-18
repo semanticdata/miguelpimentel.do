@@ -2,7 +2,7 @@
 title: CSS
 compartir: true
 aliases:
-  - Cascading Style Sheets
+    - Cascading Style Sheets
 updated: 2023-12-15
 ---
 
