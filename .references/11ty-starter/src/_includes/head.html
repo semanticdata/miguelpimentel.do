@@ -6,81 +6,34 @@ endif %} {% assign metatype = "website" %} {% if type == "note" %} {% assign
 metatype = "article" %} {% endif %}
 
 <meta charset="UTF-8" />
-<meta
-    http-equiv="X-UA-Compatible"
-    content="IE=edge"
-/>
-<meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link
-    rel="shortcut icon"
-    href="/assets/favicon.ico"
-    type="image/x-icon"
-/>
+<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
 
 <title>{{- metatitle -}}</title>
 
-<meta
-    name="description"
-    content="{{- metadesc -}}"
-/>
+<meta name="description" content="{{- metadesc -}}" />
 
-<meta
-    property="og:title"
-    content="{{ -metatitle- }}"
-/>
-<meta
-    property="og:type"
-    content="{{- metatype -}}"
-/>
-<meta
-    property="og:url"
-    content="{{ page.url | prepend: site.baseurl }}"
-/>
-<meta
-    property="og:image"
-    content="/assets/img/avatar.png"
-/>
-<meta
-    property="og:description"
-    content="{{- metadesc -}}"
-/>
+<meta property="og:title" content="{{ -metatitle- }}" />
+<meta property="og:type" content="{{- metatype -}}" />
+<meta property="og:url" content="{{ page.url | prepend: site.baseurl }}" />
+<meta property="og:image" content="/assets/img/avatar.png" />
+<meta property="og:description" content="{{- metadesc -}}" />
 
-<link
-    rel="canonical"
-    href="{{ page.url | prepend: site.baseurl }}"
-/>
+<link rel="canonical" href="{{ page.url | prepend: site.baseurl }}" />
 
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
 <link
-    rel="preconnect"
-    href="https://fonts.gstatic.com/"
-    crossorigin
-/>
-<link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Bitter&display=swap"
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Bitter&display=swap"
 />
 
 <!-- Stylesheets -->
-<link
-    rel="stylesheet"
-    href="/assets/css/search-main.css"
-/>
-<link
-    rel="stylesheet"
-    href="/assets/css/prism.css"
-/>
-<link
-    rel="stylesheet"
-    href="/assets/css/styles.css"
-/>
-<link
-    rel="stylesheet"
-    href="/assets/css/style.css"
-/>
+<link rel="stylesheet" href="/assets/css/search-main.css" />
+<link rel="stylesheet" href="/assets/css/prism.css" />
+<link rel="stylesheet" href="/assets/css/styles.css" />
+<link rel="stylesheet" href="/assets/css/style.css" />
 
 <!-- Icons -->
 <!--
@@ -92,53 +45,29 @@ metatype = "article" %} {% endif %}
 -->
 
 <!-- Facebook -->
+<meta property="og:title" content="{{ -metatitle- }}" />
+<meta property="og:type" content="website" />
 <meta
-    property="og:title"
-    content="{{ -metatitle- }}"
+  property="og:description"
+  content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}"
 />
+<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}" />
 <meta
-    property="og:type"
-    content="website"
-/>
-<meta
-    property="og:description"
-    content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}"
-/>
-<meta
-    property="og:url"
-    content="{{ site.baseurl }}{{ page.url }}"
-/>
-<meta
-    property="og:image"
-    content="{% if image %}{{ image }}{% else %}{{ site.image }}{% endif %}"
+  property="og:image"
+  content="{% if image %}{{ image }}{% else %}{{ site.image }}{% endif %}"
 />
 
 <!-- Twitter -->
+<meta name="twitter:card" content="{{ card }}" />
+<meta name="twitter:site" content="{{ twitter }}" />
+<meta name="twitter:title" content="{{ -metatitle- }}" />
 <meta
-    name="twitter:card"
-    content="{{ card }}"
+  name="twitter:description"
+  content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}"
 />
+<meta name="twitter:creator" content="{{ twitter }}" />
+<meta name="twitter:image" content="{{ site.baseurl }}{{ page.url }}" />
 <meta
-    name="twitter:site"
-    content="{{ twitter }}"
-/>
-<meta
-    name="twitter:title"
-    content="{{ -metatitle- }}"
-/>
-<meta
-    name="twitter:description"
-    content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}"
-/>
-<meta
-    name="twitter:creator"
-    content="{{ twitter }}"
-/>
-<meta
-    name="twitter:image"
-    content="{{ site.baseurl }}{{ page.url }}"
-/>
-<meta
-    name="twitter:domain"
-    content="{% if image %}{{ image }}{% else %}{{ site.image }}{% endif %}"
+  name="twitter:domain"
+  content="{% if image %}{{ image }}{% else %}{{ site.image }}{% endif %}"
 />

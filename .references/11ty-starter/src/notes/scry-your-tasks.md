@@ -3,7 +3,7 @@ title: Scry Your Tasks
 compartir: true
 updated: 2023-12-04
 tags:
-    - stub
+  - stub
 ---
 
 # Scry Your Tasks

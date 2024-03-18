@@ -1,5 +1,5 @@
 ---
-title: 'Unlock the Sidebar Width in Firefox'
+title: "Unlock the Sidebar Width in Firefox"
 description: "How-to guide about unlocking the max-width of Firefox's sidebar. Doing so net's you a better experience when using extensions within the sidebar."
 date: 2023-03-19
 ---
@@ -8,8 +8,8 @@ This post will guide you through unlocking the sidebar width in Firefox. It will
 
 ## Why Would Anyone Want to Do This?
 
--   To enhance the use of the Firefox [Side View](https://addons.mozilla.org/en-US/firefox/addon/side-view/) extension.
--   To compliment the use of one of my Firefox sidebar [extensions](https://addons.mozilla.org/en-US/firefox/user/17772574/).
+- To enhance the use of the Firefox [Side View](https://addons.mozilla.org/en-US/firefox/addon/side-view/) extension.
+- To compliment the use of one of my Firefox sidebar [extensions](https://addons.mozilla.org/en-US/firefox/user/17772574/).
 
 ## Step-by-Step Instructions
 
@@ -24,8 +24,8 @@ This post will guide you through unlocking the sidebar width in Firefox. It will
 ```css
 /* You may change the units to any length you find more convenient. */
 #sidebar-box {
-    max-width: 40% !important;
-    min-width: 300px !important;
+  max-width: 40% !important;
+  min-width: 300px !important;
 }
 ```
 

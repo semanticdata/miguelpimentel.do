@@ -1,11 +1,11 @@
 /* Compositions */
-@import 'compositions/*';
+@import "compositions/*";
 
 /* Blocks */
-@import 'blocks/*';
+@import "blocks/*";
 
 /* Utilities */
-@import 'utilities/*';
+@import "utilities/*";
 
 /* Tailwind utilities */
 @tailwind utilities;

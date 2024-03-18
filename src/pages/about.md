@@ -2,22 +2,22 @@
 title: About
 permalink: /about/
 eleventyNavigation:
-    key: About
-    order: 2
+  key: About
+  order: 2
 ---
 
 Hello, my name is Miguel Pimentel. I am a self-taught hobby developer with too many ideas and not enough time. I was born in the Dominican Republic, and I currently live in Minnesota, US.
 
 I suffer from a chronic case of curiosity, which leads me to learn and do many interesting things like:
 
--   …designing bike trails and residential roads in AutoCAD Civil 3D.
--   …creating my own [browser extensions](https://addons.mozilla.org/en-US/firefox/user/17772574/).
--   …teaching [ESL](https://en.wikipedia.org/wiki/English_as_a_second_or_foreign_language).
--   …learning web development and computer programming.
--   …getting licensed as a Firefighter.
--   …getting certified as Emergency Medical Technician.
--   …inspecting public road construction projects.
--   …working in a construction materials laboratory.
+- …designing bike trails and residential roads in AutoCAD Civil 3D.
+- …creating my own [browser extensions](https://addons.mozilla.org/en-US/firefox/user/17772574/).
+- …teaching [ESL](https://en.wikipedia.org/wiki/English_as_a_second_or_foreign_language).
+- …learning web development and computer programming.
+- …getting licensed as a Firefighter.
+- …getting certified as Emergency Medical Technician.
+- …inspecting public road construction projects.
+- …working in a construction materials laboratory.
 
 ## Work Experience
 
@@ -31,8 +31,4 @@ Nevertheless, today I thrive having experience in not only public infrastructure
 
 Here are some places you can find me on the web. You'll probably be able to find me in other places too, provided you look hard enough.
 
-[GitHub](https://github.com/semanticdata/)
-•
-[Instagram](https://instagram.com/miguelapv)
-•
-[LinkedIn](https://www.linkedin.com/in/miguelpimentel29/)
+[GitHub](https://github.com/semanticdata/) • [Instagram](https://instagram.com/miguelapv) • [LinkedIn](https://www.linkedin.com/in/miguelpimentel29/)

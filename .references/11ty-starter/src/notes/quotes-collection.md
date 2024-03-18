@@ -1,7 +1,7 @@
 ---
 title: Quotes Collection
 tags:
-    - collection
+  - collection
 compartir: true
 updated: 2023-12-15
 ---
@@ -32,10 +32,7 @@ updated: 2023-12-15
 
 ## Ashtavakra Gita
 
-> "The wise man knows the Self,
-> And he plays the game of life.
-> But the fool lives in the world
-> Like a beast of burden."
+> "The wise man knows the Self, And he plays the game of life. But the fool lives in the world Like a beast of burden."
 
 ## Big Mouth
 
@@ -123,8 +120,7 @@ updated: 2023-12-15
 >
 > I don't know. The only thing I do know… is that we have to be kind.
 >
-> Please. Be kind… especially when we don't know what's going on.
-> I know you see yourself as a fighter. Well, I see myself as one too. This is how I fight."
+> Please. Be kind… especially when we don't know what's going on. I know you see yourself as a fighter. Well, I see myself as one too. This is how I fight."
 
 ## Yuval Noah Harari
 
@@ -138,5 +134,4 @@ updated: 2023-12-15
 >
 > To put that in perspective, it takes about five milliseconds for the fastest nerve impulse to travel the length of the arm. That means that when your arm is still rotating toward the correct position, the signal to release the ball is already at your wrist.
 >
-> In terms of timing, this is like a drummer dropping a drumstick from the tenth story and hitting a drum on the ground on the correct beat."
-> From XKCD Book
+> In terms of timing, this is like a drummer dropping a drumstick from the tenth story and hitting a drum on the ground on the correct beat." From XKCD Book

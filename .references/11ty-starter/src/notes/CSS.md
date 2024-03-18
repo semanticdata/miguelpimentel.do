@@ -2,7 +2,7 @@
 title: CSS
 compartir: true
 aliases:
-    - Cascading Style Sheets
+  - Cascading Style Sheets
 updated: 2023-12-15
 ---
 
@@ -18,5 +18,4 @@ One popular CSS framework that deserves special mention is [[Bulma|Bulma]]. Why 
 
 Known for its simplicity and flexibility, [[Bulma|Bulma]] has gained significant traction among web developers. Here's a closer look at why it has become a go-to choice for many.
 
-> [!Note]
-> Check out [[Notes on CSS|Notes on CSS]] to explore the topic a little more.
+> [!Note] Check out [[Notes on CSS|Notes on CSS]] to explore the topic a little more.

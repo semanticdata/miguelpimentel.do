@@ -1,5 +1,5 @@
 ---
-title: 'Rhizome'
+title: "Rhizome"
 compartir: true
 updated: 2023-10-02
 tags: [stub]

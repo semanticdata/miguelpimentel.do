@@ -1,8 +1,8 @@
 ---
 title: JavaScript
 aliases:
-    - Javascript
-    - JS
+  - Javascript
+  - JS
 compartir: true
 updated: 2023-12-15
 ---

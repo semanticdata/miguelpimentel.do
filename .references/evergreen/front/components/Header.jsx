@@ -1,26 +1,22 @@
-import {useBase} from '../utils';
+import {useBase} from "../utils"
 
-import Config from '../../config.json';
+import Config from "../../config.json"
 
-import './Header.scss';
+import "./Header.scss"
 
 const Header = () => {
-    const base = useBase();
+  const base = useBase()
 
-    return (
-        <header id="header">
-            <h1>{Config.title}</h1>
-            {(Config.bookmarks ?? []).map((noteIndex) => (
-                <a
-                    key={noteIndex}
-                    className="noteLink"
-                    href={`${base}/${noteIndex}`}
-                >
-                    {noteIndex}
-                </a>
-            ))}
-        </header>
-    );
-};
+  return (
+    <header id="header">
+      <h1>{Config.title}</h1>
+      {(Config.bookmarks ?? []).map((noteIndex) => (
+        <a key={noteIndex} className="noteLink" href={`${base}/${noteIndex}`}>
+          {noteIndex}
+        </a>
+      ))}
+    </header>
+  )
+}
 
-export default Header;
+export default Header

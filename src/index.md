@@ -3,8 +3,8 @@ layout: home
 # title: Homepage
 title: "Hi, I'm Miguel"
 eleventyNavigation:
-    key: Home
-    order: 1
+  key: Home
+  order: 1
 ---
 
 <!-- Hi, I'm Miguel—problem solver, hobby developer, music enjoyer, and public infrastructure enthusiast based in Minnesota, US. -->

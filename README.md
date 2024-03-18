@@ -2,11 +2,7 @@
 
 > Personal website built with [Eleventy](https://www.11ty.dev/).
 
-![code size](https://img.shields.io/github/languages/code-size/semanticdata/miguelpimentel.do)
-![repository size](https://img.shields.io/github/repo-size/semanticdata/miguelpimentel.do)
-![commits](https://img.shields.io/github/commit-activity/t/semanticdata/miguelpimentel.do)
-![last commit](https://img.shields.io/github/last-commit/semanticdata/miguelpimentel.do)
-![website online check](https://img.shields.io/website/https/miguelpimentel.do.svg)
+![code size](https://img.shields.io/github/languages/code-size/semanticdata/miguelpimentel.do) ![repository size](https://img.shields.io/github/repo-size/semanticdata/miguelpimentel.do) ![commits](https://img.shields.io/github/commit-activity/t/semanticdata/miguelpimentel.do) ![last commit](https://img.shields.io/github/last-commit/semanticdata/miguelpimentel.do) ![website online check](https://img.shields.io/website/https/miguelpimentel.do.svg)
 
 ## Table of Contents
 
@@ -45,12 +41,10 @@ A saturday afternoon at the beach.
 
 ### Installation
 
-1. Clone repo
-   (`git clone "https://github.com/semanticdata/miguelpimentel.do.git"`)
+1. Clone repo (`git clone "https://github.com/semanticdata/miguelpimentel.do.git"`)
 2. Install dependencies
    1. (`pnpm install`)
-3. Run the project
-   (`pnpm start`)
+3. Run the project (`pnpm start`)
 
 ```sh
 # 1. Clone repo

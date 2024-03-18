@@ -15,22 +15,22 @@ needs to be to allow items to sit inline with each other
 Can be any acceptable flexbox alignment value.
 */
 .switcher {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--gutter, var(--space-size-1));
-    align-items: var(--switcher-vertical-alignment, flex-start);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter, var(--space-size-1));
+  align-items: var(--switcher-vertical-alignment, flex-start);
 }
 
 .switcher > * {
-    flex-grow: 1;
-    flex-basis: calc(
-        (var(--switcher-target-container-width, 40rem) - 100%) * 999
-    );
+  flex-grow: 1;
+  flex-basis: calc(
+    (var(--switcher-target-container-width, 40rem) - 100%) * 999
+  );
 }
 
 /* Max 2 items,
 so we target everything *after* those */
 .switcher > :nth-last-child(n + 3),
 .switcher > :nth-last-child(n + 3) ~ * {
-    flex-basis: 100%;
+  flex-basis: 100%;
 }

@@ -1,7 +1,7 @@
 ---
 title: Words I Like
 tags:
-    - collection
+  - collection
 compartir: true
 updated: 2023-12-27
 ---
@@ -13,8 +13,7 @@ updated: 2023-12-27
 ### Anodyne (adjective)
 
 1. Capable of soothing or eliminating pain.
-2. Not likely to offend or arouse tensions.
-   Also used as a _noun_ to describe something that soothes, calms, or comforts.
+2. Not likely to offend or arouse tensions. Also used as a _noun_ to describe something that soothes, calms, or comforts.
 
 ### Arete (noun)
 
@@ -62,7 +61,7 @@ updated: 2023-12-27
 
 ### Dogfooding (slang)
 
--   _From [Wikipedia](https://en.wikipedia.org/wiki/Eating_your_own_dog_food)_: Eating your own dog food or "_dogfooding_" is the practice of using one's own products or services.
+- _From [Wikipedia](https://en.wikipedia.org/wiki/Eating_your_own_dog_food)_: Eating your own dog food or "_dogfooding_" is the practice of using one's own products or services.
 
 ### Excoriate (verb)
 
@@ -109,7 +108,7 @@ updated: 2023-12-27
 
 1. To understand intuitively or by empathy, to establish rapport with.
 2. To empathize or communicate sympathetically (with); also, to experience enjoyment.
-3. [Neologism](https://en.wikipedia.org/wiki/Neologism 'Neologism') coined by American writer [Robert A. Heinlein](https://en.wikipedia.org/wiki/Robert_A._Heinlein 'Robert A. Heinlein') for his 1961 [science fiction](https://en.wikipedia.org/wiki/Science_fiction 'Science fiction') novel *[Stranger in a Strange Land](https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land 'Stranger in a Strange Land')*.
+3. [Neologism](https://en.wikipedia.org/wiki/Neologism "Neologism") coined by American writer [Robert A. Heinlein](https://en.wikipedia.org/wiki/Robert_A._Heinlein "Robert A. Heinlein") for his 1961 [science fiction](https://en.wikipedia.org/wiki/Science_fiction "Science fiction") novel *[Stranger in a Strange Land](https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land "Stranger in a Strange Land")*.
 
 ### Halcyon (noun)
 

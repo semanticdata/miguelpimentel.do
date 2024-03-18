@@ -1,7 +1,7 @@
 ---
 title: Static Site Generator
 tags:
-    - markdown
+  - markdown
 updated: 2023-12-12
 compartir: true
 ---
@@ -12,6 +12,6 @@ Static site generators (SSGs) are engines that use text input files (such as [[M
 
 Popular choices in SSGs include:
 
--   [Jekyll](https://jekyllrb.com/)
--   [Hugo](https://gohugo.io/)
--   [[Zola|Zola]]
+- [Jekyll](https://jekyllrb.com/)
+- [Hugo](https://gohugo.io/)
+- [[Zola|Zola]]

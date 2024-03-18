@@ -1,29 +1,29 @@
-import {useEffect, useState} from 'react';
+import {useEffect, useState} from "react"
 
-import Db from '../db/Db';
+import Db from "../db/Db"
 
-import Header from '../components/Header';
-import NoteColumnsScrollingContainer from '../components/NoteColumnsScrollingContainer';
+import Header from "../components/Header"
+import NoteColumnsScrollingContainer from "../components/NoteColumnsScrollingContainer"
 
-import './Evergreen.scss';
+import "./Evergreen.scss"
 
 const Evergreen = () => {
-    const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true)
 
-    useEffect(() => {
-        Db.loadIndex().then(() => setLoading(false));
-    }, []);
+  useEffect(() => {
+    Db.loadIndex().then(() => setLoading(false))
+  }, [])
 
-    return (
-        <>
-            {loading || (
-                <main className="NotePageRoot">
-                    <Header />
-                    <NoteColumnsScrollingContainer />
-                </main>
-            )}
-        </>
-    );
-};
+  return (
+    <>
+      {loading || (
+        <main className="NotePageRoot">
+          <Header />
+          <NoteColumnsScrollingContainer />
+        </main>
+      )}
+    </>
+  )
+}
 
-export default Evergreen;
+export default Evergreen

@@ -3,7 +3,7 @@ title: Rhizomatic Learning
 compartir: true
 updated: 2023-12-15
 tags:
-    - stub
+  - stub
 ---
 
 # Rhizomatic Learning

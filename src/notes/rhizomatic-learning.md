@@ -3,8 +3,8 @@ title: Rhizomatic Learning
 compartir: true
 
 tags:
-    - stub
-description: 'Rhizomatic learning is a variety of pedagogical practices informed by the work of Gilles Deleuze and Félix Guattari.'
+  - stub
+description: "Rhizomatic learning is a variety of pedagogical practices informed by the work of Gilles Deleuze and Félix Guattari."
 ---
 
 # Rhizomatic Learning

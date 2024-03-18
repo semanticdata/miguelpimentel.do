@@ -1,33 +1,33 @@
 {
-    "note1.1": {
-        "title": "note1.1",
-        "path": "notes\\folder1\\note1.1.md",
-        "referenced_by": ["note1"]
-    },
-    "note2.2.1": {
-        "title": "note2.2.1",
-        "path": "notes\\folder2\\folder2.2\\note2.2.1.md",
-        "referenced_by": ["note1"]
-    },
-    "note2.2.2": {
-        "title": "note2.2.2",
-        "path": "notes\\folder2\\folder2.2\\note2.2.2.md",
-        "referenced_by": ["note1"]
-    },
-    "note2.1": {
-        "title": "note2.1",
-        "path": "notes\\folder2\\note2.1.md",
-        "referenced_by": ["note1"]
-    },
-    "note3": {
-        "title": "note3",
-        "path": "notes\\others\\note3.md",
-        "referenced_by": ["note1"]
-    },
-    "about": {
-        "title": "about",
-        "path": "notes\\about.md",
-        "referenced_by": ["note1"]
-    },
-    "note1": {"title": "note1", "path": "notes\\note1.md", "referenced_by": []}
+  "note1.1": {
+    "title": "note1.1",
+    "path": "notes\\folder1\\note1.1.md",
+    "referenced_by": ["note1"]
+  },
+  "note2.2.1": {
+    "title": "note2.2.1",
+    "path": "notes\\folder2\\folder2.2\\note2.2.1.md",
+    "referenced_by": ["note1"]
+  },
+  "note2.2.2": {
+    "title": "note2.2.2",
+    "path": "notes\\folder2\\folder2.2\\note2.2.2.md",
+    "referenced_by": ["note1"]
+  },
+  "note2.1": {
+    "title": "note2.1",
+    "path": "notes\\folder2\\note2.1.md",
+    "referenced_by": ["note1"]
+  },
+  "note3": {
+    "title": "note3",
+    "path": "notes\\others\\note3.md",
+    "referenced_by": ["note1"]
+  },
+  "about": {
+    "title": "about",
+    "path": "notes\\about.md",
+    "referenced_by": ["note1"]
+  },
+  "note1": {"title": "note1", "path": "notes\\note1.md", "referenced_by": []}
 }

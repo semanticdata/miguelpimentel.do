@@ -1,6 +1,6 @@
 ---
 title: Now
-permalink: '/now.html'
+permalink: "/now.html"
 eleventyExcludeFromCollections: true
 layout: page
 ---

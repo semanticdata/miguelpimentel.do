@@ -1,7 +1,7 @@
 ---
 title: Continuous Care
 tags:
-    - digital-gardening
+  - digital-gardening
 compartir: true
 updated: 2023-12-04
 ---

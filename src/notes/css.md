@@ -2,9 +2,9 @@
 title: CSS
 compartir: true
 aliases:
-    - Cascading Style Sheets
+  - Cascading Style Sheets
 
-description: 'Cascading Style Sheets is a language used to describe the visual appearance and formatting of HTML documents.'
+description: "Cascading Style Sheets is a language used to describe the visual appearance and formatting of HTML documents."
 ---
 
 # CSS
