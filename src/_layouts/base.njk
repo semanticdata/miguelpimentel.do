@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ meta.lang }}">
+<html lang="{{ metadata.lang }}">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ meta.title }}</title>
-    <link nonce="rAnd0m123"
+    <title>{{ metadata.title }}</title>
+    <link
+      nonce="rAnd0m123"
       rel="preload"
       href="/assets/fonts/dm-sans/dm-sans-v11-latin-regular-subset.woff2"
       as="font"
@@ -38,7 +39,11 @@
         }
       })()
     </script>
-    <link nonce="rAnd0m123" rel="stylesheet" href="{{ '/assets/css/main.scss' | url }}" />
+    <link
+      nonce="rAnd0m123"
+      rel="stylesheet"
+      href="{{ '/assets/css/main.scss' | url }}"
+    />
   </head>
   <body>
     <a href="#main" class="skiplink">Skip to main content</a>

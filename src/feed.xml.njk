@@ -14,27 +14,37 @@
   }
 }
 ---
+
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="{{ '/feed.xsl' | url }}" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ metadata.url }}">
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.subtitle }}</subtitle>
-  <link nonce="rAnd0m123" href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self"/>
-  <link nonce="rAnd0m123" href="{{ metadata.url }}"/>
-  <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <link
+    nonce="rAnd0m123"
+    href="{{ permalink | absoluteUrl(metadata.url) }}"
+    rel="self"
+  />
+  <link nonce="rAnd0m123" href="{{ metadata.url }}" />
+  <updated
+    >{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339
+    }}</updated
+  >
   <id>{{ metadata.url }}</id>
   <author>
     <name>{{ metadata.author.name }}</name>
     <email>{{ metadata.author.email }}</email>
   </author>
-  {%- for post in collections.posts | reverse %}
-  {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
+  {%- for post in collections.posts | reverse %} {%- set absolutePostUrl =
+  post.url | absoluteUrl(metadata.url) %}
   <entry>
     <title>{{ post.data.title }}</title>
-    <link nonce="rAnd0m123" href="{{ absolutePostUrl }}"/>
+    <link nonce="rAnd0m123" href="{{ absolutePostUrl }}" />
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content xml:lang="{{ metadata.language }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    <content xml:lang="{{ metadata.language }}" type="html"
+      >{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content
+    >
   </entry>
   {%- endfor %}
 </feed>

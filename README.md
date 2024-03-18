@@ -1,19 +1,20 @@
 # 📚 MiguelPimentel.do 🦝
 
-> Personal website built with [Eleventy](https://www.11ty.dev/).
+> A saturday afternoon at the beach.
 
 ![code size](https://img.shields.io/github/languages/code-size/semanticdata/miguelpimentel.do) ![repository size](https://img.shields.io/github/repo-size/semanticdata/miguelpimentel.do) ![commits](https://img.shields.io/github/commit-activity/t/semanticdata/miguelpimentel.do) ![last commit](https://img.shields.io/github/last-commit/semanticdata/miguelpimentel.do) ![website online check](https://img.shields.io/website/https/miguelpimentel.do.svg)
+
+Personal website built with [Eleventy](https://www.11ty.dev/).
 
 ## Table of Contents
 
 - [📚 MiguelPimentel.do 🦝](#-miguelpimenteldo-)
   - [Table of Contents](#table-of-contents)
-  - [Description](#description)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
+  - [📄 Description](#-description)
+  - [🚀 Getting Started](#-getting-started)
+    - [☑ Prerequisites](#-prerequisites)
+    - [⚙ Installation](#-installation)
   - [✨ Features](#-features)
-  - [⛑ Useful Commands](#-useful-commands)
   - [🗺 Roadmap](#-roadmap)
     - [Formatting and Linting](#formatting-and-linting)
     - [Styles](#styles)
@@ -23,28 +24,23 @@
     - [Markdown](#markdown)
     - [Others](#others)
   - [Changelog](#changelog)
+  - [⛑ Useful Commands](#-useful-commands)
   - [🎨 Customization](#-customization)
-    - [Stylesheets](#stylesheets)
   - [🧬 Quirks](#-quirks)
-  - [❤ Acknowledgements and Inspirations](#-acknowledgements-and-inspirations)
+  - [❤ Acknowledgements](#-acknowledgements)
   - [© License](#-license)
 
-## Description
+## 📄 Description
 
-A saturday afternoon at the beach.
+This is my personal website currently built with [Eleventy](https://www.11ty.dev/).
 
-## Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
+### ☑ Prerequisites
 
-- [Node 18](https://github.com/nodejs/node)
+- [Node.js 18](https://github.com/nodejs/node)
 
-### Installation
-
-1. Clone repo (`git clone "https://github.com/semanticdata/miguelpimentel.do.git"`)
-2. Install dependencies
-   1. (`pnpm install`)
-3. Run the project (`pnpm start`)
+### ⚙ Installation
 
 ```sh
 # 1. Clone repo
@@ -69,6 +65,81 @@ pnpm start
 - Basic dark mode support (using `prefers-color-scheme` and CSS Custom Properties)
 - Polyfill for [focus-visible](https://matthiasott.com/notes/focus-visible-is-here)
 
+## 🗺 Roadmap
+
+### Formatting and Linting
+
+- [x] [Prettier](https://prettier.io/)
+- [ ] [ESLint](https://github.com/eslint/eslint)
+
+### Styles
+
+- [x] [Sass](https://sass-lang.com/) integration
+- [ ] Partial CSS/SCSS refactor
+- [ ] Extend fluid typography based on [Utopia](https://utopia.fyi)
+- [ ] Extend basic dark mode support
+
+### Blog section
+
+- [x] Blog section layout
+- [x] Blog posts layout
+- [x] RSS Feed (w/ style via XSL)
+- [ ] Tags (including Tag page)
+- [ ] Pagination
+
+### Notes section
+
+- [x] Note section layout
+- [x] Individual notes layout
+- [x] Wikilinks ([Obsidian](https://obsidian.md/) compatible)
+- [x] Backlinks
+- [x] Floating backlinks previews
+- [ ] Floating internal links previews
+
+### New page layouts
+
+- [x] About page
+- [x] Journal page
+- [x] Uses page
+- [x] Now page
+- [ ] Meta page
+
+### Markdown
+
+- [x] Syntax highlighting
+- [ ] Admonition-style callouts
+- [ ] Floating internal link previews
+
+### Others
+
+- [x] Robots.txt
+- [x] Sitemap
+- [ ] Dark theme
+- [ ] Color theme toggle
+- [ ] Fluid typography (with [Utopia](https://utopia.fyi))
+- [ ] Full text search
+- [ ] Table of Contents
+- [ ] Graph view
+- [ ] Notes explorer (ala Quartz)
+- [ ] Recent notes (as highlight section)
+- [ ] TailwindCSS
+- [ ] DaisyUI
+- [ ] Content Security Policy (CSP)
+- [ ] Fix incompatibility with [title-case](https://www.npmjs.com/package/title-case) v3. Version 4 breaks the site.
+
+## Changelog
+
+We use [Semantic Versioning](https://semver.org/) for releases.
+
+- 0.1.0 (example)
+  - Initial release
+  - CHANGE:
+    - Rename
+  - FIX:
+    - Crash when calling `pleasedonotcrash()`.
+- 0.0.1 (example)
+  - Work in progress.
+
 ## ⛑ Useful Commands
 
 ```sh
@@ -88,80 +159,7 @@ pnpm run check
 pnpm run format
 ```
 
-## 🗺 Roadmap
-
-### Formatting and Linting
-
-- [x] [Prettier](https://prettier.io/)
-- [ ] ESLint
-
-### Styles
-
-- [x] Sass integration
-- [ ] Partial CSS/SCSS refactor
-- [ ] Extend fluid typography based on [Utopia](https://utopia.fyi)
-- [ ] Extend basic dark mode support
-
-### Blog section
-
-- [x] Blog layout
-- [x] Posts layout
-- [x] RSS Feed (w/ style via XSL)
-- [ ] Tags
-
-### Notes section
-
-- [x] Note section layout
-- [x] Individual notes layout
-- [x] Wikilinks ([Obsidian](https://obsidian.md/) compatible)
-- [x] Backlinks
-- [x] Floating backlinks previews
-
-### New page layouts
-
-- [x] About page
-- [x] Journal page
-- [x] Uses page
-- [x] Now page
-- [ ] Meta page
-
-### Markdown
-
-- [ ] Syntax highlighting
-- [ ] Admonition-style callouts
-- [ ] Floating link previews
-
-### Others
-
-- [ ] Robots.txt
-- [ ] Dark theme
-- [ ] Color theme toggle
-- [ ] Fluid typography (with [Utopia](https://utpoia.fyi))
-- [ ] Full text search
-- [ ] Table of Contents
-- [ ] Sitemap
-- [ ] Graph view
-- [ ] Notes explorer (ala Quartz)
-- [ ] Recent notes (as highlight section)
-- [ ] TailwindCSS
-- [ ] DaisyUI
-
-## Changelog
-
-We use [Semantic Versioning](https://semver.org/) for releases.
-
-- 0.1.0 (example)
-  - Initial release
-  - CHANGE:
-    - Rename
-  - FIX:
-    - Crash when calling `pleasedonotcrash()`.
-- 0.0.1
-  - Work in progress.
-
 ## 🎨 Customization
-
-### Stylesheets
 
 Add your custom CSS code within `/src/assets/css/_custom.scss`.
 
@@ -169,20 +167,16 @@ Add your custom CSS code within `/src/assets/css/_custom.scss`.
 
 Only compatible with `"title-case": "^3.0.3",` as `^4.0.0` breaks the site. Will look into it at some point.
 
-## ❤ Acknowledgements and Inspirations
+## ❤ Acknowledgements
 
-This project is made possible by these amazing people and projects:
+This site is based on [Eleventy Plus Vite](https://github.com/matthiasott/eleventy-plus-vite). It would not be possible without these amazing people and their projects:
 
-- Andy Bell – [any-bell.co.uk](https://andy-bell.co.uk/)
-- Binyamin Aron Green – [Eleventy Garden](https://github.com/binyamin/eleventy-garden)
-- Lene Saile – [lenesaile.com](https://www.lenesaile.com/en/)
-- Jacky Zhao – [Quartz](https://github.com/jackyzha0/quartz)
-- Matthias Ott – [matthiasott.com](https://matthiasott.com) – [Eleventy Plus Vite](https://github.com/matthiasott/eleventy-plus-vite)
-- Max Böck — [Eleventastic](https://github.com/maxboeck/eleventastic)
-- Miriam Suzanne – [miriamsuzanne.com](https://www.miriamsuzanne.com)
-- Scott Evans – [elva](https://github.com/scottsweb/elva)
-- Stephanie Eckles – [11ty Netlify Jumpstart](https://github.com/5t3ph/11ty-netlify-jumpstart)
-- Zach Leatherman – [zachleat.com](https://github.com/zachleat/zachleat.com)
+- [Andy Bell](https://andy-bell.co.uk)
+- [Binyamin Aron Green](https://github.com/binyamin)
+- [Lene Saile](https://www.lenesaile.com/en)
+- [Jacky Zhao](https://github.com/jackyzha0)
+- [Matthias Ott](https://matthiasott.com)
+- [Zach Leatherman](https://github.com/zachleat/zachleat.com)
 
 ## © License
 

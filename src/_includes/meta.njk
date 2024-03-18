@@ -1,52 +1,60 @@
-{%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(meta.url) }}{%-
+{%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(metadata.url) }}{%-
 endset -%} {# General #}
-<meta name="description" content="{{ description or meta.description }}" />
+<meta name="description" content="{{ description or metadata.description }}" />
 <link nonce="rAnd0m123" rel="canonical" href="{{ absolutePageUrl }}" />
-<meta name="author" content="{{ meta.author }}" />
+<meta name="author" content="{{ metadata.author }}" />
 <meta name="generator" content="{{ eleventy.generator }}" />
 {# Open Graph #}
-<meta property="og:site_name" content="{{ meta.title }}" />
-<meta property="og:title" content="{{ title or meta.title }}" />
+<meta property="og:site_name" content="{{ metadata.title }}" />
+<meta property="og:title" content="{{ title or metadata.title }}" />
 <meta
   property="og:description"
-  content="{{ description or meta.description }}"
+  content="{{ description or metadata.description }}"
 />
 <meta property="og:url" content="{{ absolutePageUrl }}" />
-<meta property="og:locale" content="{{ meta.locale }}" />
+<meta property="og:locale" content="{{ metadata.locale }}" />
 <meta
   name="twitter:card"
   content="{% if image -%}summary_large_image{% else %}summary{% endif %}"
 />
 {%- if image -%}
-<meta property="og:image" content="{{ image | url | absoluteUrl(meta.url) }}" />
+<meta
+  property="og:image"
+  content="{{ image | url | absoluteUrl(metadata.url) }}"
+/>
 {%- endif -%} {# Favicon #}
-<link nonce="rAnd0m123"
+<link
+  nonce="rAnd0m123"
   rel="apple-touch-icon"
   sizes="180x180"
   href="{{ '/assets/images/favicon/apple-touch-icon.png' | url }}"
 />
-<link nonce="rAnd0m123"
+<link
+  nonce="rAnd0m123"
   rel="icon"
   type="image/png"
   href="{{ '/assets/images/favicon/favicon-32x32.png' | url }}"
   sizes="32x32"
 />
-<link nonce="rAnd0m123"
+<link
+  nonce="rAnd0m123"
   rel="icon"
   type="image/png"
   href="{{ '/assets/images/favicon/favicon-16x16.png' | url }}"
   sizes="16x16"
 />
-<link nonce="rAnd0m123"
+<link
+  nonce="rAnd0m123"
   rel="shortcut icon"
   href="{{ '/assets/images/favicon/favicon.ico' | url }}"
 />
 <link nonce="rAnd0m123" rel="manifest" href="{{ '/site.webmanifest' | url }}" />
 <meta name="theme-color" content="#7134ff" />
 {# RSS Feed #}
-<link nonce="rAnd0m123"
+<link
+  nonce="rAnd0m123"
   type="application/atom+xml"
   rel="alternate"
-  href="{{ meta.url }}/feed.xml"
-  title="{{ meta.title }}"
+  href="{{ metadata.url }}/feed.xml"
+  title="{{ metadata.title }}"
 />
