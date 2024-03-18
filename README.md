@@ -23,11 +23,11 @@ Personal website built with [Eleventy](https://www.11ty.dev/).
     - [New page layouts](#new-page-layouts)
     - [Markdown](#markdown)
     - [Others](#others)
-  - [Changelog](#changelog)
-  - [⛑ Useful Commands](#-useful-commands)
   - [🎨 Customization](#-customization)
   - [🧬 Quirks](#-quirks)
+  - [⛑ Useful Commands](#-useful-commands)
   - [❤ Acknowledgements](#-acknowledgements)
+  - [Changelog](#changelog)
   - [© License](#-license)
 
 ## 📄 Description
@@ -127,18 +127,13 @@ pnpm start
 - [ ] Content Security Policy (CSP)
 - [ ] Fix incompatibility with [title-case](https://www.npmjs.com/package/title-case) v3. Version 4 breaks the site.
 
-## Changelog
+## 🎨 Customization
 
-We use [Semantic Versioning](https://semver.org/) for releases.
+Add your custom CSS code within `/src/assets/css/_custom.scss`.
 
-- 0.1.0 (example)
-  - Initial release
-  - CHANGE:
-    - Rename
-  - FIX:
-    - Crash when calling `pleasedonotcrash()`.
-- 0.0.1 (example)
-  - Work in progress.
+## 🧬 Quirks
+
+Only compatible with `"title-case": "^3.0.3",` as `^4.0.0` breaks the site. Will look into it at some point.
 
 ## ⛑ Useful Commands
 
@@ -159,14 +154,6 @@ pnpm run check
 pnpm run format
 ```
 
-## 🎨 Customization
-
-Add your custom CSS code within `/src/assets/css/_custom.scss`.
-
-## 🧬 Quirks
-
-Only compatible with `"title-case": "^3.0.3",` as `^4.0.0` breaks the site. Will look into it at some point.
-
 ## ❤ Acknowledgements
 
 This site is based on [Eleventy Plus Vite](https://github.com/matthiasott/eleventy-plus-vite). It would not be possible without these amazing people and their projects:
@@ -177,6 +164,19 @@ This site is based on [Eleventy Plus Vite](https://github.com/matthiasott/eleven
 - [Jacky Zhao](https://github.com/jackyzha0)
 - [Matthias Ott](https://matthiasott.com)
 - [Zach Leatherman](https://github.com/zachleat/zachleat.com)
+
+## Changelog
+
+We use [Semantic Versioning](https://semver.org/) for releases.
+
+- 0.1.0 (example)
+  - Initial release
+  - CHANGE:
+    - Rename
+  - FIX:
+    - Crash when calling `pleasedonotcrash()`.
+- 0.0.1 (example)
+  - Work in progress.
 
 ## © License
 
