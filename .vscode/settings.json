@@ -1,8 +1,7 @@
 {
   "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
-  // "editor.lineHeight": 24,
-  "workbench.colorTheme": "Default Dark Modern",
+  // "workbench.colorTheme": "Default Dark Modern",
   "[markdown]": {
     "editor.quickSuggestions": {
       "comments": "on",
