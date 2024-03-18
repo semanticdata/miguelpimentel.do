@@ -1,4 +1,5 @@
-/* -----------------------------------------------------------------------------
+/*
+-----------------------------------------------------------------------------
   This is the place for shameful CSS solutions. 
   (Also see: https://csswizardry.com/2013/04/shame-css/)
   
@@ -10,23 +11,19 @@
    4. How might you fix it properly, given more time?
  
   You can also sue this as a good place to introduce custom CSS before organizing.
-  ----------------------------------------------------------------------------- 
+----------------------------------------------------------------------------- 
 */
 
-@import url(https://fonts.googleapis.com/css?family=Inter&display=swap);
+// @import url(https://fonts.googleapis.com/css?family=Inter&display=swap);
 // @import url(https://fonts.googleapis.com/css?family=Bitter&display=swap);
-// @import url(https://fonts.googleapis.com/css?family=Oswald&display=swap);
 
-// body {
-//   font-family: Inter !important;
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   font-family: Bitter;
+//   font-family: Inter;
+//   font-weight: 400;
 // }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Inter;
-  font-weight: 400;
-}
