@@ -1,8 +1,8 @@
 a {
   color: var(--focusColor);
-  text-decoration: none;
+  text-decoration: underline;
   &:hover {
-    text-decoration: underline;
+    color: var(--secondaryColor);
   }
   svg {
     display: inline-block;
