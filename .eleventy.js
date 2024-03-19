@@ -2,6 +2,7 @@ const EleventyVitePlugin = require("@11ty/eleventy-plugin-vite")
 const EleventyPluginNavigation = require("@11ty/eleventy-navigation")
 const EleventyPluginRss = require("@11ty/eleventy-plugin-rss")
 const EleventyPluginSyntaxhighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
+const inclusiveLangPlugin = require("@11ty/eleventy-plugin-inclusive-language")
 
 const markdownIt = require("markdown-it")
 const markdownItAnchor = require("markdown-it-anchor")
@@ -24,6 +25,7 @@ module.exports = function (eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(EleventyPluginNavigation)
   eleventyConfig.addPlugin(EleventyPluginRss)
+  eleventyConfig.addPlugin(inclusiveLangPlugin)
   eleventyConfig.addPlugin(EleventyPluginSyntaxhighlight, {
     preAttributes: {tabindex: 0},
   })
