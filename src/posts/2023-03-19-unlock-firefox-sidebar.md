@@ -15,23 +15,34 @@ This post will guide you through unlocking the sidebar width in Firefox. It will
 
 1. In a new tab, navigate to _about:support_.
 2. Under _Application Basics_, find _Profile Folder_.
-3. Locate and click the _Open Folder_ button next to it.  
-   It will be next to an address similar to:  
-   `%appdata%\Mozilla\Firefox\Profiles\{profile-id}.default`[^1]
-4. Inside your Firefox Profile Folder, create a new folder named `chrome`.
-5. Inside the newly created chrome folder, create a new file named `userChrome.css`.
+3. Locate and click the _Open Folder_ button next to it. It will be next to an address similar to:[^1]
+
+```sh
+%appdata%\Mozilla\Firefox\Profiles\{profile-id}.default
+```
+
+4. Inside your _Firefox Profile Folder_, create a new folder named `chrome`.
+5. Inside the newly created `chrome` folder, create a new file named `userChrome.css`.
 6. Copy the following code[^2], paste as content and save:
 
 ```css
-/* You may change the units to any length you find more convenient. */
 #sidebar-box {
   max-width: 40% !important;
   min-width: 300px !important;
 }
 ```
 
-7. Finally, in a new tab, navigate to `about:config`, search for `toolkit.legacyUserProfileCustomizations.stylesheets`, and change its value to `true`.
-8. Restart Firefox and test it out!
+7. You may change the units to any length you find more convenient.
 
-[^1]: 1: The string `%appdata%` is equivalent to `C:\Users\{username}\AppData\Roaming` in Windows.
-[^2]: 2: After Firefox 107, id `#sidebar` was deprecated, and id `#sidebar-box` was introduced as a replacement.
+8. Finally, in a new tab, navigate to _about:config_, and search for:
+
+```sh
+toolkit.legacyUserProfileCustomizations.stylesheets
+```
+
+9. Change its value to `true`.
+
+10. Restart Firefox and test it out!
+
+[^1]: 1: In windows, `%appdata%` is equivalent to `C:\Users\{username}\AppData\Roaming`.
+[^2]: 2: After Firefox 107, `#sidebar` was deprecated, and `#sidebar-box` was introduced as a replacement.
