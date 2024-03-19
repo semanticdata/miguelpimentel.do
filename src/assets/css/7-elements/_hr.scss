@@ -7,6 +7,11 @@ hr {
   color: #333;
   text-align: center;
 }
+
+hr.backlinks-hr {
+  max-width: var(--container-max-width);
+}
+
 hr:after {
   content: "§";
   display: inline-block;

@@ -8,6 +8,10 @@ h6 {
   margin-bottom: 1rem;
 }
 
+.header-anchor {
+  display: none;
+}
+
 // h1.note-title,
 // h1.home-title,
 // h1.page-title {
@@ -17,7 +21,3 @@ h6 {
 //         text-decoration: underline 0.15rem rgba(0, 0, 0, 1);
 //     }
 // }
-
-.header-anchor {
-  display: none;
-}

@@ -1,12 +1,10 @@
-const markdownIt = require("markdown-it")
-const markdownItAnchor = require("markdown-it-anchor")
-const markdownItFootnote = require("markdown-it-footnote")
-
 const EleventyVitePlugin = require("@11ty/eleventy-plugin-vite")
 const EleventyPluginNavigation = require("@11ty/eleventy-navigation")
 const EleventyPluginRss = require("@11ty/eleventy-plugin-rss")
 const EleventyPluginSyntaxhighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
 
+const markdownIt = require("markdown-it")
+const markdownItAnchor = require("markdown-it-anchor")
 const rollupPluginCritical = require("rollup-plugin-critical").default
 
 const filters = require("./utils/filters.js")
@@ -99,6 +97,9 @@ module.exports = function (eleventyConfig) {
   Object.keys(filters).forEach((filterName) => {
     eleventyConfig.addFilter(filterName, filters[filterName])
   })
+  eleventyConfig.addFilter("markdownify", (string) => {
+    return md.render(string)
+  })
 
   // Transforms
   Object.keys(transforms).forEach((transformName) => {
@@ -141,39 +142,36 @@ module.exports = function (eleventyConfig) {
     })
   })
 
-  eleventyConfig.setLibrary("md", markdownIt(markdownItOptions))
-
-  const md = markdownIt(markdownItOptions).use(function (md) {
-    // Recognize Mediawiki links ([[text]])
-    md.linkify.add("[[", {
-      validate: /^\s?([^\[\]\|\n\r]+)(\|[^\[\]\|\n\r]+)?\s?\]\]/,
-      normalize: (match) => {
-        const parts = match.raw.slice(2, -2).split("|")
-        parts[0] = parts[0].replace(/.(md|markdown)\s?$/i, "")
-        match.text = (parts[1] || parts[0]).trim()
-        match.url = `/notes/${parts[0].trim()}/`
-      },
+  const md = markdownIt(markdownItOptions)
+    .use(require("markdown-it-footnote"))
+    .use(function (md) {
+      // Recognize Mediawiki links ([[text]])
+      md.linkify.add("[[", {
+        validate: /^\s?([^\[\]\|\n\r]+)(\|[^\[\]\|\n\r]+)?\s?\]\]/,
+        normalize: (match) => {
+          const parts = match.raw.slice(2, -2).split("|")
+          parts[0] = parts[0].replace(/.(md|markdown)\s?$/i, "")
+          match.text = (parts[1] || parts[0]).trim()
+          match.url = `/notes/${parts[0].trim()}/`
+        },
+      })
     })
-  })
+
+  // eleventyConfig.setLibrary("md", markdownIt(markdownItOptions))
+  eleventyConfig.setLibrary("md", md)
 
   // Customize Markdown library settings:
-  eleventyConfig.amendLibrary("md", (mdLib) => {
-    mdLib.use(markdownItAnchor, {
+  eleventyConfig.amendLibrary("md", (md) => {
+    md.use(markdownItAnchor, {
       permalink: markdownItAnchor.permalink.ariaHidden({
         placement: "before",
         class: "header-anchor",
         symbol: "#",
         ariaHidden: true,
       }),
-      level: [1, 2, 3, 4],
+      level: [1, 2, 3],
       slugify: eleventyConfig.getFilter("slugify"),
     })
-    mdLib.use(require("markdown-it-footnote"))
-  })
-
-  // Filters
-  eleventyConfig.addFilter("markdownify", (string) => {
-    return md.render(string)
   })
 
   // The End
