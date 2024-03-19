@@ -1,9 +1,5 @@
 hr {
-  width: calc(var(--container-max-width) + 3rem);
-  // height: 0.2rem;
-}
-
-hr {
+  max-width: var(--container-max-width);
   overflow: visible; /* For IE */
   padding: 0;
   border: none;
@@ -16,7 +12,6 @@ hr:after {
   display: inline-block;
   position: relative;
   top: -0.7em;
-  // font-size: 1.5em;
   padding: 0 0.25em;
   background: var(--backgroundColor);
 }
