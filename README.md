@@ -91,6 +91,11 @@ pnpm start
 
 **Sections and Pages**
 
+- [x] About page
+- [x] Journal page
+- [x] Uses page
+- [x] Now page
+- [x] Meta page
 - [x] Blog section layout
 - [x] Blog posts layout
 - [x] RSS Feed (w/ style via XSL)
@@ -100,11 +105,6 @@ pnpm start
 - [ ] Pagination
 - [ ] Notes explorer (ala Quartz)
 - [ ] Recent notes (as highlight section)
-- [x] About page
-- [x] Journal page
-- [x] Uses page
-- [x] Now page
-- [x] Meta page
 
 **Markdown**
 

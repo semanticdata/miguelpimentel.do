@@ -1,3 +1,7 @@
+/* Global.css */
+@import "custom-props.css";
+@import "reset.css";
+
 /* Blocks */
 /* box.css */
 .box {
@@ -156,10 +160,6 @@ A common wrapper/container
   padding-inline: var(--space-size-1);
   position: relative;
 }
-
-/* Global.css */
-@import "custom-props.css";
-@import "reset.css";
 
 /* Global styles */
 body {
