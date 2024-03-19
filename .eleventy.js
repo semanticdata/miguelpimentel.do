@@ -112,15 +112,6 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`)
 
-  // Customize Markdown library and settings:
-  let markdownLibrary = markdownIt({
-    html: true,
-    breaks: true,
-    linkify: true,
-  }).use(markdownItAnchor, {
-    slugify: eleventyConfig.getFilter("slug"),
-  })
-
   // Layouts
   eleventyConfig.addLayoutAlias("base", "base.njk")
   eleventyConfig.addLayoutAlias("home", "home.njk")
@@ -134,9 +125,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets")
   eleventyConfig.addPassthroughCopy("public")
 
-  // Others
-  const markdownItOptions = {
+  // Customize Markdown library and settings:
+  let markdownItOptions = {
     html: true,
+    breaks: true,
     linkify: true,
     typographer: true,
   }
@@ -155,7 +147,7 @@ module.exports = function (eleventyConfig) {
   })
 
   // eleventyConfig.setLibrary('md', markdownLibrary);
-  eleventyConfig.setLibrary("md", md)
+  eleventyConfig.setLibrary("md", markdownIt(markdownItOptions))
 
   // Filters
 
