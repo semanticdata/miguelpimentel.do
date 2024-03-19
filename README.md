@@ -16,12 +16,6 @@ Personal website built with [Eleventy](https://www.11ty.dev/) and [Vite](https:/
     - [⚙ Installation](#-installation)
   - [✨ Features](#-features)
   - [🗺 Roadmap](#-roadmap)
-    - [Styles](#styles)
-    - [Sections](#sections)
-    - [New pages](#new-pages)
-    - [Markdown](#markdown)
-    - [Sitewide](#sitewide)
-    - [Under Consideration](#under-consideration)
   - [🎨 Customization](#-customization)
   - [🧬 Quirks](#-quirks)
   - [⛑ Useful Commands](#-useful-commands)
@@ -64,19 +58,6 @@ pnpm install
 pnpm start
 ```
 
-or, all of the above:
-
-```sh
-# 1. Clone repo
-git clone https://github.com/semanticdata/miguelpimentel.do.git
-
-# 2. Install dependencies
-pnpm install
-
-# 3. Run the project locally
-pnpm start
-```
-
 ## ✨ Features
 
 - [Vite](https://vitejs.dev) as Middleware in Eleventy Dev Server (uses [eleventy-plugin-vite](https://github.com/11ty/eleventy-plugin-vite/))
@@ -100,7 +81,7 @@ pnpm start
 - [ ] Content Security Policy (CSP)
 - [ ] Fix incompatibility with [title-case](https://www.npmjs.com/package/title-case) v3. Version 4 breaks the site.
 
-### Styles
+**Styles**
 
 - [x] [Sass](https://sass-lang.com/) integration
 - [ ] Partial CSS/SCSS refactor
@@ -108,7 +89,7 @@ pnpm start
 - [ ] Extend basic dark mode support
 - [ ] Color theme toggle
 
-### Sections
+**Sections and Pages**
 
 - [x] Blog section layout
 - [x] Blog posts layout
@@ -119,16 +100,13 @@ pnpm start
 - [ ] Pagination
 - [ ] Notes explorer (ala Quartz)
 - [ ] Recent notes (as highlight section)
-
-### New pages
-
 - [x] About page
 - [x] Journal page
 - [x] Uses page
 - [x] Now page
 - [x] Meta page
 
-### Markdown
+**Markdown**
 
 - [x] Syntax highlighting
 - [x] Wikilinks ([Obsidian](https://obsidian.md/) compatible)
@@ -138,9 +116,7 @@ pnpm start
 - [ ] Admonition-style callouts
 - [ ] Table of Contents
 
-### Sitewide
-
-### Under Consideration
+**Under Consideration**
 
 - [ ] TailwindCSS
 - [ ] DaisyUI
