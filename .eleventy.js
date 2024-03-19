@@ -1,11 +1,11 @@
 const markdownIt = require("markdown-it")
 const markdownItAnchor = require("markdown-it-anchor")
+const markdownItFootnote = require("markdown-it-footnote")
 
 const EleventyVitePlugin = require("@11ty/eleventy-plugin-vite")
 const EleventyPluginNavigation = require("@11ty/eleventy-navigation")
 const EleventyPluginRss = require("@11ty/eleventy-plugin-rss")
 const EleventyPluginSyntaxhighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
 
 const rollupPluginCritical = require("rollup-plugin-critical").default
 
@@ -17,9 +17,7 @@ const {resolve} = require("path")
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setServerPassthroughCopyBehavior("copy")
-  eleventyConfig.addPassthroughCopy("public")
   eleventyConfig.setQuietMode(true)
-  eleventyConfig.addPlugin(syntaxHighlight)
 
   // Watch targets
   eleventyConfig.addWatchTarget("./src/")
@@ -122,6 +120,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("posts", "posts.njk")
 
   // Copy/pass-through files
+  eleventyConfig.addPassthroughCopy("public")
   eleventyConfig.addPassthroughCopy("src/assets")
   eleventyConfig.addPassthroughCopy("public")
 
@@ -132,6 +131,15 @@ module.exports = function (eleventyConfig) {
     linkify: true,
     typographer: true,
   }
+
+  // Add pages collection
+  eleventyConfig.addCollection("pages", function (collections) {
+    return collections.getFilteredByTag("page").sort(function (a, b) {
+      return a.data.order - b.data.order
+    })
+  })
+
+  eleventyConfig.setLibrary("md", markdownIt(markdownItOptions))
 
   const md = markdownIt(markdownItOptions).use(function (md) {
     // Recognize Mediawiki links ([[text]])
@@ -146,11 +154,10 @@ module.exports = function (eleventyConfig) {
     })
   })
 
-  // eleventyConfig.setLibrary('md', markdownLibrary);
-  eleventyConfig.setLibrary("md", markdownIt(markdownItOptions))
+  md.use(require("markdown-it-anchor"))
+  md.use(require("markdown-it-footnote"))
 
   // Filters
-
   eleventyConfig.addFilter("markdownify", (string) => {
     return md.render(string)
   })

@@ -16,11 +16,11 @@ This post will guide you through unlocking the sidebar width in Firefox. It will
 1. In a new tab, navigate to _about:support_.
 2. Under _Application Basics_, find _Profile Folder_.
 3. Locate and click the _Open Folder_ button next to it.  
-It will be next to an address similar to:  
-`%appdata%\Mozilla\Firefox\Profiles\{profile-id}.default`[^1]
+   It will be next to an address similar to:  
+   `%appdata%\Mozilla\Firefox\Profiles\{profile-id}.default`[^1]
 4. Inside your Firefox Profile Folder, create a new folder named `chrome`.
 5. Inside the newly created chrome folder, create a new file named `userChrome.css`.
-7. Copy the following code[^2], paste as content and save:
+6. Copy the following code[^2], paste as content and save:
 
 ```css
 /* You may change the units to any length you find more convenient. */
@@ -35,5 +35,5 @@ It will be next to an address similar to:
 
 ---
 
-[^1]: `%appdata%` is equivalent to `C:\Users\{username}\AppData\Roaming`.  
+[^1]: `%appdata%` is equivalent to `C:\Users\{username}\AppData\Roaming`.
 [^2]: After Firefox 107, `#sidebar` was deprecated, and `#sidebar-box` was introduced.
