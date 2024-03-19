@@ -4,7 +4,7 @@ description: How the site was made.
 permalink: /meta/
 ---
 
-> **MiguelPimentel.do** is created using [Eleventy](https://www.11ty.dev/).
+**MiguelPimentel.do** is created using [Eleventy](https://www.11ty.dev/) and [Vite](https://vitejs.dev/).
 
 ## Background
 
