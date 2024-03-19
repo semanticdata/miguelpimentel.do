@@ -14,6 +14,7 @@ pre {
   overflow: auto;
   outline: 0.15rem solid rgba(0, 0, 0, 0.75);
   line-height: 1 !important;
+  max-width: var(--fluid-max-width);
 }
 
 pre[class*="language-"] {
