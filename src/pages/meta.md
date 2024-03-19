@@ -1,7 +1,7 @@
 ---
 title: Meta (how this site was made)
 description: How the site was made.
-permalink: /about/
+permalink: /meta/
 ---
 
 > **MiguelPimentel.do** is created using [Eleventy](https://www.11ty.dev/).
