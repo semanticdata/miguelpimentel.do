@@ -26,7 +26,9 @@ module.exports = function (eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(EleventyPluginNavigation)
   eleventyConfig.addPlugin(EleventyPluginRss)
-  eleventyConfig.addPlugin(EleventyPluginSyntaxhighlight)
+  eleventyConfig.addPlugin(EleventyPluginSyntaxhighlight, {
+    preAttributes: {tabindex: 0},
+  })
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     tempFolderName: ".11ty-vite", // Default name of the temp folder
 
@@ -154,8 +156,20 @@ module.exports = function (eleventyConfig) {
     })
   })
 
-  md.use(require("markdown-it-anchor"))
-  md.use(require("markdown-it-footnote"))
+  // Customize Markdown library settings:
+  eleventyConfig.amendLibrary("md", (mdLib) => {
+    mdLib.use(markdownItAnchor, {
+      permalink: markdownItAnchor.permalink.ariaHidden({
+        placement: "before",
+        class: "header-anchor",
+        symbol: "#",
+        ariaHidden: true,
+      }),
+      level: [1, 2, 3, 4],
+      slugify: eleventyConfig.getFilter("slugify"),
+    })
+    mdLib.use(require("markdown-it-footnote"))
+  })
 
   // Filters
   eleventyConfig.addFilter("markdownify", (string) => {

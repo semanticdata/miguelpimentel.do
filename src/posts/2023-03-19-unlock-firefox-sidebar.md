@@ -33,7 +33,5 @@ This post will guide you through unlocking the sidebar width in Firefox. It will
 7. Finally, in a new tab, navigate to `about:config`, search for `toolkit.legacyUserProfileCustomizations.stylesheets`, and change its value to `true`.
 8. Restart Firefox and test it out!
 
----
-
-[^1]: `%appdata%` is equivalent to `C:\Users\{username}\AppData\Roaming`.
-[^2]: After Firefox 107, `#sidebar` was deprecated, and `#sidebar-box` was introduced.
+[^1]: 1: The string `%appdata%` is equivalent to `C:\Users\{username}\AppData\Roaming` in Windows.
+[^2]: 2: After Firefox 107, id `#sidebar` was deprecated, and id `#sidebar-box` was introduced as a replacement.
