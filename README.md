@@ -16,13 +16,12 @@ Personal website built with [Eleventy](https://www.11ty.dev/) and [Vite](https:/
     - [⚙ Installation](#-installation)
   - [✨ Features](#-features)
   - [🗺 Roadmap](#-roadmap)
-    - [Formatting and Linting](#formatting-and-linting)
     - [Styles](#styles)
-    - [Blog section](#blog-section)
-    - [Notes section](#notes-section)
-    - [New page layouts](#new-page-layouts)
+    - [Sections](#sections)
+    - [New pages](#new-pages)
     - [Markdown](#markdown)
-    - [Others](#others)
+    - [Sitewide](#sitewide)
+    - [Under Consideration](#under-consideration)
   - [🎨 Customization](#-customization)
   - [🧬 Quirks](#-quirks)
   - [⛑ Useful Commands](#-useful-commands)
@@ -92,10 +91,14 @@ pnpm start
 
 ## 🗺 Roadmap
 
-### Formatting and Linting
-
 - [x] [Prettier](https://prettier.io/)
+- [x] Robots.txt
+- [x] Sitemap
 - [ ] [ESLint](https://github.com/eslint/eslint)
+- [ ] Full text search
+- [ ] Graph view
+- [ ] Content Security Policy (CSP)
+- [ ] Fix incompatibility with [title-case](https://www.npmjs.com/package/title-case) v3. Version 4 breaks the site.
 
 ### Styles
 
@@ -103,55 +106,46 @@ pnpm start
 - [ ] Partial CSS/SCSS refactor
 - [ ] Extend fluid typography based on [Utopia](https://utopia.fyi)
 - [ ] Extend basic dark mode support
+- [ ] Color theme toggle
 
-### Blog section
+### Sections
 
 - [x] Blog section layout
 - [x] Blog posts layout
 - [x] RSS Feed (w/ style via XSL)
-- [ ] Tags (including Tag page)
-- [ ] Pagination
-
-### Notes section
-
 - [x] Note section layout
 - [x] Individual notes layout
-- [x] Wikilinks ([Obsidian](https://obsidian.md/) compatible)
-- [x] Backlinks
-- [x] Floating backlinks previews
-- [ ] Floating internal links previews
+- [ ] Tags (including Tag / Tags page)
+- [ ] Pagination
+- [ ] Notes explorer (ala Quartz)
+- [ ] Recent notes (as highlight section)
 
-### New page layouts
+### New pages
 
 - [x] About page
 - [x] Journal page
 - [x] Uses page
 - [x] Now page
-- [ ] Meta page
+- [x] Meta page
 
 ### Markdown
 
 - [x] Syntax highlighting
-- [ ] Admonition-style callouts
+- [x] Wikilinks ([Obsidian](https://obsidian.md/) compatible)
+- [x] Backlinks
+- [x] Floating backlinks previews
 - [ ] Floating internal link previews
-
-### Others
-
-- [x] Robots.txt
-- [x] Sitemap
-- [ ] Dark theme
-- [ ] Color theme toggle
-- [ ] Fluid typography (with [Utopia](https://utopia.fyi))
-- [ ] Full text search
+- [ ] Admonition-style callouts
 - [ ] Table of Contents
-- [ ] Graph view
-- [ ] Notes explorer (ala Quartz)
-- [ ] Recent notes (as highlight section)
+
+### Sitewide
+
+### Under Consideration
+
 - [ ] TailwindCSS
 - [ ] DaisyUI
-- [ ] Content Security Policy (CSP)
-- [ ] Fix incompatibility with [title-case](https://www.npmjs.com/package/title-case) v3. Version 4 breaks the site.
 
+<!--
 | Feature | Status |
 | --- | --- |
 | **Formatting and Linting** | ⏳ |
@@ -203,6 +197,7 @@ pnpm start
 
 - ✅ = Ready to use
 - ⏳ = In progress
+-->
 
 ## 🎨 Customization
 
@@ -213,25 +208,6 @@ Add your custom CSS code within `/src/assets/css/_custom.scss`.
 Only compatible with `"title-case": "^3.0.3",` as `^4.0.0` breaks the site. Will look into it at some point.
 
 ## ⛑ Useful Commands
-
-```sh
-# Install dependencies
-pnpm install
-
-# Update dependencies
-pnpm update
-
-# Start local dev server
-pnpm start
-
-# Check formatting w/ Prettier
-pnpm run check
-
-# Fix formatting w/ Prettier
-pnpm run format
-```
-
-or, presented differently:
 
 **Install dependencies**
 
@@ -266,10 +242,6 @@ pnpm run format
 ## 🛠️ Technology
 
 The site uses various technologies cobbled together. Some of those are:
-
-[Eleventy](https://www.11ty.dev/): a static site generator with a rich feature set for fetching data, composing layouts, and inserting content with "shortcodes."
-
-[Vite](https://vitejs.dev/): a bundler that takes the boilerplate out of your set up. It'll compile JS component frameworks, handle CSS preprocessors with little-to-no config (say, SCSS and PostCSS), and show dev changes on-the-fly using hot module replacement (HMR).
 
 - [Eleventy](https://www.11ty.dev/): a static site generator with a rich feature set for fetching data, composing layouts, and inserting content with "shortcodes."
 
