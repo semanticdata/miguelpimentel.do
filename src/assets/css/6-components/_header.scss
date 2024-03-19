@@ -5,9 +5,7 @@
     justify-content: space-between;
     max-width: var(--container-max-width);
     margin: 0 auto;
-    padding: 2rem 1rem; // fallback
-    padding: clamp(var(--spacing-x-small), 4vw, var(--spacing-x-large))
-      clamp(var(--spacing-medium), 3.75vw, var(--spacing-x-large));
+    padding: 2rem 1rem;
   }
 
   .nav--primary {

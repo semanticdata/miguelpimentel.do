@@ -8,10 +8,10 @@
 :root {
   --fluid-min-width: 320;
   --fluid-max-width: 1240;
-  --fluid-min-size: 14;
-  --fluid-max-size: 18;
-  --fluid-min-ratio: 1.15;
-  --fluid-max-ratio: 1.2;
+  --fluid-min-size: 18;
+  --fluid-max-size: 20;
+  --fluid-min-ratio: 1.2;
+  --fluid-max-ratio: 1.25;
 }
 
 :root {
@@ -128,12 +128,15 @@
 // Fluid size assignments
 h1 {
   font-size: var(--fluid-6);
+  font-weight: 900;
 }
 h2 {
   font-size: var(--fluid-4);
+  font-weight: 900;
 }
 h3 {
   font-size: var(--fluid-3);
+  font-weight: 700;
 }
 h4,
 h5,
