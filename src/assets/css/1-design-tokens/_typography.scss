@@ -1,8 +1,8 @@
-/**
+/*
  *  Typography design tokens: Font-sizes, line-height, etc. 
  */
 
-/**
+/*
   * Fluid type scale based on Utopia (https://utopia.fyi)
   */
 :root {
@@ -128,42 +128,27 @@
 // Fluid size assignments
 h1 {
   font-size: var(--fluid-6);
-  font-weight: 900;
+  font-weight: 100;
 }
 h2 {
   font-size: var(--fluid-4);
-  font-weight: 900;
+  font-weight: 100;
 }
 h3 {
   font-size: var(--fluid-3);
-  font-weight: 700;
+  font-weight: 100;
 }
 h4,
 h5,
 h6 {
   font-size: var(--fluid-2);
+  font-weight: 100;
 }
 body {
   font-size: var(--fluid-1);
 }
-.postlist-link {
-  // font-size: var(--fluid-1);
-}
-.nav--primary ul {
-  // font-size: var(--fluid-1);
-}
-.notelist-link {
-  // font-size: var(--fluid-1);
-}
 table {
   font-size: var(--fluid-0);
-}
-ul,
-ol {
-  // font-size: var(--fluid-1);
-}
-blockquote {
-  // font-size: var(--fluid-1);
 }
 pre[class*="language-"] code {
   font-size: var(--fluid-0);
