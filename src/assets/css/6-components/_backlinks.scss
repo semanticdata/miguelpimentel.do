@@ -65,7 +65,7 @@ ul.backlinks-container {
 }
 
 .backlink:hover {
-  padding-right: 0.5rem; /* Allow mouse to travel between link and modal / 4px */
+  padding-right: 4px; /* Allow mouse to travel between link and modal */
 }
 
 .backlink:hover .backlink__preview {
