@@ -1,6 +1,6 @@
 # 🦝 MiguelPimentel.do
 
-> A saturday afternoon at the beach.
+> A saturday afternoon at the beach. 🏖
 
 ![code size](https://img.shields.io/github/languages/code-size/semanticdata/miguelpimentel.do) ![repository size](https://img.shields.io/github/repo-size/semanticdata/miguelpimentel.do) ![commits](https://img.shields.io/github/commit-activity/t/semanticdata/miguelpimentel.do) ![last commit](https://img.shields.io/github/last-commit/semanticdata/miguelpimentel.do) ![website online check](https://img.shields.io/website/https/miguelpimentel.do.svg)
 
@@ -18,7 +18,7 @@ Personal website built with [Eleventy](https://www.11ty.dev/) and [Vite](https:/
   - [🧬 Quirks](#-quirks)
   - [⛑ Useful Commands](#-useful-commands)
   - [🛠️ Technology](#️-technology)
-  - [❤ Acknowledgements](#-acknowledgements)
+  - [💜 Acknowledgements](#-acknowledgements)
   - [© License](#-license)
 
 ## 📄 Description
@@ -27,17 +27,7 @@ This repository holds the source code for my personal website—currently built 
 
 I'm trying to learn some [CI/CD](https://www.redhat.com/en/topics/devops/what-is-ci-cd) by deploying this project to all these places:
 
-- [Vercel](https://miguelpimentel.do/)
-- [GitHub Pages](https://semanticdata.github.io/miguelpimentel.do/)
-- [Netlify](https://miguelpimentel.netlify.app)
-
-[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://miguelpimentel.do/)  
-[![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://semanticdata.github.io/miguelpimentel.do/)  
-[![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://miguelpimentel.netlify.app)
-
-[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://miguelpimentel.do/)
-[![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://semanticdata.github.io/miguelpimentel.do/)
-[![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://miguelpimentel.netlify.app)
+[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://miguelpimentel.do/) [![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://semanticdata.github.io/miguelpimentel.do/) [![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://miguelpimentel.netlify.app)
 
 ## 🚀 Getting Started
 
@@ -221,11 +211,11 @@ pnpm run format
 
 The site uses various technologies cobbled together. Some of those are:
 
-- [Eleventy](https://www.11ty.dev/)—a static site generator with a rich feature set for fetching data, composing layouts, and inserting content with "shortcodes."
+- [Eleventy](https://www.11ty.dev/): a static site generator with a rich feature set for fetching data, composing layouts, and inserting content with "shortcodes."
 
-- [Vite](https://vitejs.dev/)—a bundler that takes the boilerplate out of your set up. It'll compile JS component frameworks, handle CSS preprocessors with little-to-no config (say, SCSS and PostCSS), and show dev changes on-the-fly using hot module replacement (HMR).
+- [Vite](https://vitejs.dev/): a bundler that takes the boilerplate out of your set up. It'll compile JS component frameworks, handle CSS preprocessors with little-to-no config (say, SCSS and PostCSS), and show dev changes on-the-fly using hot module replacement (HMR).
 
-## ❤ Acknowledgements
+## 💜 Acknowledgements
 
 This site is based on [Eleventy Plus Vite](https://github.com/matthiasott/eleventy-plus-vite).
 
