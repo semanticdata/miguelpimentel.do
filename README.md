@@ -12,8 +12,6 @@ Personal website built with [Eleventy](https://www.11ty.dev/) and [Vite](https:/
   - [Table of Contents](#table-of-contents)
   - [📄 Description](#-description)
   - [🚀 Getting Started](#-getting-started)
-    - [☑ Prerequisites](#-prerequisites)
-    - [⚙ Installation](#-installation)
   - [✨ Features](#-features)
   - [🗺 Roadmap](#-roadmap)
   - [🎨 Customization](#-customization)
@@ -29,16 +27,19 @@ This repository holds the source code for my personal website—currently built 
 
 I'm trying to learn some [CI/CD](https://www.redhat.com/en/topics/devops/what-is-ci-cd) by deploying this project to all these places:
 
-- [Vercel](https://miguelpimentel.do/) (Production)
+- [Vercel](https://miguelpimentel.do/)
 - [GitHub Pages](https://semanticdata.github.io/miguelpimentel.do/)
+- [Netlify](https://miguelpimentel.netlify.app)
+
+[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://miguelpimentel.do/)  
+[![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://semanticdata.github.io/miguelpimentel.do/)  
+[![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://miguelpimentel.netlify.app)
+
+[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://miguelpimentel.do/)
+[![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://semanticdata.github.io/miguelpimentel.do/)
+[![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://miguelpimentel.netlify.app)
 
 ## 🚀 Getting Started
-
-### ☑ Prerequisites
-
-- [Node.js 18](https://github.com/nodejs/node)
-
-### ⚙ Installation
 
 **1. Clone repo**
 
@@ -101,6 +102,7 @@ pnpm start
 - [x] RSS Feed (w/ style via XSL)
 - [x] Note section layout
 - [x] Individual notes layout
+- [x] New Homepage layout
 - [ ] Tags (including Tag / Tags page)
 - [ ] Pagination
 - [ ] Notes explorer (ala Quartz)
@@ -219,9 +221,9 @@ pnpm run format
 
 The site uses various technologies cobbled together. Some of those are:
 
-- [Eleventy](https://www.11ty.dev/): a static site generator with a rich feature set for fetching data, composing layouts, and inserting content with "shortcodes."
+- [Eleventy](https://www.11ty.dev/)—a static site generator with a rich feature set for fetching data, composing layouts, and inserting content with "shortcodes."
 
-- [Vite](https://vitejs.dev/): a bundler that takes the boilerplate out of your set up. It'll compile JS component frameworks, handle CSS preprocessors with little-to-no config (say, SCSS and PostCSS), and show dev changes on-the-fly using hot module replacement (HMR).
+- [Vite](https://vitejs.dev/)—a bundler that takes the boilerplate out of your set up. It'll compile JS component frameworks, handle CSS preprocessors with little-to-no config (say, SCSS and PostCSS), and show dev changes on-the-fly using hot module replacement (HMR).
 
 ## ❤ Acknowledgements
 
