@@ -39,19 +39,18 @@
       })()
     </script>
     <link rel="stylesheet" href="{{ '/assets/css/main.scss' | url }}" />
-    <link rel="stylesheet" href="{{ '/assets/css/test.scss' | url }}" />
   </head>
   <body id="home-body">
     <div id="home-container">
       <header id="home-header">
-      <a href="{{ '/' | url }}">
-        <img
-          src="{{'/assets/images/favicon/android-chrome-192x192.png' | url}}"
-          alt="author avatar"
-          width="48px"
-          height="48px"
-          id="home-avatar"
-        />
+        <a href="{{ '/' | url }}">
+          <img
+            src="{{'/assets/images/favicon/android-chrome-192x192.png' | url}}"
+            alt="author avatar"
+            width="48px"
+            height="48px"
+            id="home-avatar"
+          />
         </a>
         <nav id="home-nav">
           <ul id="home-ul">
@@ -68,8 +67,8 @@
         </nav>
       </header>
       <main id="" class="">
-      <h1 id="home-title">{{ title }}</h1>
-      {{ content | safe }}
+        <h1 id="home-title">{{ title }}</h1>
+        {{ content | safe }}
       </main>
 
       <footer id=""></footer>
