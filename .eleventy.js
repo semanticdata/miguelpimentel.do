@@ -123,6 +123,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("page", "page.njk")
   eleventyConfig.addLayoutAlias("post", "post.njk")
   eleventyConfig.addLayoutAlias("posts", "posts.njk")
+  eleventyConfig.addLayoutAlias("test", "test.njk")
 
   // Copy/pass-through files
   eleventyConfig.addPassthroughCopy("public")

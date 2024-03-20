@@ -59,12 +59,11 @@ EXCEPTIONS
 /* 
 A flipped version where the sidebar is on the right
 */
-.sidebar[data-direction='rtl']
-> :last-child {
+.sidebar[data-direction="rtl"] > :last-child {
   flex-basis: var(--sidebar-target-width, 20rem);
   flex-grow: 1;
 }
-.sidebar[data-direction='rtl'] > :first-child {
+.sidebar[data-direction="rtl"] > :first-child {
   flex-basis: 0;
   flex-grow: 999;
   min-width: var(--sidebar-content-min-width, 50%);
@@ -93,7 +92,9 @@ Can be any acceptable flexbox alignment value.
 }
 .switcher > * {
   flex-grow: 1;
-  flex-basis: calc((var(--switcher-target-container-width, 40rem) - 100%) * 999);
+  flex-basis: calc(
+    (var(--switcher-target-container-width, 40rem) - 100%) * 999
+  );
 }
 /* Max 2 items,
 so we target everything *after* those */
@@ -151,10 +152,10 @@ A common wrapper/container
   display: inline;
 }
 .text-base {
-  font-size: clamp(1.00rem, 1.00rem + 0.00vw, 1.00rem);
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
 }
 .text-size-1 {
-  font-size: clamp(1.20rem, 1.08rem + 0.59vw, 1.50rem);
+  font-size: clamp(1.2rem, 1.08rem + 0.59vw, 1.5rem);
 }
 .text-size-2 {
   font-size: clamp(1.44rem, 1.12rem + 1.58vw, 2.25rem);
@@ -166,5 +167,5 @@ A common wrapper/container
   font-size: clamp(2.07rem, 0.91rem + 5.83vw, 5.06rem);
 }
 .text-size-5 {
-  font-size: clamp(2.49rem, 0.50rem + 9.96vw, 7.59rem);
+  font-size: clamp(2.49rem, 0.5rem + 9.96vw, 7.59rem);
 }
