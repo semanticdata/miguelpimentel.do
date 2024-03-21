@@ -100,8 +100,7 @@ const NoteLink = ({
         (isTargetOpen ? "open " : "") +
         (isRemote ? "remote-link " : "")
       }
-      target="_blank"
-    >
+      target="_blank">
       {text}
     </a>
   )

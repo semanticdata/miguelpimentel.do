@@ -48,8 +48,7 @@ const Popover = ({elementPosition, noteId}) => {
         left: "0px",
         transform: `translate3d(${position.x}px,
         ${position.y}px, 0px)`,
-      }}
-    >
+      }}>
       <div className="HoveredNote">
         <div className="HoveredNoteInterior">
           <div>

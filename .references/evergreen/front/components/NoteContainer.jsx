@@ -35,16 +35,14 @@ const NoteContainer = ({
     <main className={`NoteContainer ${overlay ? "Overlay" : ""}`} style={style}>
       <div
         className="PresentedNote"
-        style={{opacity: verticalMode ? 0 : undefined}}
-      >
+        style={{opacity: verticalMode ? 0 : undefined}}>
         <div className="NoteContainer">
           <div className="PrimaryNote">
             <div
               style={{
                 height: "100%",
                 overflow: "hidden",
-              }}
-            >
+              }}>
               <div className="MarkdownContainer">
                 <ReactMarkdown
                   components={{
@@ -58,8 +56,7 @@ const NoteContainer = ({
                         text={props.children[0]}
                       />
                     ),
-                  }}
-                >
+                  }}>
                   {noteContent}
                 </ReactMarkdown>
               </div>

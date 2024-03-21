@@ -2,6 +2,51 @@
 layout: base
 ---
 
+<style>
+  .catalogue {
+    display: block;
+    padding: 0.5rem 0;
+
+    a {
+      color: black;
+    }
+  }
+
+  .catalogue-title {
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+    /* margin: 0.5rem 0; */
+  }
+
+  .catalogue-time {
+    letter-spacing: 0.5px;
+  }
+
+  .catalogue-line {
+    border-top: 0.3rem solid var(--secondaryColor);
+    transition: all 300ms ease-out;
+    width: 4rem;
+    padding: 0.5rem 0;
+    margin: 0;
+  }
+
+  .catalogue-item {
+    display: block;
+    text-decoration: none;
+    border-bottom: 0.1rem solid var(--color-dark-alpha);
+    padding: 1rem 0;
+
+    &:hover .catalogue-line,
+    &:focus .catalogue-line {
+      width: 8rem;
+    }
+    &:last-child {
+      border: 0;
+    }
+  }
+</style>
+
+{#
 <div class="container">
   <h1 class="page-title">{{ title }}</h1>
   {% set postslist = collections.posts %}
@@ -28,3 +73,21 @@ layout: base
     {% endfor %}
   </ol>
 </div>
+#}
+
+<article class="container catalogue">
+  {% set postslist = collections.posts %} {% for post in postslist | reverse %}
+  <a class="catalogue-item" href="{{ post.url | url }}">
+    <time
+      datetime="{{ post.date | dateToFormat('yyyy-MM-dd') }}"
+      class="catalogue-time"
+      >{{ post.date| dateToFormat('MMMM dd, yyyy') }}</time
+    >
+    <h2 class="catalogue-title">{{ post.data.title }}</h2>
+    <div class="catalogue-line"></div>
+    <p>
+      {% if post.data.description %} {{ post.data.description }} {% endif %}
+    </p>
+  </a>
+  {% endfor %}
+</article>

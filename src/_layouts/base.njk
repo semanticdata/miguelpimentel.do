@@ -56,7 +56,9 @@
         {% endif %}
         
       </main>
-      {# {% include "footer.njk" %} #}
+      {% if page.url != '/' %}
+      {% include "footer.njk" %}
+      {% endif %}
     </div>
     <script
       type="module"
