@@ -63,6 +63,10 @@
     background: salmon;
     cursor: pointer;
   }
+
+  &:first-child {
+    margin-left: 0;
+  }
 }
 
 .home-a {
@@ -76,4 +80,23 @@
 
 #home-title {
   font-size: var(--fluid-4);
+}
+
+ul#home-ul:first-child {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 500px) {
+  div#home-container {
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #home-body {
+    display: flex;
+    justify-content: flex-start;
+  }
 }
