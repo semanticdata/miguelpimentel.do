@@ -6,10 +6,10 @@
 
 Personal website built with [Eleventy](https://www.11ty.dev/) and [Vite](https://vitejs.dev/).
 
-## Table of Contents
+## 📑 Table of Contents
 
 - [🦝 MiguelPimentel.do](#-miguelpimenteldo)
-  - [Table of Contents](#table-of-contents)
+  - [📑 Table of Contents](#-table-of-contents)
   - [📄 Description](#-description)
   - [🚀 Getting Started](#-getting-started)
   - [✨ Features](#-features)
