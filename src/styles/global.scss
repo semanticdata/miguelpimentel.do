@@ -23,6 +23,7 @@
   body {
     background: #000;
     color: #fff;
+    padding: 1rem;
   }
 
   h1,
@@ -38,9 +39,4 @@
     transition: outline-offset 0.25s ease;
     outline-offset: 5px;
   }
-}
-
-/* Custom */
-body {
-  padding: 1rem;
 }
