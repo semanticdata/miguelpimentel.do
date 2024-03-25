@@ -11,6 +11,7 @@
   "bracketSameLine": true,
   "arrowParens": "always",
   "proseWrap": "never",
+  "plugins": ["prettier-plugin-astro"],
   "endOfLine": "lf",
   "embeddedLanguageFormatting": "auto",
   "singleAttributePerLine": false,
@@ -19,6 +20,12 @@
       "files": ".prettierrc",
       "options": {
         "parser": "json"
+      }
+    },
+    {
+      "files": "*.astro",
+      "options": {
+        "parser": "astro"
       }
     }
   ]

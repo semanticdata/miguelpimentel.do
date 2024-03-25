@@ -1,40 +1,32 @@
-# 🦝 MiguelPimentel.do
+# 🚀 Astronaut
 
-> A saturday afternoon at the beach. 🏖
-
-![code size](https://img.shields.io/github/languages/code-size/semanticdata/miguelpimentel.do) ![repository size](https://img.shields.io/github/repo-size/semanticdata/miguelpimentel.do) ![commits](https://img.shields.io/github/commit-activity/t/semanticdata/miguelpimentel.do) ![last commit](https://img.shields.io/github/last-commit/semanticdata/miguelpimentel.do) ![website online check](https://img.shields.io/website/https/miguelpimentel.do.svg)
-
-Personal website built with [Eleventy](https://www.11ty.dev/) and [Vite](https://vitejs.dev/).
+> This is a starter template for static site generator [Astro](https://astro.build/).
 
 ## 📑 Table of Contents
 
-- [🦝 MiguelPimentel.do](#-miguelpimenteldo)
+- [🚀 Astronaut](#-astronaut)
   - [📑 Table of Contents](#-table-of-contents)
   - [📄 Description](#-description)
-  - [🚀 Getting Started](#-getting-started)
+  - [⚡ Quick start](#-quick-start)
   - [✨ Features](#-features)
-  - [🗺 Roadmap](#-roadmap)
-  - [🎨 Customization](#-customization)
-  - [🧬 Quirks](#-quirks)
-  - [⛑ Useful Commands](#-useful-commands)
   - [🛠️ Technology](#️-technology)
+  - [🗺 Roadmap](#-roadmap)
+  - [🔎 References](#-references)
   - [💜 Acknowledgements](#-acknowledgements)
   - [© License](#-license)
 
 ## 📄 Description
 
-This repository holds the source code for my personal website—currently built with [Eleventy](https://www.11ty.dev/).
+This site is based on [Astro-naut](https://github.com/stevefrenzel/astro-naut).
 
-I'm trying to learn some [CI/CD](https://www.redhat.com/en/topics/devops/what-is-ci-cd) by deploying this project to all these places:
+> I'm a big fan of Astro, as it combines two things I really like: A component-based approach and zero client-side JavaScript! This template is pretty opinionated, as it's composed how I would set up my projects. But sharing is caring, so feel free to use it for your own projects or customize it. After cloning it, run `npm install` or `pnpm install` to install all necessary dependencies.
 
-[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://miguelpimentel.do/) [![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://semanticdata.github.io/miguelpimentel.do/) [![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://miguelpimentel.netlify.app)
-
-## 🚀 Getting Started
+## ⚡ Quick start
 
 **1. Clone repo**
 
-```sh
-git clone https://github.com/semanticdata/miguelpimentel.do.git
+```bash
+git clone https://github.com/semanticdata/astro-naut.git
 ```
 
 **2. Install dependencies**
@@ -51,182 +43,211 @@ pnpm start
 
 ## ✨ Features
 
-- [Vite](https://vitejs.dev) as Middleware in Eleventy Dev Server (uses [eleventy-plugin-vite](https://github.com/11ty/eleventy-plugin-vite/))
-- Eleventy build output is post-processed by [Vite](https://vitejs.dev) (with Rollup)
-- CSS/[Sass](https://github.com/sass/sass) post-processing with [PostCSS](https://github.com/postcss/postcss) including [Autoprefixer](https://github.com/postcss/autoprefixer) and [cssnano](https://github.com/cssnano/cssnano).
-- Uses [my own opinionated CSS/Sass structure](https://matthiasott.com/notes/how-i-structure-my-css)
-- Critical CSS, generated and inlined via [rollup-plugin-critical](https://github.com/nystudio107/rollup-plugin-critical). The main CSS file is then loaded asynchronously with [Scott Jehl’s `media` loading strategy](https://www.filamentgroup.com/lab/load-css-simpler/) (adds `media="print"` and swaps to `media="all"` once loaded)
-- Example implementation of a web font loading strategy ([critical FOFT with preload](https://www.zachleat.com/web/comprehensive-webfonts/#critical-foft-preload))
-- Basic fluid typography based on [Utopia](https://utopia.fyi)
-- Basic dark mode support (using `prefers-color-scheme` and CSS Custom Properties)
-- Polyfill for [focus-visible](https://matthiasott.com/notes/focus-visible-is-here)
+### Absolute imports
 
-## 🗺 Roadmap
+Tired of imports looking like this?
 
-- [x] [Prettier](https://prettier.io/)
-- [x] Robots.txt
-- [x] Sitemap
-- [ ] [ESLint](https://github.com/eslint/eslint)
-- [ ] Full text search
-- [ ] Graph view
-- [ ] Content Security Policy (CSP)
-- [ ] Fix incompatibility with [title-case](https://www.npmjs.com/package/title-case) v3. Version 4 breaks the site.
-
-**Styles**
-
-- [x] [Sass](https://sass-lang.com/) integration
-- [ ] Partial CSS/SCSS refactor
-- [ ] Extend fluid typography based on [Utopia](https://utopia.fyi)
-- [ ] Extend basic dark mode support
-- [ ] Color theme toggle
-
-**Sections and Pages**
-
-- [x] About page
-- [x] Journal page
-- [x] Uses page
-- [x] Now page
-- [x] Meta page
-- [x] Blog section layout
-- [x] Blog posts layout
-- [x] RSS Feed (w/ style via XSL)
-- [x] Note section layout
-- [x] Individual notes layout
-- [x] New Homepage layout
-- [ ] Tags (including Tag / Tags page)
-- [ ] Pagination
-- [ ] Notes explorer (ala Quartz)
-- [ ] Recent notes (as highlight section)
-
-**Markdown**
-
-- [x] Syntax highlighting
-- [x] Wikilinks ([Obsidian](https://obsidian.md/) compatible)
-- [x] Backlinks
-- [x] Floating backlinks previews
-- [ ] Floating internal link previews
-- [ ] Admonition-style callouts
-- [ ] Table of Contents
-
-**Under Consideration**
-
-- [ ] TailwindCSS
-- [ ] DaisyUI
-
-<!--
-| Feature | Status |
-| --- | --- |
-| **Formatting and Linting** | ⏳ |
-| [Prettier](https://prettier.io/) | ⏳ |
-| [ESLint](https://github.com/eslint/eslint) | ⏳ |
-| **Styles** | ⏳ |
-| [Sass](https://sass-lang.com/) integration | ⏳ |
-| Partial CSS/SCSS refactor | ⏳ |
-| Extend fluid typography based on [Utopia](https://utopia.fyi) | ⏳ |
-| Extend basic dark mode support | ⏳ |
-| **Blog section** | ⏳ |
-| Blog section layout | ⏳ |
-| Blog posts layout | ⏳ |
-| RSS Feed (w/ style via XSL) | ⏳ |
-| Tags (including Tag page) | ⏳ |
-| Pagination | ⏳ |
-| **Notes section** | ⏳ |
-| Note section layout | ⏳ |
-| Individual notes layout | ⏳ |
-| Wikilinks ([Obsidian](https://obsidian.md/) compatible) | ⏳ |
-| Backlinks | ⏳ |
-| Floating backlinks previews | ⏳ |
-| Floating internal links previews | ⏳ |
-| **New page layouts** | ⏳ |
-| About page | ⏳ |
-| Journal page | ⏳ |
-| Uses page | ⏳ |
-| Now page | ⏳ |
-| Meta page | ⏳ |
-| **Markdown** | ⏳ |
-| Syntax highlighting | ⏳ |
-| Admonition-style callouts | ⏳ |
-| Floating internal link previews | ⏳ |
-| **Others** | ⏳ |
-| Robots.txt | ⏳ |
-| Sitemap | ⏳ |
-| Dark theme | ⏳ |
-| Color theme toggle | ⏳ |
-| Fluid typography (with [Utopia](https://utopia.fyi)) | ⏳ |
-| Full text search | ⏳ |
-| Table of Contents | ⏳ |
-| Graph view | ⏳ |
-| Notes explorer (ala Quartz) | ⏳ |
-| Recent notes (as highlight section) | ⏳ |
-| TailwindCSS | ⏳ |
-| DaisyUI | ⏳ |
-| Content Security Policy (CSP) | ⏳ |
-| Fix incompatibility with [title-case](https://www.npmjs.com/package/title-case) v3. Version 4 breaks the site. | ⏳ |
-
-- ✅ = Ready to use
-- ⏳ = In progress
--->
-
-## 🎨 Customization
-
-Add your custom CSS code within `/src/assets/css/_custom.scss`.
-
-## 🧬 Quirks
-
-Only compatible with `"title-case": "^3.0.3",` as `^4.0.0` breaks the site. Will look into it at some point.
-
-## ⛑ Useful Commands
-
-**Install dependencies**
-
-```sh
-pnpm install
+```javascript
+import Layout from "../../../../../layouts/Layout.astro"
 ```
 
-**Update dependencies**
+Me too, which is why I'm using absolute imports to make it look nice and clean:
 
-```sh
-pnpm update
+```javascript
+import Layout from "@layouts/Layout.astro"
 ```
 
-**Start local dev server**
+### CSS reset
 
-```sh
-pnpm start
-```
+I never start a project without Andy Bell's (more) modern CSS reset! It lays the foundation for what I'm about to do with Utopia's fluid responsive design. Click here for more info about these settings: [A (more) modern CSS reset](https://andy-bell.co.uk/a-more-modern-css-reset/)
 
-**Check formatting w/ Prettier**
+### Custom fonts
 
-```sh
-pnpm run check
-```
+Using system fonts is a safe and performant way to add some identity to your typography, but let's be honest: They're overused and quite boring. Which is why I like to use custom fonts, usually one for headlines and one for body text. You can of course always change them to Lobster or Papyrus, I won't judge.
 
-**Fix formatting w/ Prettier**
+### Fluid design
 
-```sh
-pnpm run format
-```
+I need you to sit down for this one. You don't really need breakpoints to define your layout for mobile, tablet and desktop devices. How could you even anticipate what device will be used to gaze upon your beautiful website?
+
+Wouldn't make it more sense if you had a fluid, yet robust design which works for every viewport? Which requires less code and no `breakpoints.css` nearing 1000 lines of code? Let me introduce you to [Utopia](https://utopia.fyi/), which is used to generate adaptive font sizes and spacing.
+
+You should also check out [The ideal viewport doesn’t exist](https://viewports.fyi/) for a deep-dive into this topic. And while you're at it, have a look at [Be the browser’s mentor, not its micromanager.](https://buildexcellentwebsit.es/) as well.
+
+### Pre-commit hooks
+
+Committing to something can sometimes take a lot of effort. Committing code is no exception, but at least here we can pull out the safety net to soften our fall in case we made a mistake. When committing your changes, it's running `npm run build`, which will look for the following things in your project before building it:
+
+- Errors
+- Warnings
+- Hints
+
+When your pipeline is free of errors AND the build was successful, it'll commit your changes. You're welcome. 🤗
+
+### Preference detection
+
+This template automatically changes the theme based on your operating settings by utilizing `prefers-color-scheme`. It also checks if you prefer reduced motion via `prefers-reduced-motion`. Look and behold, the power of CSS!
+
+### Prettier
+
+I don't know about you, but if my code is not nicely formatted after hitting save, I'm starting to feel very weird. Which is why this comes with a Prettier configuration, in case you're using it. Or a you one of those people who do this manually?!
+
+### Search engine optimization (SEO)
+
+Predefined values for improved SEO can be found in `Layout.astro`. These settings have been my reliable companion for a couple of years now and I put a lot of research, work and testing into it.
+
+### Security headers
+
+Better safe than sorry, am I right? There are multiple ways to add security headers to your website and I decided to store them in a `vercel.json` file, cause this website was deployed to (you guessed it) [Vercel](https://vercel.com/). It contains the following headers, feel free to adjust them to your needs:
+
+- Content-Security-Policy
+- X-Frame-Options
+- X-Content-Type-Options
+- Referrer-Policy
+- Permissions-Policy
+
+### Usability
+
+I've added a bunch of handy utilities which will not only improve usability, but accessibility as well. Here's a list of them:
+
+- "Back to top" button
+- External link (showing icon)
+- Improved focus behaviour (thanks to [Stephanie Eckles](https://css-tricks.com/standardizing-focus-styles-with-css-custom-properties/) & [Adam Argyle](https://codepen.io/argyleink/pen/JjEzeLp))
+- Skip link
 
 ## 🛠️ Technology
 
 The site uses various technologies cobbled together. Some of those are:
 
-- [Eleventy](https://www.11ty.dev/): a static site generator with a rich feature set for fetching data, composing layouts, and inserting content with "shortcodes."
+- [Astro](https://astro.build/): a website build tool for the modern web — powerful developer experience meets lightweight output.
 
-- [Vite](https://vitejs.dev/): a bundler that takes the boilerplate out of your set up. It'll compile JS component frameworks, handle CSS preprocessors with little-to-no config (say, SCSS and PostCSS), and show dev changes on-the-fly using hot module replacement (HMR).
+## 🗺 Roadmap
+
+List of things I'm considering doing to/with the site. Here's a [good resource](https://github.com/withastro/astro/blob/main/examples/component/README.md).
+
+- Available via [StackBlitz](https://stackblitz.com/github/semanticdata/astro-naut/tree/main/)
+- Available via CodeSandbox
+- Available via GitHub Codespaces
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/semanticdata/astro-naut/tree/main/) [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/semanticdata/astro-naut/tree/main)
+
+<!-- [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json) -->
+
+## 🔎 References
+
+```css
+:root {
+  --accent: 136, 58, 234;
+  --accent-light: 224, 204, 250;
+  --accent-dark: 49, 10, 101;
+  --accent-gradient: linear-gradient(
+    45deg,
+    rgb(var(--accent)),
+    rgb(var(--accent-light)) 30%,
+    white 60%
+  );
+}
+html {
+  font-family: system-ui, sans-serif;
+  background: #13151a;
+  background-size: 224px;
+}
+code {
+  font-family:
+    Menlo,
+    Monaco,
+    Lucida Console,
+    Liberation Mono,
+    DejaVu Sans Mono,
+    Bitstream Vera Sans Mono,
+    Courier New,
+    monospace;
+}
+.astro-a {
+  position: absolute;
+  top: -32px;
+  left: 50%;
+  transform: translatex(-50%);
+  width: 220px;
+  height: auto;
+  z-index: -1;
+}
+.text-gradient {
+  background-image: var(--accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400%;
+  background-position: 0%;
+}
+.instructions {
+  margin-bottom: 2rem;
+  border: 1px solid rgba(var(--accent-light), 25%);
+  background: linear-gradient(
+    rgba(var(--accent-dark), 66%),
+    rgba(var(--accent-dark), 33%)
+  );
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+.instructions code {
+  font-size: 0.8em;
+  font-weight: bold;
+  background: rgba(var(--accent-light), 12%);
+  color: rgb(var(--accent-light));
+  border-radius: 4px;
+  padding: 0.3em 0.4em;
+}
+.instructions strong {
+  color: rgb(var(--accent-light));
+}
+.link-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+  gap: 2rem;
+  padding: 0;
+}
+.link-card {
+  list-style: none;
+  display: flex;
+  padding: 1px;
+  background-color: #23262d;
+  background-image: none;
+  background-size: 400%;
+  border-radius: 7px;
+  background-position: 100%;
+  transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+.link-card > a {
+  width: 100%;
+  text-decoration: none;
+  line-height: 1.4;
+  padding: calc(1.5rem - 1px);
+  border-radius: 8px;
+  color: white;
+  background-color: #23262d;
+  opacity: 0.8;
+}
+h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+.link-card:is(:hover, :focus-within) {
+  background-position: 0;
+  background-image: var(--accent-gradient);
+}
+.link-card:is(:hover, :focus-within) h2 {
+  color: rgb(var(--accent-light));
+}
+```
 
 ## 💜 Acknowledgements
 
-This site is based on [Eleventy Plus Vite](https://github.com/matthiasott/eleventy-plus-vite).
-
-It would not be possible without these amazing people and their projects:
-
-- [Andy Bell](https://andy-bell.co.uk)
-- [Binyamin Aron Green](https://github.com/binyamin)
-- [Lene Saile](https://www.lenesaile.com/en)
-- [Jacky Zhao](https://github.com/jackyzha0)
-- [Matthias Ott](https://matthiasott.com)
-- [Zach Leatherman](https://github.com/zachleat/zachleat.com)
+This site is based on [Astro-naut](https://github.com/stevefrenzel/astro-naut).
 
 ## © License
 

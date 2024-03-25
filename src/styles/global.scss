@@ -1,0 +1,46 @@
+@use "pieces/accessibility";
+@use "pieces/blockquote";
+@use "pieces/blog";
+@use "pieces/clearfix";
+@use "pieces/code";
+@use "pieces/color-themes";
+@use "pieces/footer";
+@use "pieces/forms";
+@use "pieces/header";
+@use "pieces/home";
+@use "pieces/hr";
+@use "pieces/layout";
+@use "pieces/lists";
+@use "pieces/tables";
+@use "pieces/typography";
+// @use "pieces/images";
+@use "pieces/links";
+// @use "pieces/media-queries";
+// @use "pieces/print";
+
+/* Contrast preference */
+@media (prefers-contrast: more) {
+  body {
+    background: #000;
+    color: #fff;
+  }
+
+  h1,
+  h2 {
+    color: #fff;
+  }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: no-preference) {
+  :focus,
+  :hover {
+    transition: outline-offset 0.25s ease;
+    outline-offset: 5px;
+  }
+}
+
+/* Custom */
+body {
+  padding: 1rem;
+}

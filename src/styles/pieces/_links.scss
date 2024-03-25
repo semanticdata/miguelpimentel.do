@@ -1,0 +1,22 @@
+a {
+  color: var(--focusColor);
+  text-decoration: underline;
+  &:hover {
+    color: var(--secondaryColor);
+  }
+  svg {
+    display: inline-block;
+    fill: currentColor;
+  }
+}
+
+// a[href^="https"],
+a {
+  &:not(.catalogue-item) {
+    &:not(.nav-item) {
+      &:hover {
+        color: salmon;
+      }
+    }
+  }
+}

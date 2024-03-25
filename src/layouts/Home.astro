@@ -1,0 +1,12 @@
+---
+import Layout from "@layouts/Layout.astro"
+const {frontmatter} = Astro.props
+---
+
+<Layout>
+  <article class="underlined">
+    <h1>{frontmatter.title}</h1>
+    <div class="catalogue-line"></div>
+  </article>
+  <slot />
+</Layout>

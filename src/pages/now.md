@@ -1,11 +1,10 @@
 ---
+layout: "@layouts/Page.astro"
 title: Now
 description: A glance at what I'm working on right now.
-permalink: /now/
-# eleventyNavigation:
-#   key: Now
-#   order: 5
 ---
+
+<!-- # Now -->
 
 A glance at what I'm working on right [now](https://nownownow.com/about).
 

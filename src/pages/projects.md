@@ -1,10 +1,9 @@
 ---
+layout: "@layouts/Page.astro"
 title: Projects
-permalink: /projects/
-# eleventyNavigation:
-#   key: Projects
-#   order: 7
 ---
+
+<!-- # Projects -->
 
 A non-inclusive, non-exhaustive compilation of my projects.
 

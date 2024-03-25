@@ -1,10 +1,10 @@
 ---
-title: About
-permalink: /about/
-eleventyNavigation:
-  key: About
-  order: 2
+layout: "@layouts/Page.astro"
+title: About me
+description: A bit about me.
 ---
+
+<!-- # About me -->
 
 Hello, my name is Miguel Pimentel. I am a self-taught hobby developer with too many ideas and not enough time. I was born in the Dominican Republic, and I currently live in Minnesota, US.
 

@@ -1,0 +1,22 @@
+footer {
+  border-top: solid salmon 0.1rem;
+  text-align: center;
+  padding-top: 1rem;
+  margin-top: 3rem;
+}
+
+footer nav a {
+  font-size: var(--step-0);
+  text-decoration: none;
+  &:hover {
+    color: salmon;
+    text-decoration: underline;
+  }
+}
+
+footer nav {
+  font-size: var(--step-5);
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+}

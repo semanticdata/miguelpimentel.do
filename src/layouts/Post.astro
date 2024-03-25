@@ -1,0 +1,15 @@
+---
+import Layout from "@layouts/Layout.astro"
+import FormattedDate from "@components/FormattedDate.astro"
+const {frontmatter} = Astro.props
+const date = new Date(frontmatter.date)
+---
+
+<Layout>
+  <article class="underlined">
+    <p><FormattedDate date={date} /></p>
+    <h1 class="catalogue-title">{frontmatter.title}</h1>
+    <div class="catalogue-line"></div>
+  </article>
+  <slot />
+</Layout>

@@ -1,10 +1,9 @@
 ---
+layout: "@layouts/Page.astro"
 title: Uses
-permalink: /uses/
-# eleventyNavigation:
-#   key: Uses
-#   order: 6
 ---
+
+<!-- # Uses -->
 
 A non-comprehensive, non-exhaustive list of the hardware and software I use on a day-to-day basis, also known as a [uses page](https://uses.tech/).
 

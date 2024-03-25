@@ -1,0 +1,47 @@
+/* Scheme preference */
+@media (prefers-color-scheme: dark) {
+  body {
+    // What's keeping dark mode from following local preferences.
+    background: white;
+    color: black;
+  }
+  #back-to-top {
+    background: salmon;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    // background: var(--color-white);
+    // background-attachment: fixed;
+    // background-image: url("../images/nnnoise-light.svg");
+    // color: var(--color-black);
+    background: white;
+    color: black;
+  }
+
+  // h1,
+  // h2 {
+  //   color: var(--color-black);
+  // }
+
+  // code {
+  //   color: var(--color-green);
+  // }
+
+  #back-to-top {
+    background: salmon;
+    // &:hover {
+    //   background: salmon;
+    // }
+  }
+
+  #skip-link:focus,
+  #skip-link:focus-visible {
+    background: var(--color-blue);
+    color: var(--color-white);
+  }
+  #skip-link img {
+    filter: invert(0);
+  }
+}

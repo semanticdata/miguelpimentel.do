@@ -1,0 +1,27 @@
+---
+import Layout from "@layouts/Layout.astro"
+const allPosts = await Astro.glob("../pages/notes/*.md")
+---
+
+<Layout>
+  <h1 class="blog-note-title">
+    Notes
+    <div class="catalogue-line"></div>
+  </h1>
+  <article class="catalogue">
+    {
+      allPosts.map((post) => (
+        <a class="catalogue-item" href={post.url}>
+          <time
+            class="catalogue-date"
+            datetime={post.frontmatter.date.toString().slice(0, 10)}>
+            {post.frontmatter.date.toString().slice(0, 10)}
+          </time>
+          <h2 class="catalogue-title">{post.frontmatter.title}</h2>
+          <div class="catalogue-line" />
+          <p class="catalogue-description">{post.frontmatter.description}</p>
+        </a>
+      ))
+    }
+  </article>
+</Layout>

@@ -1,4 +1,5 @@
 {
+  "peacock.color": "#322549",
   "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
   // "workbench.colorTheme": "Default Dark Modern",
@@ -34,14 +35,11 @@
     "titleBar.inactiveBackground": "#32254999",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#322549",
-  "emmet.includeLanguages": {
-    "nunjucks": "html"
-  },
   "better-extension-manager.workspace": [
     "ahgood.shift-shift",
     "alefragnani.project-manager",
     "antfu.open-in-github-button",
+    "astro-build.astro-vscode",
     "bierner.markdown-preview-github-styles",
     "christian-kohler.path-intellisense",
     "codeium.codeium",
@@ -50,14 +48,15 @@
     "ecmel.vscode-html-css",
     "emmanuelbeziat.vscode-great-icons",
     "esbenp.prettier-vscode",
-    "eseom.nunjucks-template",
+    "fabiospampinato.vscode-open-in-github",
     "formulahendry.auto-rename-tag",
-    "ginfuru.better-nunjucks",
+    "github.remotehub",
     "gruntfuggly.todo-tree",
-    "guapibai.nunjucks-prettier",
-    "jacano.vscode-pnpm",
-    "johnpapa.vscode-peacock",
+    "haydenbleasel.vercel-vscode",
+    "jock.svg",
     "ms-vscode-remote.remote-wsl",
+    "ms-vscode.live-server",
+    "ms-vscode.remote-repositories",
     "oderwat.indent-rainbow",
     "pkief.material-icon-theme",
     "pranaygp.vscode-css-peek",
@@ -68,5 +67,8 @@
     "usernamehw.errorlens",
     "vsls-contrib.gistfs",
     "yzhang.markdown-all-in-one"
-  ]
+  ],
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/pimentma/GitHub/astro-naut/.github/workflows/deploy.yml"
+  }
 }
