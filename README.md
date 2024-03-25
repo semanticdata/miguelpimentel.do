@@ -1,10 +1,10 @@
-# 🚀 Astronaut
+# 🦝 MiguelPimentel.do
 
-> This is a starter template for static site generator [Astro](https://astro.build/).
+> A saturday afternoon at the beach. 🏖
 
 ## 📑 Table of Contents
 
-- [🚀 Astronaut](#-astronaut)
+- [🦝 MiguelPimentel.do](#-miguelpimenteldo)
   - [📑 Table of Contents](#-table-of-contents)
   - [📄 Description](#-description)
   - [⚡ Quick start](#-quick-start)
@@ -17,9 +17,9 @@
 
 ## 📄 Description
 
-This site is based on [Astro-naut](https://github.com/stevefrenzel/astro-naut).
+This repository contains the source code for my personal website and blog. It is currently built with [Astro](https://astro.build/).
 
-> I'm a big fan of Astro, as it combines two things I really like: A component-based approach and zero client-side JavaScript! This template is pretty opinionated, as it's composed how I would set up my projects. But sharing is caring, so feel free to use it for your own projects or customize it. After cloning it, run `npm install` or `pnpm install` to install all necessary dependencies.
+<!-- > I'm a big fan of Astro, as it combines two things I really like: A component-based approach and zero client-side JavaScript! This template is pretty opinionated, as it's composed how I would set up my projects. But sharing is caring, so feel free to use it for your own projects or customize it. After cloning it, run `npm install` or `pnpm install` to install all necessary dependencies. -->
 
 ## ⚡ Quick start
 
@@ -116,19 +116,55 @@ I've added a bunch of handy utilities which will not only improve usability, but
 
 ## 🛠️ Technology
 
-The site uses various technologies cobbled together. Some of those are:
+The site uses various technologies cobbled together. Here's some of them:
 
-- [Astro](https://astro.build/): a website build tool for the modern web — powerful developer experience meets lightweight output.
+- [Astro](https://astro.build/): website build tool for the modern web — powerful developer experience meets lightweight output.
+- [Prettier](https://github.com/prettier/prettier): an opinionated code formatter.
+- [Sass](https://github.com/sass/sass): makes CSS fun!
+- [TypeScript](https://github.com/microsoft/TypeScript): superset of JavaScript that compiles to clean JavaScript output.
+- [Husky](https://github.com/typicode/husky): Git hooks made easy.
 
 ## 🗺 Roadmap
 
-List of things I'm considering doing to/with the site. Here's a [good resource](https://github.com/withastro/astro/blob/main/examples/component/README.md).
+List of things I'm considering doing to/with the site. Here's a [good resource](https://github.com/withastro/astro/blob/main/examples/component/README.md) on examples for reference.
 
-- Available via [StackBlitz](https://stackblitz.com/github/semanticdata/astro-naut/tree/main/)
-- Available via CodeSandbox
-- Available via GitHub Codespaces
+- [x] About page
+- [x] Blog section
+- [x] Notes section
+- [ ] Journal page
+- [ ] Uses page
+- [ ] Now page
+- [ ] Meta page
+- [ ] 404 error page
+- [ ] Projects page
+- [ ] Robots.txt
+- [ ] RSS feed(s)
+- [ ] Sitemap
+- [ ] Tags/Categories
+- [x] Fluid typography (with [Utopia](https://utopia.fyi))
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/semanticdata/astro-naut/tree/main/) [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/semanticdata/astro-naut/tree/main)
+### Deployments
+
+- [x] Vercel integration (`vercel.json`)
+- [x] Netlify integration (`netlify.toml`)
+- [x] GitHub Pages integration (`.github/workflows/deploy.yml`)
+- [x] Available via [StackBlitz](https://stackblitz.com/github/semanticdata/astro-naut/tree/main/)
+- [x] Available via [CodeSandbox](https://codesandbox.io/p/devbox/github/semanticdata/miguelpimentel.do/tree/main)
+- [ ] Available via GitHub Codespaces
+
+### Markdown Specific
+
+- [ ] Admonition-style callouts
+- [ ] Recent posts/notes/projects
+- [ ] Syntax Highlighting
+
+### Components
+
+- [ ] Table of Contents
+- [ ] Card view (used in the Notes section)
+- [ ] Theme toggle
+
+<!-- [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/semanticdata/astro-naut/tree/main/) [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/semanticdata/astro-naut/tree/main) -->
 
 <!-- [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json) -->
 
@@ -247,7 +283,9 @@ p {
 
 ## 💜 Acknowledgements
 
-This site is based on [Astro-naut](https://github.com/stevefrenzel/astro-naut).
+I'd like to take the time to recognize the people and projects that made this one possible.
+
+Thank you [Steve Frenzel](https://stevefrenzel.dev/), creator of [Astro-naut](https://github.com/stevefrenzel/astro-naut)—which this project is based on.
 
 ## © License
 
